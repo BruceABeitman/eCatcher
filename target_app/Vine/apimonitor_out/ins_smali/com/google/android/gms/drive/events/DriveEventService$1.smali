@@ -1,0 +1,34 @@
+.class  Lcom/google/android/gms/drive/events/DriveEventService$1;
+.super Landroid/os/Binder;
+.field final synthetic If:Lcom/google/android/gms/drive/events/DriveEventService;
+.method constructor <init>(Lcom/google/android/gms/drive/events/DriveEventService;)V
+.registers 2
+iput-object p1, p0, Lcom/google/android/gms/drive/events/DriveEventService$1;->If:Lcom/google/android/gms/drive/events/DriveEventService;
+invoke-direct {p0}, Landroid/os/Binder;-><init>()V
+return-void
+.end method
+.method protected onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+.registers 9
+const-string v0, "DriveEventService"
+const-string v1, "onTransact"
+invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+iget-object v0, p0, Lcom/google/android/gms/drive/events/DriveEventService$1;->If:Lcom/google/android/gms/drive/events/DriveEventService;
+invoke-virtual {v0}, Lcom/google/android/gms/drive/events/DriveEventService;->getClassLoader()Ljava/lang/ClassLoader;
+move-result-object v0
+invoke-virtual {p2, v0}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+move-result-object v0
+check-cast v0, Lcom/google/android/gms/drive/events/DriveEvent;
+invoke-static {}, Lcom/google/android/gms/drive/events/DriveEventService;->gi()Ljava/util/concurrent/LinkedBlockingDeque;
+move-result-object v1
+invoke-virtual {v1, v0}, Ljava/util/concurrent/LinkedBlockingDeque;->add(Ljava/lang/Object;)Z
+iget-object v0, p0, Lcom/google/android/gms/drive/events/DriveEventService$1;->If:Lcom/google/android/gms/drive/events/DriveEventService;
+new-instance v1, Landroid/content/Intent;
+iget-object v2, p0, Lcom/google/android/gms/drive/events/DriveEventService$1;->If:Lcom/google/android/gms/drive/events/DriveEventService;
+iget-object v3, p0, Lcom/google/android/gms/drive/events/DriveEventService$1;->If:Lcom/google/android/gms/drive/events/DriveEventService;
+invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+move-result-object v3
+invoke-direct {v1, v2, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+invoke-virtual {v0, v1}, Lcom/google/android/gms/drive/events/DriveEventService;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+const/4 v0, 0x1
+return v0
+.end method

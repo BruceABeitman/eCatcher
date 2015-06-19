@@ -1,0 +1,42 @@
+.class final Lcom/spotify/mobile/android/spotlets/search/loader/task/c;
+.super Lcom/spotify/mobile/android/spotlets/search/loader/task/TimeoutOrError;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<E:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lcom/spotify/mobile/android/spotlets/search/loader/task/TimeoutOrError",
+        "<TE;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/Object;J)V
+    .registers 10
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TE;J)V"
+        }
+    .end annotation
+
+    sget-object v1, Lcom/spotify/mobile/android/spotlets/search/loader/task/TimeoutOrError$What;->a:Lcom/spotify/mobile/android/spotlets/search/loader/task/TimeoutOrError$What;
+
+    invoke-static {p1}, Lcom/google/common/base/i;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    const/4 v5, 0x0
+
+    move-object v0, p0
+
+    move-wide v3, p2
+
+    invoke-direct/range {v0 .. v5}, Lcom/spotify/mobile/android/spotlets/search/loader/task/TimeoutOrError;-><init>(Lcom/spotify/mobile/android/spotlets/search/loader/task/TimeoutOrError$What;Ljava/lang/Object;JB)V
+
+    return-void
+.end method

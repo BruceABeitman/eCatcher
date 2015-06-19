@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/pinguo/camera360/camera/controller/ModePickerFragment$ModePickerResult;
+.super Ljava/lang/Object;
+.source "ModePickerFragment.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/pinguo/camera360/camera/controller/ModePickerFragment;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "ModePickerResult"
+.end annotation
+
+
+# virtual methods
+.method public abstract onModeChanged(Ljava/lang/String;)V
+.end method

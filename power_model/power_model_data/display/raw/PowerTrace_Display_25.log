@@ -1,0 +1,5719 @@
+phone-service out-of-service
+signal 17
+phone-call idle
+data disconnected
+battery_status, 1062941, 0.96, 4.114, 29.1
+batt_current 2.68E-4
+batt_temp 30.5
+batt_charge 4734.72
+setting_brightness 91
+setting_screen_timeout 60000
+time 315966139145
+localtime_offset 0
+model passion
+associate 10063 edu.umich.PowerTutor@13
+begin, 1063489, 788588
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.41379312
+cpu_total, 13402, 150, 5527, 59709, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3538, 1401, service, 100, System
+cpu, 10063, 485, 7081, 2908, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 22, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 18, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 495983, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 0.6307342726945433
+OLED-screen-on true
+OLED-10063 422
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+associate 10000 android.uid.shared:10000@8
+associate 10006 com.google.android.apps.genie.geniewidget@1202
+associate 10008 com.google.android.gm@148
+associate 10011 com.google.uid.shared:10011@8
+associate 10018 com.google.android.googlequicksearchbox@112064376
+associate 10023 com.android.deskclock@8
+associate 10027 android.media:10027@8
+associate 10029 com.google.android.apps.uploader@1509
+associate 10030 com.android.email@8
+associate 10035 com.android.inputmethod.latin@8
+associate 10044 com.android.mms@8
+associate 10045 com.google.android.voicesearch@201
+associate 10049 com.google.android.apps.googlevoice@40208
+associate 10053 com.koushikdutta.rommanager@2012
+associate 10057 com.noshufou.android.su@21
+associate 10062 com.android.voicedialer@8
+associate 10066 it.sineo.android.noFrillsCPU@58
+associate 10067 com.cooliris.media@30682
+begin, 1063979, 789079
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13412, 150, 5530, 59745, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3541, 1403, service, 100, System
+cpu, 10063, 485, 7089, 2909, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 22, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 18, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 495983, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.13365972536036
+OLED-screen-on true
+OLED-10063 559
+CPU-sys 59
+CPU-usr 0
+CPU-freq 460.8
+CPU-0 0
+CPU-1000 97
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 38
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1064463, 789563
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13418, 150, 5532, 59785, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3542, 1403, service, 100, System
+cpu, 10063, 485, 7095, 2911, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 22, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 18, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496047, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.867666867359442
+OLED-screen-on true
+OLED-10063 625
+CPU-sys 22
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 15
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1064971, 790071
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13424, 150, 5535, 59826, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3542, 1403, service, 100, System
+cpu, 10063, 485, 7101, 2913, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 18, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496047, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.867666867359442
+OLED-screen-on true
+OLED-10063 625
+CPU-sys 14
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 15
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 1
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 64
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1065468, 790567
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13430, 150, 5539, 59867, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3544, 1404, service, 100, System
+cpu, 10063, 485, 7105, 2917, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 18, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496047, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.867666867359442
+OLED-screen-on true
+OLED-10063 625
+CPU-sys 18
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 2
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 22
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1065968, 791068
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13436, 150, 5542, 59908, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3547, 1404, service, 100, System
+cpu, 10063, 485, 7109, 2920, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 18, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496047, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.867666867359442
+OLED-screen-on true
+OLED-10063 625
+CPU-sys 6
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 11
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1066468, 791568
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13457, 150, 5550, 59927, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3567, 1408, service, 100, System
+cpu, 10063, 485, 7112, 2924, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496047, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.867666867359442
+OLED-screen-on true
+OLED-10063 625
+CPU-sys 10
+CPU-usr 0
+CPU-freq 998.4
+CPU-0 0
+CPU-1000 28
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 75
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1066980, 792080
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13469, 150, 5552, 59970, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3568, 1408, service, 100, System
+cpu, 10063, 485, 7123, 2926, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496047, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 48
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 56
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 11
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1067467, 792566
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13474, 150, 5556, 60006, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3569, 1408, service, 100, System
+cpu, 10063, 485, 7127, 2930, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 596, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496111, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 10
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 4
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 36
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1067964, 793064
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13482, 150, 5558, 60043, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3570, 1408, service, 100, System
+cpu, 10063, 485, 7131, 2932, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 30, 7, app, 400, Voice Search
+cpu, 1000, 290, 600, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496111, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 20
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 2
+CPU-1000 0
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 15
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 1
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 64
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1068447, 793547
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13489, 150, 5563, 60083, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3570, 1408, service, 100, System
+cpu, 10063, 485, 7134, 2937, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 68, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 10, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496111, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 18
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 13
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1068971, 794071
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13495, 150, 5566, 60124, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3572, 1408, service, 100, System
+cpu, 10063, 485, 7139, 2940, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 14
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 15
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1069468, 794568
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13508, 150, 5571, 60165, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3579, 1409, service, 100, System
+cpu, 10063, 485, 7144, 2944, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 14
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 17
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 1
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 46
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1069964, 795064
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13514, 150, 5572, 60198, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3580, 1409, service, 100, System
+cpu, 10063, 485, 7149, 2946, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 8
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 4
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 4
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 27
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1070474, 795574
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13521, 150, 5576, 60239, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3581, 1410, service, 100, System
+cpu, 10063, 485, 7155, 2948, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 27
+CPU-usr 0
+CPU-freq 998.4
+CPU-0 0
+CPU-1000 116
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 37
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1070971, 796070
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13528, 150, 5577, 60280, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3583, 1410, service, 100, System
+cpu, 10063, 485, 7161, 2951, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 19, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 14
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 15
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+batt_current 0.49615699999999996
+begin, 1071472, 796571
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13537, 150, 5582, 60316, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3583, 1410, service, 100, System
+cpu, 10063, 485, 7170, 2954, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 12
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 4
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+batt_current 2.68E-4
+begin, 1071969, 797068
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13545, 150, 5584, 60357, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3583, 1411, service, 100, System
+cpu, 10063, 485, 7178, 2956, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 22
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 4
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 30
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 4
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1072469, 797568
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13554, 150, 5585, 60397, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3585, 1411, service, 100, System
+cpu, 10063, 485, 7184, 2957, service, 100, PowerTutor
+cpu, 10000, 219, 648, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 14
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 2
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 27
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets -4
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1072947, 798047
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13563, 150, 5587, 60434, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3586, 1411, service, 100, System
+cpu, 10063, 485, 7189, 2959, service, 100, PowerTutor
+cpu, 10000, 219, 652, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 602, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496157, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 14
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 13
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1073460, 798559
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13573, 150, 5589, 60473, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 50, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3587, 1411, service, 100, System
+cpu, 10063, 485, 7194, 2962, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496221, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 22
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1073966, 799065
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13578, 150, 5593, 60514, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3587, 1411, service, 100, System
+cpu, 10063, 485, 7200, 2964, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496221, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 22
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 11
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 1
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 64
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1074468, 799568
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13587, 150, 5594, 60555, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3588, 1411, service, 100, System
+cpu, 10063, 485, 7207, 2965, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496221, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 10
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1074955, 800054
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13595, 150, 5597, 60594, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3590, 1412, service, 100, System
+cpu, 10063, 485, 7213, 2968, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496221, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 12
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 16
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1075467, 800567
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13607, 150, 5599, 60630, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3591, 1412, service, 100, System
+cpu, 10063, 485, 7225, 2969, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 43, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496221, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 20
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 6
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 30
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1075969, 801068
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13613, 150, 5600, 60671, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3592, 1412, service, 100, System
+cpu, 10063, 485, 7231, 2970, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496221, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 22
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 2
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 13
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 25
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1076466, 801566
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13621, 150, 5601, 60713, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3592, 1413, service, 100, System
+cpu, 10063, 485, 7238, 2971, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496285, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 14
+CPU-usr 0
+CPU-freq 998.4
+CPU-0 0
+CPU-1000 9
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 55
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1076965, 802064
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13625, 150, 5606, 60754, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3593, 1413, service, 100, System
+cpu, 10063, 485, 7241, 2975, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496285, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 18
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 15
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 1
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 64
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1077465, 802564
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13632, 150, 5608, 60795, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3594, 1413, service, 100, System
+cpu, 10063, 485, 7247, 2977, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 20, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496285, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 10
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1077975, 803075
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13640, 150, 5611, 60836, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3595, 1413, service, 100, System
+cpu, 10063, 485, 7254, 2979, service, 100, PowerTutor
+cpu, 10000, 219, 654, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496285, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 8
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 16
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1078464, 803564
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13646, 150, 5614, 60875, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3597, 1413, service, 100, System
+cpu, 10063, 485, 7259, 2982, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496285, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 16
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 4
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 26
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1078967, 804067
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13654, 150, 5615, 60916, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3598, 1413, service, 100, System
+cpu, 10063, 485, 7265, 2984, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496285, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 16
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 2
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 9
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1079465, 804565
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13664, 150, 5619, 60957, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3599, 1413, service, 100, System
+cpu, 10063, 485, 7274, 2987, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 31, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496349, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 16
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 2
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 19
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1079956, 805056
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13668, 150, 5622, 60994, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3599, 1414, service, 100, System
+cpu, 10063, 485, 7278, 2990, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496349, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 10
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 1
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 64
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1080465, 805565
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13672, 150, 5627, 61036, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 86, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3600, 1414, service, 100, System
+cpu, 10063, 485, 7282, 2994, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496349, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 20
+CPU-usr 0
+CPU-freq 998.4
+CPU-0 0
+CPU-1000 9
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 9
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 101
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1080968, 806067
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13679, 150, 5630, 61077, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3600, 1415, service, 100, System
+cpu, 10063, 485, 7288, 2996, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496349, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 10
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 15
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1081458, 806558
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13686, 150, 5632, 61118, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3601, 1415, service, 100, System
+cpu, 10063, 485, 7294, 2998, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496349, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 8
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 16
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1081963, 807063
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13690, 150, 5635, 61159, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3602, 1415, service, 100, System
+cpu, 10063, 485, 7299, 3001, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496349, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 13
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 6
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 28
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1082469, 807568
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13699, 150, 5636, 61201, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3603, 1415, service, 100, System
+cpu, 10063, 485, 7305, 3002, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496413, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 13
+CPU-usr 0
+CPU-freq 998.4
+CPU-0 0
+CPU-1000 0
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 38
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1082968, 808068
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13707, 150, 5637, 61242, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3604, 1415, service, 100, System
+cpu, 10063, 485, 7312, 3004, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496413, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 10
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 2
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 15
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 1
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 64
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1083470, 808570
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13711, 150, 5641, 61283, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3605, 1415, service, 100, System
+cpu, 10063, 485, 7316, 3007, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496413, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 18
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1083965, 809065
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13720, 150, 5645, 61320, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3606, 1415, service, 100, System
+cpu, 10063, 485, 7325, 3011, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 21, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496413, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 14
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 24
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1084465, 809565
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13728, 150, 5646, 61361, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3608, 1416, service, 100, System
+cpu, 10063, 485, 7331, 3013, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 22, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496413, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 18
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 4
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 22
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1084969, 810068
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13736, 150, 5648, 61402, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3608, 1416, service, 100, System
+cpu, 10063, 485, 7338, 3014, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 23, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 69, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 22, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496413, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 12
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 2
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 18
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1085474, 810573
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13741, 150, 5652, 61442, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3608, 1417, service, 100, System
+cpu, 10063, 485, 7343, 3017, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 24, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 70, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 22, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2, 0, kernel, kernel, Kernel
+cpu, 0, 8, 0, 130, kernel, kernel, Kernel
+cpu, 0, 5, 1, 143, kernel, kernel, Kernel
+cpu, 0, 3, 4, 4, kernel, kernel, Kernel
+cpu, 0, 1, 0, 317, kernel, kernel, Kernel
+network_total, 0, 1, 496477, 25363
+network, 10045, 161, 281
+network, 10044, -1, -1
+network, 10008, -1, -1
+network, 10011, 51363, 5386
+network, 10067, -1, -1
+network, 10066, -1, -1
+network, 10006, -1, -1
+network, 10035, -1, -1
+network, 10000, -1, -1
+network, 10030, -1, -1
+network, 1001, -1, -1
+network, 10057, -1, -1
+network, 1000, -1, -1
+network, 10029, -1, -1
+network, 10027, 392164, 777
+network, 10062, -1, -1
+network, 10063, -1, -1
+network, 10023, -1, -1
+network, 10049, -1, -1
+network, 10018, -1, -1
+network, 10053, 369, 182
+mobile_total, 0, 0
+OLED-brightness 91
+OLED-pix-power 2.8501216023293567
+OLED-screen-on true
+OLED-10063 624
+CPU-sys 18
+CPU-usr 0
+CPU-freq 245.0
+CPU-0 0
+CPU-1000 4
+CPU-1001 0
+CPU-1002 0
+CPU-1008 0
+CPU-1010 0
+CPU-1013 0
+CPU-1014 0
+CPU-1017 0
+CPU-10000 0
+CPU-10006 0
+CPU-10008 0
+CPU-10011 0
+CPU-10018 0
+CPU-10023 0
+CPU-10027 0
+CPU-10029 0
+CPU-10030 0
+CPU-10035 0
+CPU-10044 0
+CPU-10045 0
+CPU-10049 0
+CPU-10053 0
+CPU-10057 0
+CPU-10062 0
+CPU-10063 27
+CPU-10066 0
+CPU-10067 0
+Wifi-on true
+Wifi-packets 0
+Wifi-uplinkBytes 0
+Wifi-downlinkBytes 0
+Wifi-uplink 0
+Wifi-speed 26
+Wifi-state LOW
+3G-on false
+GPS-state-times 1.0 0.0 0.0
+GPS-sattelites 0
+Audio-on false
+begin, 1085964, 811064
+display, 10063, 1, 0.3568627450980392, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13748, 150, 5654, 61483, 46, 1, 12, 0, 0, 0
+cpu, 1001, 202, 87, 51, service, 100, Radio Subsystem
+cpu, 10035, 196, 25, 6, service, 200, Android keyboard
+cpu, 1000, 124, 3610, 1417, service, 100, System
+cpu, 10063, 485, 7348, 3019, service, 100, PowerTutor
+cpu, 10000, 219, 655, 112, app, 400, ADW.Launcher
+cpu, 10045, 557, 32, 7, app, 400, Voice Search
+cpu, 1000, 290, 603, 132, app, 400, System
+cpu, 10011, 250, 240, 52, service, 300, Contacts Sync Adapter
+cpu, 10067, 527, 9, 3, app, 400, Gallery
+cpu, 10006, 492, 62, 19, service, 300, News and Weather
+cpu, 10008, 323, 47, 14, app, 400, Gmail
+cpu, 10057, 536, 5, 5, app, 400, Superuser
+cpu, 10027, 336, 60, 38, app, 400, DRM Protected Content Storage
+cpu, 10029, 347, 6, 3, app, 400, My Uploads
+cpu, 10018, 509, 9, 4, app, 400, Google Search
+cpu, 10066, 477, 6, 3, app, 400, No-frills CPU Control
+cpu, 10062, 466, 0, 6, app, 400, Voice Dialer
+cpu, 10053, 459, 8, 3, app, 400, ROM Manager
+cpu, 10049, 450, 7, 6, app, 400, Google Voice
+cpu, 10044, 431, 9, 5, app, 100, Messaging
+cpu, 10030, 420, 9, 7, app, 400, Email
+cpu, 10023, 400, 7, 3, app, 400, Clock
+cpu, 1014, 267, 0, 1, kernel, kernel, DHCP Client
+cpu, 1010, 245, 49, 24, kernel, kernel, Wifi Subsystem
+cpu, 0, 209, 0, 70, kernel, kernel, Kernel
+cpu, 0, 208, 5, 0, kernel, kernel, Kernel
+cpu, 0, 97, 1, 2, kernel, kernel, Kernel
+cpu, 1008, 94, 6, 14, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 93, 1, 0, kernel, kernel, sys_1017
+cpu, 1002, 91, 0, 2, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 90, 44, 37, kernel, kernel, Media Server
+cpu, 0, 89, 340, 43, kernel, kernel, Kernel
+cpu, 1001, 88, 5, 9, kernel, kernel, Radio Subsystem
+cpu, 0, 87, 1, 0, kernel, kernel, Kernel
+cpu, 0, 86, 2, 0, kernel, kernel, Kernel
+cpu, 0, 85, 0, 4, kernel, kernel, Kernel
+cpu, 1000, 84, 3, 32, kernel, kernel, System
+cpu, 0, 60, 2, 0, kernel, kernel, Kernel
+cpu, 0, 59, 11, 0, kernel, kernel, Kernel
+cpu, 0, 58, 0, 45, kernel, kernel, Kernel
+cpu, 0, 56, 1, 0, kernel, kernel, Kernel
+cpu, 0, 55, 0, 29, kernel, kernel, Kernel
+cpu, 0, 49, 96, 22, kernel, kernel, Kernel
+cpu, 0, 45, 0, 6, kernel, kernel, Kernel
+cpu, 0, 44, 4, 52, kernel, kernel, Kernel
+cpu, 0, 34, 3, 0, kernel, kernel, Kernel
+cpu, 0, 15, 1, 1, kernel, kernel, Kernel
+cpu, 0, 12, 0, 7, kernel, kernel, Kernel
+cpu, 0, 9, 2

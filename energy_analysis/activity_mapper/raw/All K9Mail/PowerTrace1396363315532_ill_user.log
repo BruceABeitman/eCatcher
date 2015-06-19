@@ -1,0 +1,818 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/DBox    (  377): 1177638 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1177638 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1177821 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1177821 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1189339 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Account settings
+V/DBox    (  377): 1189463 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1189475 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1189477 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1189479 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1189480 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1189495 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1189495 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1189504 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1189629 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1189630 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): 1189634 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1192392 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1192392 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1192414 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1192415 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1192416 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1192744 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1192840 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1192841 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1193483 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1193484 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1194818 + Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1194818 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1195029 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1195094 - Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): 1195112 + Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1195112 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1195114 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1195327 - Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1195327 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1195327 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1195329 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1196690 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1199144 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@440cd500
+V/DBox    (  377): 1199167 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1200979 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1200980 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1202288 + Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): 1202289 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1202303 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1202363 - Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1202387 + Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1202393 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1202396 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1202685 - Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1202686 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1202687 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1202690 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1203099 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1204933 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@440a1340
+V/DBox    (  377): 1204979 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1205893 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+V/DBox    (  377): 1205941 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    (  377): 1205962 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1205962 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1205978 + Lcom/fsck/k9/activity/FolderList; onCreate
+V/DBox    (  377): 1205979 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1205982 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1206009 - Lcom/fsck/k9/activity/FolderList; onCreate
+V/DBox    (  377): 1206010 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1206010 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1206013 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1206132 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1207606 + Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44128da8
+V/DBox    (  377): 1207626 - Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1215781 + Lcom/fsck/k9/activity/FolderList$2; onItemClick android.widget.ListView@43f8d7e8
+V/DBox    (  377): 1215827 - Lcom/fsck/k9/activity/FolderList$2; onItemClick
+V/DBox    (  377): 1215828 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1215828 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1215829 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1215829 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1215842 + Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1215843 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1215846 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1215910 - Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1215911 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1215911 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1215913 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1216118 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1217296 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1217297 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1217311 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1217311 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1217314 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1217410 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1222469 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Compose
+V/DBox    (  377): 1222492 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1222509 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1222509 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1222510 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1222510 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1222524 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+V/DBox    (  377): 1222525 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1222526 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1222624 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+V/DBox    (  377): 1222629 + Lcom/fsck/k9/activity/MessageCompose; onResume
+V/DBox    (  377): 1222630 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1222632 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1222634 - Lcom/fsck/k9/activity/MessageCompose; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1224687 + Lcom/fsck/k9/activity/MessageCompose; onPause
+V/DBox    (  377): 1224688 - Lcom/fsck/k9/activity/MessageCompose; onPause
+V/DBox    (  377): 1224697 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1224697 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1224700 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1224858 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1226987 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Refresh folders
+V/DBox    (  377): 1226993 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1233282 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Empty Trash
+V/DBox    (  377): 1233288 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1238112 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Account settings
+V/DBox    (  377): 1238157 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1238157 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1238159 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1238159 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1238161 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1238180 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1238180 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1238185 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1238407 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1238408 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): 1238413 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): 1240964 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1240969 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1240996 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1241004 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1241006 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1241315 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1241402 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1241407 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1245684 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Accounts
+V/DBox    (  377): 1245690 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1245705 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1245705 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1245743 + Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): 1245749 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1245752 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1245786 - Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): 1245790 + Lcom/fsck/k9/activity/Accounts; onResume
+V/DBox    (  377): 1245790 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1245793 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1245876 - Lcom/fsck/k9/activity/Accounts; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1246760 + Lcom/fsck/k9/activity/Accounts; onPause
+V/DBox    (  377): 1246766 - Lcom/fsck/k9/activity/Accounts; onPause
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1248215 + Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): 1248240 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1248243 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1248397 - Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    (  377): 1248493 + Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1248501 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1248509 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1248750 - Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1248751 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1248751 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1248753 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1249127 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1250113 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1250113 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1250148 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1250149 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1251379 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@43fae0d8
+V/DBox    (  377): 1251401 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+V/DBox    (  377): 1252188 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+V/DBox    (  377): 1252206 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    (  377): 1252238 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1252239 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1252263 + Lcom/fsck/k9/activity/FolderList; onCreate
+V/DBox    (  377): 1252264 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1252266 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    (  377): 1252301 - Lcom/fsck/k9/activity/FolderList; onCreate
+V/DBox    (  377): 1252302 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1252302 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1252309 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1252481 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1253273 + Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@441295b0
+V/DBox    (  377): 1253280 - Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1254848 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Check mail
+V/DBox    (  377): 1254850 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1259270 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Account settings
+V/DBox    (  377): 1259319 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1259334 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1259337 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1259338 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1259338 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1259351 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1259352 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1259358 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1259457 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1259458 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): 1259466 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1277057 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1277057 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1277086 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1277087 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1277088 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1277831 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1277963 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1277963 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1281842 + Lcom/fsck/k9/activity/FolderList$2; onItemClick android.widget.ListView@43faa150
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1282725 - Lcom/fsck/k9/activity/FolderList$2; onItemClick
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1282973 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1282985 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1282985 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1282989 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1283098 + Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1283099 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1283102 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1283293 - Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    (  377): 1283293 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1283294 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1283295 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1283571 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1285569 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@43fffc40
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1285597 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1291270 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Account settings
+V/DBox    (  377): 1291319 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    (  377): 1291326 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    (  377): 1291328 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    (  377): 1291328 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1291329 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1291350 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1291356 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1291363 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): 1291542 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1291543 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): 1291548 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): 1293930 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1293931 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1293957 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1293958 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1293966 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1294903 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    (  377): 1295059 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1295060 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1295476 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1295476 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    (  377): 1295527 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1295539 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1295543 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1295735 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1301834 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Compose
+V/DBox    (  377): 1301887 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1301921 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1301925 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1301927 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1301937 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1301956 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+V/DBox    (  377): 1301956 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): 1301959 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1302562 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+V/DBox    (  377): 1302676 + Lcom/fsck/k9/activity/MessageCompose; onResume
+V/DBox    (  377): 1302677 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1302678 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    (  377): 1302679 - Lcom/fsck/k9/activity/MessageCompose; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1306918 + Lcom/fsck/k9/activity/MessageCompose; onPause
+V/DBox    (  377): 1306918 - Lcom/fsck/k9/activity/MessageCompose; onPause
+V/DBox    (  377): 1306954 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1306962 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1306964 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1307340 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1310111 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Refresh folders
+V/DBox    (  377): 1310116 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1314098 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Empty Trash
+V/DBox    (  377): 1314099 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1317361 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Check mail
+V/DBox    (  377): 1317366 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1325906 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Account settings
+V/DBox    (  377): 1325951 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+V/DBox    (  377): 1326054 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1326055 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1326055 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1326055 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1326352 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1326365 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1326416 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1327069 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    (  377): 1327069 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): 1327078 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): 1329353 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1329354 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    (  377): 1329392 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): 1329392 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): 1329394 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->closeV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1329951 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1330380 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): 1330381 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): Ljava/net/Socket;->connectV
+V/DBox    (  377): 1331743 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1331745 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    (  377): 1331746 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    (  377): 1331747 - Lcom/fsck/k9/activity/FolderList; onPause

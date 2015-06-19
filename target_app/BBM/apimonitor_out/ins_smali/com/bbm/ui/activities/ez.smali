@@ -1,0 +1,25 @@
+.class final Lcom/bbm/ui/activities/ez;
+.super Ljava/lang/Object;
+.source "ChildActivity.java"
+.implements Landroid/view/View$OnTouchListener;
+.field final synthetic a:Lcom/bbm/ui/activities/ev;
+.method constructor <init>(Lcom/bbm/ui/activities/ev;)V
+.registers 2
+iput-object p1, p0, Lcom/bbm/ui/activities/ez;->a:Lcom/bbm/ui/activities/ev;
+invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
+.end method
+.method public final onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
+.registers 4
+iget-object v0, p0, Lcom/bbm/ui/activities/ez;->a:Lcom/bbm/ui/activities/ev;
+invoke-static {v0}, Lcom/bbm/ui/activities/ev;->a(Lcom/bbm/ui/activities/ev;)Landroid/support/v4/view/n;
+move-result-object v0
+if-eqz v0, :cond_11
+iget-object v0, p0, Lcom/bbm/ui/activities/ez;->a:Lcom/bbm/ui/activities/ev;
+invoke-static {v0}, Lcom/bbm/ui/activities/ev;->a(Lcom/bbm/ui/activities/ev;)Landroid/support/v4/view/n;
+move-result-object v0
+invoke-virtual {v0, p2}, Landroid/support/v4/view/n;->a(Landroid/view/MotionEvent;)Z
+:cond_11
+const/4 v0, 0x1
+return v0
+.end method

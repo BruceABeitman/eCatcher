@@ -1,0 +1,10 @@
+.class public interface abstract Lcom/ibm/icu/lang/UCharacter$EastAsianWidth;
+.super Ljava/lang/Object;
+.source "UCharacter.java"
+.field public static final AMBIGUOUS:I = 0x1
+.field public static final COUNT:I = 0x6
+.field public static final FULLWIDTH:I = 0x3
+.field public static final HALFWIDTH:I = 0x2
+.field public static final NARROW:I = 0x4
+.field public static final NEUTRAL:I = 0x0
+.field public static final WIDE:I = 0x5

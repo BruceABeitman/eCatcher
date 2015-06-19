@@ -1,0 +1,5 @@
+.class public interface abstract Lcom/pinguo/camera360/gallery/data/ContentListener;
+.super Ljava/lang/Object;
+.source "ContentListener.java"
+.method public abstract onContentDirty()V
+.end method

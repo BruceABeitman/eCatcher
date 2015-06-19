@@ -1,0 +1,50 @@
+.class  Lcom/google/android/gms/auth/GoogleAuthUtil$a;
+.super Landroid/os/Handler;
+.field private final lx:Landroid/content/Context;
+.method constructor <init>(Landroid/content/Context;)V
+.registers 3
+invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+move-result-object v0
+if-nez v0, :cond_10
+invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
+move-result-object v0
+:goto_a
+invoke-direct {p0, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+iput-object p1, p0, Lcom/google/android/gms/auth/GoogleAuthUtil$a;->lx:Landroid/content/Context;
+return-void
+:cond_10
+invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
+move-result-object v0
+goto :goto_a
+.end method
+.method public handleMessage(Landroid/os/Message;)V
+.registers 5
+iget v0, p1, Landroid/os/Message;->what:I
+const/4 v1, 0x1
+if-ne v0, v1, :cond_17
+iget-object v0, p0, Lcom/google/android/gms/auth/GoogleAuthUtil$a;->lx:Landroid/content/Context;
+invoke-static {v0}, Lcom/google/android/gms/common/GooglePlayServicesUtil;->isGooglePlayServicesAvailable(Landroid/content/Context;)I
+move-result v0
+invoke-static {v0}, Lcom/google/android/gms/common/GooglePlayServicesUtil;->isUserRecoverableError(I)Z
+move-result v1
+if-eqz v1, :cond_16
+iget-object v1, p0, Lcom/google/android/gms/auth/GoogleAuthUtil$a;->lx:Landroid/content/Context;
+invoke-static {v0, v1}, Lcom/google/android/gms/common/GooglePlayServicesUtil;->showErrorNotification(ILandroid/content/Context;)V
+:cond_16
+:goto_16
+return-void
+:cond_17
+const-string v0, "GoogleAuthUtil"
+new-instance v1, Ljava/lang/StringBuilder;
+invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+const-string v2, "Don\'t know how to handle this message: "
+invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object v1
+iget v2, p1, Landroid/os/Message;->what:I
+invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+move-result-object v1
+invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object v1
+invoke-static {v0, v1}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;)I
+goto :goto_16
+.end method

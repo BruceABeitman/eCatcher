@@ -1,0 +1,58 @@
+--------- beginning of /dev/log/main
+--------- beginning of /dev/log/system
+V/DBox    (  552): 50582 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 50621 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 50893 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 50903 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 57877 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 57900 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 57919 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 57921 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 67883 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 67917 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 67923 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 67925 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 77881 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 77892 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 77915 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 77916 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 87884 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 87903 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 87927 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 87929 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 97884 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 97913 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 97924 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 97926 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 107878 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 107898 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 107906 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 107909 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 117888 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 117922 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 117927 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 117929 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 127885 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 127927 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 127930 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 127933 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 137882 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 137896 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 137915 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 137917 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 147885 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 147915 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 147927 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 147928 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 157882 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 157892 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 157902 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 157903 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 167877 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 167894 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 167920 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 167922 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  552): 177882 < Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  552): 177896 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 177904 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  552): 177905 > Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock

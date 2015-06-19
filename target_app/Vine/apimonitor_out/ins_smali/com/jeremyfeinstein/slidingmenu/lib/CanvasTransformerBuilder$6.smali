@@ -1,0 +1,24 @@
+.class  Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$6;
+.super Ljava/lang/Object;
+.source "CanvasTransformerBuilder.java"
+.implements Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;
+.field final synthetic this$0:Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder;
+.field final synthetic val$t:Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;
+.method constructor <init>(Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder;Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;)V
+.registers 3
+iput-object p1, p0, Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$6;->this$0:Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder;
+iput-object p2, p0, Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$6;->val$t:Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;
+invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
+.end method
+.method public transformCanvas(Landroid/graphics/Canvas;F)V
+.registers 4
+iget-object v0, p0, Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$6;->this$0:Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder;
+#getter for: Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder;->mTrans:Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;
+invoke-static {v0}, Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder;->access$000(Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder;)Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;
+move-result-object v0
+invoke-interface {v0, p1, p2}, Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;->transformCanvas(Landroid/graphics/Canvas;F)V
+iget-object v0, p0, Lcom/jeremyfeinstein/slidingmenu/lib/CanvasTransformerBuilder$6;->val$t:Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;
+invoke-interface {v0, p1, p2}, Lcom/jeremyfeinstein/slidingmenu/lib/SlidingMenu$CanvasTransformer;->transformCanvas(Landroid/graphics/Canvas;F)V
+return-void
+.end method

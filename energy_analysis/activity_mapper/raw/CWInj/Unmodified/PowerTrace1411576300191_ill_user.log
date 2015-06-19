@@ -1,0 +1,255 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/DBox    (  535): 86745 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 89733 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 89800 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 92725 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 92735 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 95723 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 95735 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 98718 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 98734 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 101728 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 101741 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 104722 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 104738 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 107729 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 107744 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 110722 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 110737 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 113721 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 113738 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 116721 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 116737 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 119725 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 119777 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 122716 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 122731 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 125733 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 125747 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 128717 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 128734 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 131744 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 131749 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 134719 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 134732 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 137733 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 137749 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 140719 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 140731 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 143712 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 143720 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 146724 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 146768 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 149865 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 149905 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 152703 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 152713 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 155749 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 155752 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 158754 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 158825 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 161767 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 161832 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 164774 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 164781 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 167760 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 167814 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 170750 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 170844 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 173746 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 173814 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 176742 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 176901 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 179748 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 179810 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 182739 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 182742 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 185754 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 185817 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 188749 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 188812 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 191752 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 191813 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 194739 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 194878 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 197750 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 197846 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 200737 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 200799 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 203773 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 203845 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 206743 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 206837 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 209752 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 209786 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 212746 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 212795 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 215743 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 215747 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 218740 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 218823 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 221757 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 221816 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 224742 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 224776 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 227748 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 227810 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 230741 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 230800 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 233755 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 233816 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 236740 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 236837 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 239755 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 239769 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 242753 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 242934 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 242972 + Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  535): 242973 + Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  535): 242991 + Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  535): 242992 - Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  535): 242999 - Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  535): 243176 - Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  535): 243177 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 243185 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 243186 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 243186 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 243270 + Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu android.support.v7.internal.view.menu.MenuBuilder@46082110
+V/DBox    (  535): 243290 - Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu
+V/DBox    (  535): 245770 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 245793 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 246884 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460bbba0
+V/DBox    (  535): 246920 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 248764 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 248869 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 249253 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 249313 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 251775 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 251803 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 252463 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 252479 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 254770 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 254783 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 256084 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 256115 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 257762 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 257769 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 258757 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 258777 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 260749 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 260759 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 261651 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 261654 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 261666 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 261669 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 261673 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 261677 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 262143 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 262145 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 262148 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 262153 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 262155 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 262158 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 263757 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 263930 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 265349 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 265350 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 265350 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 265350 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 266735 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 266762 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 266905 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460bbba0
+V/DBox    (  535): 266928 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 268779 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 268793 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 269767 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 269788 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 271163 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 271210 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 272757 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 272770 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 273618 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 273646 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 275750 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 275782 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 276797 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 276805 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 278749 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 278761 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 281005 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 281037 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 281776 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 281853 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 283626 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 283628 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 283640 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 283643 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 283645 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 283648 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 284123 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 284124 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 284128 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 284134 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 284136 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 284137 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 284758 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 284862 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 287755 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 287887 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 288052 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 288053 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 288053 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 288054 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 290776 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 290782 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 293685 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 293686 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 293690 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 293703 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 293704 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 293705 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 293926 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 293940 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 294155 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 294156 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 294159 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 294160 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 294167 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 294168 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 296756 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 296823 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 297360 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 297360 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 297360 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 297361 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 299530 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460bbba0
+V/DBox    (  535): 299562 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 299817 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 299833 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 302762 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 302773 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 305643 + Landroid/support/v7/internal/view/menu/ListMenuPresenter; onItemClick android.support.v7.internal.view.menu.ExpandedMenuView@460d0680
+V/DBox    (  535): 305645 + Lcom/example/cwac_test/MainActivity; onOptionsItemSelected Settings
+V/DBox    (  535): 305646 - Lcom/example/cwac_test/MainActivity; onOptionsItemSelected
+V/DBox    (  535): 305650 - Landroid/support/v7/internal/view/menu/ListMenuPresenter; onItemClick
+V/DBox    (  535): 305712 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 305749 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 307368 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 307372 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 308756 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 308777 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 311789 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 311790 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 311790 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 311790 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 311791 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 311791 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 311794 + Lcom/example/cwac_test/AppService; doWakefulWork Intent { cmp=com.example.cwac_test/.AppService }
+V/DBox    (  535): 311828 - Lcom/example/cwac_test/AppService; doWakefulWork
+V/DBox    (  535): 312255 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 312303 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 312309 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 312323 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 312339 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 312343 - Landroid/support/v7/app/ActionBarActivity; onStop

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+  echo "Usage: ./batch_seq_mapping.script <targeted_package_name> <data_folder>"
+  exit
+fi
+
+echo "Batch mapping sequences"
+R --vanilla --args $1 $2 < app_seq_mapping.R
+
+echo "Done!"
+
+

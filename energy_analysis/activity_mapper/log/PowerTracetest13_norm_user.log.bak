@@ -1,0 +1,166 @@
+
+V/DBox    (30228): 118974522 + Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 118974522 - Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 118974522 + Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 118974523 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 118974523 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 118974523 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 118974523 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 118974523 - Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 118974524 + Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 118974524 - Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 118979008 + Lcom/gindin/zmanim/android/ZmanimActivity; onOptionsItemSelected Preferences
+V/DBox    (30228): 118979013 - Lcom/gindin/zmanim/android/ZmanimActivity; onOptionsItemSelected
+V/DBox    (30228): 118979020 + Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 118979020 - Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 118979023 + Lcom/gindin/zmanim/android/prefs/PersonalPreferences; onCreate
+V/DBox    (30228): 118979040 - Lcom/gindin/zmanim/android/prefs/PersonalPreferences; onCreate
+V/DBox    (30228): 118979440 + Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 118979440 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 118979441 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 118979441 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 118979441 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 118979441 - Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 118982181 + Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 118982181 - Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 118982181 + Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 118982181 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 118982181 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 118982181 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 118982182 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 118982182 - Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 118982182 + Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 118982182 - Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 118983238 + Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 118983238 - Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 118983707 + Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 118983708 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 118983708 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 118983708 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 118983708 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 118983709 - Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 118983709 + Lcom/gindin/zmanim/android/ZmanimActivity; onDestroy
+V/DBox    (30228): 118983709 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onDestroy
+V/DBox    (30228): 118983710 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onDestroy
+V/DBox    (30228): 118983710 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onDestroy
+V/DBox    (30228): 118983711 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onDestroy
+V/DBox    (30228): 118983711 + Lcom/gindin/zmanim/android/ZmanimDisplay; onDestroy
+V/DBox    (30228): 118983711 - Lcom/gindin/zmanim/android/ZmanimDisplay; onDestroy
+V/DBox    (30228): Landroid/location/LocationManager;->removeUpdatesV
+V/DBox    (30228): Landroid/location/Location;->getLatitudeD=40.00646179
+V/DBox    (30228): Landroid/location/Location;->getLongitudeD=-83.01608146
+V/DBox    (30228): Landroid/location/Location;->getAccuracyF=41.0
+V/DBox    (30228): 118983717 - Lcom/gindin/zmanim/android/ZmanimActivity; onDestroy
+V/DBox    (30228): 118998674 + Lcom/gindin/zmanim/android/ZmanimActivity; onCreate
+V/DBox    (30228): Landroid/location/LocationManager;->getBestProviderLjava/lang/String;=gps
+V/DBox    (30228): Landroid/location/LocationManager;->requestLocationUpdatesV
+V/DBox    (30228): Landroid/location/LocationManager;->getLastKnownLocationLandroid/location/Location;=Location[gps 40.006462,-83.016081 acc=41 et=+14h10m34s97ms alt=204.0 vel=1.0 bear=172.3 {Bundle[mParcelledData.dataSize=44]}]
+V/DBox    (30228): 118998707 - Lcom/gindin/zmanim/android/ZmanimActivity; onCreate
+V/DBox    (30228): 118998707 + Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 118998708 - Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 118998708 + Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 118998708 - Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): Landroid/location/Geocoder;-><init>V
+V/DBox    (30228): Landroid/location/LocationManager;->isProviderEnabledZ=false
+V/DBox    (30228): Landroid/location/LocationManager;->isProviderEnabledZ=true
+V/DBox    (30228): Landroid/location/LocationManager;->isProviderEnabledZ=true
+V/DBox    (30228): Landroid/location/LocationManager;->getProvidersLjava/util/List;=[passive, gps]
+V/DBox    (30228): Landroid/location/LocationManager;->requestLocationUpdatesV
+V/DBox    (30228): Landroid/location/LocationManager;->requestLocationUpdatesV
+V/DBox    (30228): 118998761 + Lcom/gindin/zmanim/android/ZmanimActivity; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@4286e898
+V/DBox    (30228): 118998761 - Lcom/gindin/zmanim/android/ZmanimActivity; onCreateOptionsMenu
+V/DBox    (30228): Landroid/location/LocationManager;->removeUpdatesV
+V/DBox    (30228): Landroid/location/LocationManager;->removeUpdatesV
+V/DBox    (30228): Landroid/location/LocationManager;->isProviderEnabledZ=true
+V/DBox    (30228): Landroid/location/LocationManager;->getLastKnownLocationLandroid/location/Location;=Location[gps 40.006462,-83.016081 acc=41 et=+14h10m34s97ms alt=204.0 vel=1.0 bear=172.3 {Bundle[mParcelledData.dataSize=44]}]
+V/DBox    (30228): Landroid/location/LocationManager;->isProviderEnabledZ=false
+V/DBox    (30228): Landroid/location/LocationManager;->isProviderEnabledZ=true
+V/DBox    (30228): Landroid/location/LocationManager;->getLastKnownLocationLandroid/location/Location;=Location[gps 40.006462,-83.016081 acc=41 et=+14h10m34s97ms alt=204.0 vel=1.0 bear=172.3 {Bundle[mParcelledData.dataSize=44]}]
+V/DBox    (30228): Landroid/location/LocationManager;->isProviderEnabledZ=false
+V/DBox    (30228): Landroid/location/Location;->getExtrasLandroid/os/Bundle;=Bundle[mParcelledData.dataSize=44]
+V/DBox    (30228): Landroid/location/Location;->getLatitudeD=40.00646179
+V/DBox    (30228): Landroid/location/Location;->getLongitudeD=-83.01608146
+V/DBox    (30228): Landroid/location/Location;->getLatitudeD=40.00646179
+V/DBox    (30228): Landroid/location/Location;->getLongitudeD=-83.01608146
+V/DBox    (30228): Landroid/location/Location;->getProviderLjava/lang/String;=gps
+V/DBox    (30228): Landroid/location/Location;->getTimeJ=1415602095000
+V/DBox    (30228): Landroid/location/Location;->getLatitudeD=40.00646179
+V/DBox    (30228): Landroid/location/Location;->getLongitudeD=-83.01608146
+V/DBox    (30228): Landroid/location/Location;->hasAltitudeZ=true
+V/DBox    (30228): Landroid/location/Location;->getAltitudeD=204.0
+V/DBox    (30228): Landroid/location/Location;->hasAccuracyZ=true
+V/DBox    (30228): Landroid/location/Location;->getAccuracyF=41.0
+V/DBox    (30228): 119136697 + Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 119136698 - Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 119137038 + Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 119137038 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 119137038 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): Landroid/location/LocationManager;->removeUpdatesV
+V/DBox    (30228): Landroid/location/LocationManager;->removeUpdatesV
+V/DBox    (30228): 119137045 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 119137046 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 119137047 - Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 119143845 + Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 119143846 - Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 119143846 + Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 119143846 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 119143846 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 119143846 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 119143846 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 119143847 - Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 119143847 + Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 119143847 - Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 119149255 + Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 119149255 - Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 119149630 + Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 119149631 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 119149631 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 119149632 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 119149634 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 119149634 - Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 119154542 + Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 119154542 - Lcom/gindin/zmanim/android/ZmanimActivity; onRestart
+V/DBox    (30228): 119154542 + Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 119154542 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 119154543 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 119154543 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStart
+V/DBox    (30228): 119154543 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStart
+V/DBox    (30228): 119154543 - Lcom/gindin/zmanim/android/ZmanimActivity; onStart
+V/DBox    (30228): 119154543 + Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 119154543 - Lcom/gindin/zmanim/android/ZmanimActivity; onResume
+V/DBox    (30228): 119155874 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119155891 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119163312 + Lcom/gindin/zmanim/android/ZmanimSelector$1; onItemClick android.widget.ListView{42f5a520 VFED.VC. .F....ID 0,114-930,1455 #102000a android:id/list}
+V/DBox    (30228): 119163338 - Lcom/gindin/zmanim/android/ZmanimSelector$1; onItemClick
+V/DBox    (30228): 119164895 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119164899 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119166671 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119166675 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119167972 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119167977 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119169390 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119169394 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119170635 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119170640 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119171870 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119171875 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119173155 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119173160 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119174339 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119174344 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119175574 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119175578 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119182496 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119182505 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119183780 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119183783 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119185022 + Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick android.widget.ListView{428913a8 VFED.VC. .F....ID 0,0-1072,1231 #102000a android:id/list}
+V/DBox    (30228): 119185027 - Lcom/gindin/zmanim/android/ZmanimDisplay$4; onItemClick
+V/DBox    (30228): 119193517 + Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 119193518 - Lcom/gindin/zmanim/android/ZmanimActivity; onPause
+V/DBox    (30228): 119194387 + Lcom/gindin/zmanim/android/ZmanimActivity; onStop
+V/DBox    (30228): 119194388 + Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 119194388 + Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 119194389 - Lcom/gindin/zmanim/android/location/DynamicLocationProvider; onStop
+V/DBox    (30228): 119194390 - Lcom/gindin/zmanim/android/location/ZmanimLocationManager; onStop
+V/DBox    (30228): 119194390 - Lcom/gindin/zmanim/android/ZmanimActivity; onStop

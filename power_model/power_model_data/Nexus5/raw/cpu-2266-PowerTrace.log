@@ -1,0 +1,2742 @@
+phone-service out-of-service
+signal 27
+phone-call idle
+battery_status, 3517931, 0.93, 4.158, 32.7
+batt_current 0.73513
+batt_temp 32.5
+setting_brightness 255
+setting_screen_timeout 1800000
+time 1414091214976
+localtime_offset -14400000
+model dream
+associate 10078 edu.umich.PowerTutor@13
+begin, 3521947, 2884524
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27081, 62064, 22769, 314503, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 50722, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1904, 1660, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 67, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1277, service, 100, com.android.keyguard
+cpu, 1000, 795, 7589, 4103, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1557, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1859, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.22474
+begin, 3522446, 2885023
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27085, 62255, 22771, 314506, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 50911, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1907, 1663, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 67, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1277, service, 100, com.android.keyguard
+cpu, 1000, 795, 7589, 4103, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1557, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1859, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.234872
+begin, 3522963, 2885540
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27090, 62455, 22773, 314506, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 51108, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1912, 1665, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 67, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1277, service, 100, com.android.keyguard
+cpu, 1000, 795, 7590, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1558, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1859, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.24265
+begin, 3523446, 2886023
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27094, 62638, 22774, 314510, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 51289, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1916, 1667, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 67, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1277, service, 100, com.android.keyguard
+cpu, 1000, 795, 7590, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1558, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1859, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.246846
+begin, 3523944, 2886521
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27097, 62825, 22780, 314514, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 51474, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1919, 1670, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 67, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7591, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1859, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.201917
+begin, 3524443, 2887020
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27102, 63015, 22784, 314515, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 51662, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1925, 1674, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 67, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7592, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1860, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.2504279999999999
+begin, 3524945, 2887522
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27109, 63204, 22785, 314517, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 51851, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1929, 1676, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7592, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1860, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.251042
+begin, 3525445, 2888023
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27109, 63397, 22791, 314518, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 52043, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1930, 1682, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7593, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1860, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 145, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.25708
+begin, 3525944, 2888521
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27113, 63589, 22793, 314520, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 52233, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1934, 1684, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7593, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1860, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.260662
+begin, 3526444, 2889021
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27115, 63778, 22798, 314523, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 52422, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1935, 1689, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7594, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1860, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.273251
+begin, 3526952, 2889529
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27122, 63972, 22799, 314525, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 52615, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1941, 1690, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7594, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1861, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.2911599999999999
+begin, 3527458, 2890035
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27125, 64169, 22802, 314526, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 52810, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1944, 1694, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7594, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1861, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.279186
+begin, 3527945, 2890522
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27127, 64356, 22805, 314526, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 52998, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1947, 1697, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7595, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1861, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.279801
+begin, 3528443, 2891021
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27130, 64550, 22808, 314526, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 53190, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1950, 1700, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 68, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7595, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1861, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+cpu, 0, 10102, 1, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.287067
+begin, 3528945, 2891523
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27134, 64743, 22810, 314526, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 53383, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1953, 1703, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 69, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7596, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1861, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+cpu, 0, 10102, 1, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+begin, 3529444, 2892022
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27138, 64933, 22815, 314527, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 53573, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1957, 1706, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 69, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7597, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 5, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1861, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+cpu, 0, 10102, 1, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.2528839999999999
+begin, 3529943, 2892521
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27141, 65124, 22819, 314529, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 53763, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1960, 1710, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 69, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7597, 4104, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 373, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 6, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1862, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+cpu, 0, 10102, 1, 0, kernel, kernel, Kernel
+cpu, 0, 10103, 1, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.291775
+begin, 3530444, 2893021
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27143, 65317, 22822, 314530, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 53955, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1963, 1714, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 69, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7597, 4105, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 374, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 6, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1862, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+cpu, 0, 10102, 1, 0, kernel, kernel, Kernel
+cpu, 0, 10103, 1, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.3325069999999999
+begin, 3530943, 2893521
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27148, 65505, 22825, 314532, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 54141, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1969, 1718, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 69, service, 100, Radio Subsystem
+cpu, 10012, 888, 3965, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7598, 4105, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 374, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 6, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1862, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+cpu, 0, 10102, 1, 0, kernel, kernel, Kernel
+cpu, 0, 10103, 1, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751177, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.3721139999999998
+begin, 3531443, 2894020
+display, 10080, 1, 0.4980392156862745, PowerModelTest
+cpu_freq, 1.0
+cpu_total, 27152, 65698, 22826, 314533, 3107, 8, 435, 0, 0, 0
+cpu, 10080, 7084, 54333, 138, app, 100, PowerModelTest
+cpu, 10078, 9279, 1973, 1720, service, 130, PowerTutor
+cpu, 10081, 8011, 893, 306, app, 400, CPU Master Free
+cpu, 10019, 1071, 976, 242, app, 400, Google Search
+cpu, 10014, 3372, 1323, 262, app, 400, Google Play Store
+cpu, 10074, 6096, 62, 32, app, 400, FX
+cpu, 10081, 8231, 3, 13, service, 300, CPU Master Free
+cpu, 10063, 1478, 166, 66, app, 400, Google+
+cpu, 10007, 4465, 145, 43, service, 400, Google Contacts Sync
+cpu, 10005, 2594, 80, 78, app, 400, Media Storage
+cpu, 10007, 4496, 188, 63, service, 200, Google Contacts Sync
+cpu, 10039, 4441, 19, 15, app, 400, Gallery
+cpu, 10031, 4414, 4, 1, app, 400, Chrome
+cpu, 10019, 1405, 838, 286, service, 300, Google Search
+cpu, 10007, 4484, 300, 111, app, 400, Google Contacts Sync
+cpu, 10054, 991, 247, 66, service, 130, Google Keyboard
+cpu, 10033, 9455, 1, 2, app, 400, Clock
+cpu, 10076, 3332, 111, 62, app, 400, SuperSU
+cpu, 10004, 4721, 44, 48, app, 400, Package Access Helper
+cpu, 10035, 8914, 80, 19, app, 400, Drive
+cpu, 10006, 8901, 2, 6, app, 400, External Storage
+cpu, 10034, 8888, 5, 4, app, 400, Documents
+cpu, 10060, 8790, 48, 32, app, 400, Package installer
+cpu, 10007, 4540, 11, 4, service, 300, Google Contacts Sync
+cpu, 1000, 7001, 2, 2, app, 400, System
+cpu, 10013, 3291, 2, 4, app, 400, MusicFX
+cpu, 10003, 2753, 33, 8, app, 400, Contacts Storage
+cpu, 1001, 1954, 5, 0, service, 400, Radio Subsystem
+cpu, 1027, 1057, 25, 29, app, 100, sys_1027
+cpu, 1001, 1039, 5, 2, app, 100, Radio Subsystem
+cpu, 1001, 1029, 105, 69, service, 100, Radio Subsystem
+cpu, 10012, 888, 3966, 1278, service, 100, com.android.keyguard
+cpu, 1000, 795, 7598, 4105, service, 100, System
+cpu, 0, 1, 70, 251, kernel, kernel, Kernel
+cpu, 0, 2, 0, 23, kernel, kernel, Kernel
+cpu, 0, 3, 5, 374, kernel, kernel, Kernel
+cpu, 0, 6, 0, 250, kernel, kernel, Kernel
+cpu, 0, 7, 0, 637, kernel, kernel, Kernel
+cpu, 0, 25, 3, 0, kernel, kernel, Kernel
+cpu, 0, 26, 1, 1, kernel, kernel, Kernel
+cpu, 0, 28, 0, 2, kernel, kernel, Kernel
+cpu, 0, 95, 1, 300, kernel, kernel, Kernel
+cpu, 0, 102, 0, 77, kernel, kernel, Kernel
+cpu, 0, 103, 0, 41, kernel, kernel, Kernel
+cpu, 0, 104, 2, 8, kernel, kernel, Kernel
+cpu, 0, 105, 0, 6, kernel, kernel, Kernel
+cpu, 0, 107, 0, 2, kernel, kernel, Kernel
+cpu, 0, 115, 0, 271, kernel, kernel, Kernel
+cpu, 0, 118, 0, 499, kernel, kernel, Kernel
+cpu, 0, 121, 75, 0, kernel, kernel, Kernel
+cpu, 0, 122, 0, 656, kernel, kernel, Kernel
+cpu, 0, 123, 0, 68, kernel, kernel, Kernel
+cpu, 0, 124, 0, 3, kernel, kernel, Kernel
+cpu, 0, 129, 5, 24, kernel, kernel, Kernel
+cpu, 0, 135, 1, 23, kernel, kernel, Kernel
+cpu, 0, 137, 0, 38, kernel, kernel, Kernel
+cpu, 0, 168, 2, 39, kernel, kernel, Kernel
+cpu, 1000, 170, 1, 23, kernel, kernel, System
+cpu, 0, 171, 4, 7, kernel, kernel, Kernel
+cpu, 9999, 172, 0, 51, kernel, kernel, sys_9999
+cpu, 0, 173, 10, 97, kernel, kernel, Kernel
+cpu, 0, 176, 0, 219, kernel, kernel, Kernel
+cpu, 0, 177, 0, 6, kernel, kernel, Kernel
+cpu, 1001, 179, 34, 18, kernel, kernel, Radio Subsystem
+cpu, 0, 180, 0, 10, kernel, kernel, Kernel
+cpu, 1000, 181, 2582, 3317, kernel, kernel, System
+cpu, 0, 182, 408, 136, kernel, kernel, Kernel
+cpu, 1019, 183, 7, 7, kernel, kernel, sys_1019
+cpu, 1013, 184, 567, 1559, kernel, kernel, Media Server
+cpu, 1012, 185, 0, 30, kernel, kernel, Install
+cpu, 1017, 188, 0, 3, kernel, kernel, sys_1017
+cpu, 1001, 189, 2, 11, kernel, kernel, Radio Subsystem
+cpu, 1001, 190, 13, 26, kernel, kernel, Radio Subsystem
+cpu, 1001, 191, 1, 1, kernel, kernel, Radio Subsystem
+cpu, 9999, 192, 202, 353, kernel, kernel, sys_9999
+cpu, 0, 195, 7, 50, kernel, kernel, Kernel
+cpu, 1023, 197, 4, 40, kernel, kernel, sys_1023
+cpu, 1006, 198, 2, 9, kernel, kernel, Camera Devices
+cpu, 1000, 199, 0, 2, kernel, kernel, System
+cpu, 2000, 200, 52, 424, kernel, kernel, Debug Shell
+cpu, 0, 204, 0, 1, kernel, kernel, Kernel
+cpu, 1000, 211, 0, 1, kernel, kernel, System
+cpu, 0, 219, 0, 12, kernel, kernel, Kernel
+cpu, 0, 333, 0, 8, kernel, kernel, Kernel
+cpu, 0, 377, 0, 653, kernel, kernel, Kernel
+cpu, 1010, 963, 37, 651, kernel, kernel, Wifi Subsystem
+cpu, 0, 1234, 86, 1862, kernel, kernel, Kernel
+cpu, 1014, 1307, 0, 1, kernel, kernel, DHCP Client
+cpu, 0, 2057, 0, 8, kernel, kernel, Kernel
+cpu, 0, 2969, 0, 134, kernel, kernel, Kernel
+cpu, 0, 3864, 0, 2, kernel, kernel, Kernel
+cpu, 0, 4649, 3, 120, kernel, kernel, Kernel
+cpu, 0, 5131, 2, 34, kernel, kernel, Kernel
+cpu, 0, 5220, 0, 146, kernel, kernel, Kernel
+cpu, 0, 6299, 0, 334, kernel, kernel, Kernel
+cpu, 0, 7300, 0, 133, kernel, kernel, Kernel
+cpu, 0, 7409, 0, 78, kernel, kernel, Kernel
+cpu, 0, 7627, 0, 222, kernel, kernel, Kernel
+cpu, 0, 8054, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9566, 3, 0, kernel, kernel, Kernel
+cpu, 0, 9594, 0, 9, kernel, kernel, Kernel
+cpu, 0, 9596, 0, 13, kernel, kernel, Kernel
+cpu, 0, 9597, 4, 20, kernel, kernel, Kernel
+cpu, 0, 9816, 12, 1, kernel, kernel, Kernel
+cpu, 0, 10102, 1, 0, kernel, kernel, Kernel
+cpu, 0, 10103, 1, 0, kernel, kernel, Kernel
+network_total, 0, 1, 12751255, 492673
+network, 10013, 0, 0
+network, 10012, 0, 0
+network, 10074, 0, 0
+network, 10014, 12278106, 368057
+network, 10076, 0, 0
+network, 10078, 0, 0
+network, 10039, 5242, 1640
+network, 10005, 104, 312
+network, 10004, 0, 0
+network, 10007, 80098, 34742
+network, 1027, 0, 0
+network, 10006, 0, 0
+network, 10035, 94526, 7461
+network, 10034, 0, 0
+network, 10003, 0, 0
+network, 10033, 0, 0
+network, 1001, 0, 0
+network, 1000, 62772, 3231
+network, 10031, 0, 0
+network, 10060, 0, 0
+network, 10063, 14160, 12536
+network, 10080, 0, 0
+network, 10081, 5156, 5835
+network, 10019, 16996, 29121
+network, 10054, 0, 0
+mobile_total, 0, 0
+batt_current 1.3187929999999999

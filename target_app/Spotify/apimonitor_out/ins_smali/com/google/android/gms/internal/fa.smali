@@ -1,0 +1,20 @@
+.class public final Lcom/google/android/gms/internal/fa;
+.super Ljava/lang/Object;
+.method public static a(Ljava/lang/Object;Ljava/lang/Object;)Z
+.registers 3
+if-nez p0, :cond_4
+if-eqz p1, :cond_e
+:cond_4
+if-eqz p0, :cond_10
+if-eqz p1, :cond_10
+invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+move-result v0
+if-eqz v0, :cond_10
+:cond_e
+const/4 v0, 0x1
+:goto_f
+return v0
+:cond_10
+const/4 v0, 0x0
+goto :goto_f
+.end method

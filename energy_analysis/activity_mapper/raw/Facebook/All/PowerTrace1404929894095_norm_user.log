@@ -1,0 +1,486 @@
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/DBox    (  771): 5696620 + Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5696623 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5696633 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5696647 - Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5696671 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46076710
+V/DBox    (  771): 5696674 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5696696 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5696713 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5696714 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5696741 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5696744 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@46057d68
+V/DBox    (  771): 5696747 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5696803 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5696828 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5698110 + Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5698116 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5698160 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5698160 - Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5705330 + Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5705330 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5705337 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5705347 - Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5705362 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5705371 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5705372 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5705389 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5705578 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4608adf0
+V/DBox    (  771): 5705583 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705585 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4608adf0
+V/DBox    (  771): 5705591 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705592 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46065058
+V/DBox    (  771): 5705593 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705624 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46065058
+V/DBox    (  771): 5705624 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705653 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4608adf0
+V/DBox    (  771): 5705654 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705655 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4608adf0
+V/DBox    (  771): 5705656 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705664 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46065058
+V/DBox    (  771): 5705665 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705716 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46065058
+V/DBox    (  771): 5705718 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705719 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46051538
+V/DBox    (  771): 5705720 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705722 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46051538
+V/DBox    (  771): 5705722 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705723 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4601e718
+V/DBox    (  771): 5705725 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705730 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4601e718
+V/DBox    (  771): 5705731 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705819 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46076710
+V/DBox    (  771): 5705819 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5705846 + Lcom/facebook/katana/HomeActivity; onClick android.widget.LinearLayout@46076710
+V/DBox    (  771): 5705853 - Lcom/facebook/katana/HomeActivity; onClick
+V/DBox    (  771): 5705869 + Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5705870 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5705870 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5705871 - Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5705891 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@46057d68
+V/DBox    (  771): 5705894 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5705896 + Lcom/facebook/katana/EventsActivity; onCreate
+V/DBox    (  771): 5705916 - Lcom/facebook/katana/EventsActivity; onCreate
+V/DBox    (  771): 5705917 + Lcom/facebook/katana/EventsActivity; onResume
+V/DBox    (  771): 5705917 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5705917 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5705920 - Lcom/facebook/katana/EventsActivity; onResume
+V/DBox    (  771): 5705935 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5706008 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5706010 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5706027 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5706381 + Lcom/facebook/katana/EventsActivity; onPause
+V/DBox    (  771): 5706382 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5706382 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5706383 - Lcom/facebook/katana/EventsActivity; onPause
+V/DBox    (  771): 5706410 + Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    (  771): 5706456 - Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    (  771): 5706456 + Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5706456 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5706457 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5706460 - Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5706463 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5706468 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5706976 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@460ba630
+V/DBox    (  771): 5706978 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5707367 + Lcom/facebook/katana/HomeActivity; onClick android.widget.LinearLayout@461f0d20
+V/DBox    (  771): 5707372 - Lcom/facebook/katana/HomeActivity; onClick
+V/DBox    (  771): 5707376 + Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5707377 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5707377 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5707378 - Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5707390 + Lcom/facebook/katana/EventsActivity; onCreate
+V/DBox    (  771): 5707414 - Lcom/facebook/katana/EventsActivity; onCreate
+V/DBox    (  771): 5707415 + Lcom/facebook/katana/EventsActivity; onResume
+V/DBox    (  771): 5707415 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5707416 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5707419 - Lcom/facebook/katana/EventsActivity; onResume
+V/DBox    (  771): 5707423 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5707438 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5707514 + Lcom/facebook/katana/EventsActivity; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@46297960
+V/DBox    (  771): 5707519 - Lcom/facebook/katana/EventsActivity; onCreateOptionsMenu
+V/DBox    (  771): 5707930 + Lcom/facebook/katana/EventsActivity; onPause
+V/DBox    (  771): 5707930 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5707931 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5707932 - Lcom/facebook/katana/EventsActivity; onPause
+V/DBox    (  771): 5707944 + Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    (  771): 5708141 - Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    (  771): 5708141 + Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5708142 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5708142 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5708148 - Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5708151 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5708157 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5708158 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5708164 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5708164 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5708173 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5708293 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@46057d68
+V/DBox    (  771): 5708294 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5708365 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@46057d68
+V/DBox    (  771): 5708367 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5708434 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@460592d8
+V/DBox    (  771): 5708435 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708437 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@460592d8
+V/DBox    (  771): 5708437 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708440 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46050f20
+V/DBox    (  771): 5708440 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708524 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46050f20
+V/DBox    (  771): 5708525 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708526 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@460592d8
+V/DBox    (  771): 5708527 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708529 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@460592d8
+V/DBox    (  771): 5708530 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708530 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4606f908
+V/DBox    (  771): 5708533 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708536 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@4606f908
+V/DBox    (  771): 5708537 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708659 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@460592d8
+V/DBox    (  771): 5708660 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708663 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@460592d8
+V/DBox    (  771): 5708664 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708670 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@46050f20
+V/DBox    (  771): 5708670 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5708729 + Lcom/facebook/katana/HomeActivity; onClick android.widget.LinearLayout@46050f20
+V/DBox    (  771): 5708733 - Lcom/facebook/katana/HomeActivity; onClick
+V/DBox    (  771): 5708736 + Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5708737 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5708737 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5708738 - Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5708750 + Lcom/facebook/katana/StreamActivity; onCreate
+V/DBox    (  771): 5708837 - Lcom/facebook/katana/StreamActivity; onCreate
+V/DBox    (  771): 5708837 + Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5708838 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5708838 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5708845 - Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5709023 + Lcom/facebook/katana/StreamActivity; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@46211c10
+V/DBox    (  771): 5709023 - Lcom/facebook/katana/StreamActivity; onCreateOptionsMenu
+V/DBox    (  771): 5710441 + Lcom/facebook/katana/StreamActivity; onItemClick android.widget.ListView@460c0de0
+V/DBox    (  771): 5710450 - Lcom/facebook/katana/StreamActivity; onItemClick
+V/DBox    (  771): 5710459 + Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5710461 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5710463 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5710488 - Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5710517 + Lcom/facebook/katana/FeedbackActivity; onCreate
+V/DBox    (  771): 5710606 - Lcom/facebook/katana/FeedbackActivity; onCreate
+V/DBox    (  771): 5710606 + Lcom/facebook/katana/FeedbackActivity; onResume
+V/DBox    (  771): 5710607 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5710607 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5710608 - Lcom/facebook/katana/FeedbackActivity; onResume
+V/DBox    (  771): 5710978 + Lcom/facebook/katana/StreamActivity; onStop
+V/DBox    (  771): 5710979 - Lcom/facebook/katana/StreamActivity; onStop
+V/DBox    (  771): 5711431 + Lcom/facebook/katana/FeedbackActivity; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@462f93b8
+V/DBox    (  771): 5711432 - Lcom/facebook/katana/FeedbackActivity; onCreateOptionsMenu
+V/DBox    (  771): 5711750 + Lcom/facebook/katana/FeedbackActivity; onOptionsItemSelected Home
+V/DBox    (  771): 5711755 - Lcom/facebook/katana/FeedbackActivity; onOptionsItemSelected
+V/DBox    (  771): 5711779 + Lcom/facebook/katana/FeedbackActivity; onPause
+V/DBox    (  771): 5711783 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5711783 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5711784 - Lcom/facebook/katana/FeedbackActivity; onPause
+V/DBox    (  771): 5711804 + Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5711804 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5711806 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5711812 - Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5712277 + Lcom/facebook/katana/FeedbackActivity; onDestroy
+V/DBox    (  771): 5712279 - Lcom/facebook/katana/FeedbackActivity; onDestroy
+V/DBox    (  771): 5712398 + Lcom/facebook/katana/StreamAdapter$1; onClick android.widget.ImageView@4630c6e0
+V/DBox    (  771): 5712404 - Lcom/facebook/katana/StreamAdapter$1; onClick
+V/DBox    (  771): 5712416 + Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5712417 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5712418 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5712432 - Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5712446 + Lcom/facebook/katana/ProfileTabHostActivity; onCreate
+V/DBox    (  771): 5712536 + Lcom/facebook/katana/StreamActivity; onCreate
+V/DBox    (  771): 5712582 - Lcom/facebook/katana/StreamActivity; onCreate
+V/DBox    (  771): 5712603 - Lcom/facebook/katana/ProfileTabHostActivity; onCreate
+V/DBox    (  771): 5712604 + Lcom/facebook/katana/ProfileTabHostActivity; onResume
+V/DBox    (  771): 5712605 + Lcom/facebook/katana/FacebookTabActivity; onResume
+V/DBox    (  771): 5712605 + Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5712606 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5712606 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5712615 - Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5712616 - Lcom/facebook/katana/FacebookTabActivity; onResume
+V/DBox    (  771): 5712626 - Lcom/facebook/katana/ProfileTabHostActivity; onResume
+V/DBox    (  771): 5712664 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5712705 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5712983 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5712984 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713111 + Lcom/facebook/katana/ProfileTabHostActivity; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@462fc7d0
+V/DBox    (  771): 5713112 - Lcom/facebook/katana/ProfileTabHostActivity; onCreateOptionsMenu
+V/DBox    (  771): 5713118 + Lcom/facebook/katana/StreamActivity; onStop
+V/DBox    (  771): 5713123 - Lcom/facebook/katana/StreamActivity; onStop
+V/DBox    (  771): 5713132 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713133 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713204 + Lcom/facebook/katana/StreamActivity$2; onClick android.widget.Button@46211cb0
+V/DBox    (  771): 5713205 - Lcom/facebook/katana/StreamActivity$2; onClick
+V/DBox    (  771): 5713450 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713451 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713452 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713453 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713520 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713521 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713522 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713523 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713537 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713537 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713539 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713539 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713606 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713607 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713609 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713609 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713654 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713655 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713656 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713658 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713679 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713682 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713683 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713689 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713752 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713753 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713754 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46243128
+V/DBox    (  771): 5713754 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5713830 + Lcom/facebook/katana/StreamActivity; onDestroy
+V/DBox    (  771): 5713831 - Lcom/facebook/katana/StreamActivity; onDestroy
+V/DBox    (  771): 5713843 + Lcom/facebook/katana/ProfileTabHostActivity; onPause
+V/DBox    (  771): 5713843 + Lcom/facebook/katana/FacebookTabActivity; onPause
+V/DBox    (  771): 5713844 + Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5713846 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5713847 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5713848 - Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5713848 - Lcom/facebook/katana/FacebookTabActivity; onPause
+V/DBox    (  771): 5713849 - Lcom/facebook/katana/ProfileTabHostActivity; onPause
+V/DBox    (  771): 5713874 + Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    (  771): 5714000 - Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    (  771): 5714001 + Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5714001 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5714002 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5714009 - Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    (  771): 5714020 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714029 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714030 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714124 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714124 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714153 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714294 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@46298370
+V/DBox    (  771): 5714298 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5714335 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@461f0170
+V/DBox    (  771): 5714335 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714337 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@461f0170
+V/DBox    (  771): 5714338 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714340 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462d08a8
+V/DBox    (  771): 5714341 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714344 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462d08a8
+V/DBox    (  771): 5714345 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714367 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714390 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5714468 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462bb040
+V/DBox    (  771): 5714469 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714480 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462bb040
+V/DBox    (  771): 5714480 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714526 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@46298370
+V/DBox    (  771): 5714616 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5714687 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462bb040
+V/DBox    (  771): 5714691 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714719 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462bb040
+V/DBox    (  771): 5714720 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714720 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462fdb38
+V/DBox    (  771): 5714721 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714723 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462fdb38
+V/DBox    (  771): 5714725 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714743 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462fdb38
+V/DBox    (  771): 5714744 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714745 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462fdb38
+V/DBox    (  771): 5714745 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714746 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@461f0978
+V/DBox    (  771): 5714747 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714774 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@461f0978
+V/DBox    (  771): 5714774 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714775 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462c0fc0
+V/DBox    (  771): 5714775 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714777 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462c0fc0
+V/DBox    (  771): 5714777 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714779 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462e7f28
+V/DBox    (  771): 5714780 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714794 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462e7f28
+V/DBox    (  771): 5714795 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714867 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@461f0170
+V/DBox    (  771): 5714868 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714869 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@461f0170
+V/DBox    (  771): 5714869 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714870 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462d08a8
+V/DBox    (  771): 5714872 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714874 + Lcom/facebook/katana/HomeActivity; onFocusChange android.widget.LinearLayout@462d08a8
+V/DBox    (  771): 5714874 - Lcom/facebook/katana/HomeActivity; onFocusChange
+V/DBox    (  771): 5714945 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemClick android.widget.Gallery@46298370
+V/DBox    (  771): 5714948 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemClick
+V/DBox    (  771): 5714963 + Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected android.widget.Gallery@46298370
+V/DBox    (  771): 5714964 - Lcom/facebook/katana/HomeActivity$ReelListener; onItemSelected
+V/DBox    (  771): 5714966 + Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5714966 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5714967 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5714967 - Lcom/facebook/katana/HomeActivity; onPause
+V/DBox    (  771): 5715022 + Lcom/facebook/katana/FeedbackActivity; onCreate
+V/DBox    (  771): 5715345 - Lcom/facebook/katana/FeedbackActivity; onCreate
+V/DBox    (  771): 5715346 + Lcom/facebook/katana/FeedbackActivity; onResume
+V/DBox    (  771): 5715346 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5715347 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5715347 - Lcom/facebook/katana/FeedbackActivity; onResume
+V/DBox    (  771): 5715839 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5715840 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5715891 + Lcom/facebook/katana/StreamActivity; onStop
+V/DBox    (  771): 5715893 - Lcom/facebook/katana/StreamActivity; onStop
+V/DBox    (  771): 5715893 + Lcom/facebook/katana/ProfileTabHostActivity; onDestroy
+V/DBox    (  771): 5715894 + Lcom/facebook/katana/StreamActivity; onDestroy
+V/DBox    (  771): 5715894 - Lcom/facebook/katana/StreamActivity; onDestroy
+V/DBox    (  771): 5715895 - Lcom/facebook/katana/ProfileTabHostActivity; onDestroy
+V/DBox    (  771): 5715942 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5715943 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716079 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716080 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716169 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716170 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716293 + Lcom/facebook/katana/FeedbackActivity; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@463050d0
+V/DBox    (  771): 5716294 - Lcom/facebook/katana/FeedbackActivity; onCreateOptionsMenu
+V/DBox    (  771): 5716436 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716437 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716495 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716498 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716594 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716594 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716654 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716658 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716680 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716680 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5716713 + Lcom/facebook/katana/FeedbackActivity$4; onFocusChange android.widget.EditText@460e80d0
+V/DBox    (  771): 5716714 - Lcom/facebook/katana/FeedbackActivity$4; onFocusChange
+V/DBox    (  771): 5717323 + Lcom/facebook/katana/FeedbackActivity; onItemClick android.widget.ListView@4622a9e8
+V/DBox    (  771): 5717328 - Lcom/facebook/katana/FeedbackActivity; onItemClick
+V/DBox    (  771): 5717332 + Lcom/facebook/katana/FeedbackActivity; onPause
+V/DBox    (  771): 5717334 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5717335 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5717335 - Lcom/facebook/katana/FeedbackActivity; onPause
+V/DBox    (  771): 5717352 + Lcom/facebook/katana/ProfileTabHostActivity; onCreate
+V/DBox    (  771): 5717397 + Lcom/facebook/katana/StreamActivity; onCreate
+V/DBox    (  771): 5717425 - Lcom/facebook/katana/StreamActivity; onCreate
+V/DBox    (  771): 5717434 - Lcom/facebook/katana/ProfileTabHostActivity; onCreate
+V/DBox    (  771): 5717435 + Lcom/facebook/katana/ProfileTabHostActivity; onResume
+V/DBox    (  771): 5717435 + Lcom/facebook/katana/FacebookTabActivity; onResume
+V/DBox    (  771): 5717435 + Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5717436 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5717436 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5717444 - Lcom/facebook/katana/StreamActivity; onResume
+V/DBox    (  771): 5717445 - Lcom/facebook/katana/FacebookTabActivity; onResume
+V/DBox    (  771): 5717452 - Lcom/facebook/katana/ProfileTabHostActivity; onResume
+V/DBox    (  771): 5717536 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46302ae0
+V/DBox    (  771): 5717536 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5717551 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46302ae0
+V/DBox    (  771): 5717552 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5717586 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5717602 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5717602 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5717603 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5717603 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5717605 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5717866 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46302ae0
+V/DBox    (  771): 5717869 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5717882 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46302ae0
+V/DBox    (  771): 5717883 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5718002 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46302ae0
+V/DBox    (  771): 5718002 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5718005 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@46302ae0
+V/DBox    (  771): 5718006 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5718007 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@460c5318
+V/DBox    (  771): 5718014 + Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5718015 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5718015 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5718017 - Lcom/facebook/katana/StreamActivity; onPause
+V/DBox    (  771): 5718019 + Lcom/facebook/katana/UserInfoActivity; onCreate
+V/DBox    (  771): 5718037 - Lcom/facebook/katana/UserInfoActivity; onCreate
+V/DBox    (  771): 5718037 + Lcom/facebook/katana/UserInfoActivity; onResume
+V/DBox    (  771): 5718038 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5718038 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5718042 - Lcom/facebook/katana/UserInfoActivity; onResume
+V/DBox    (  771): 5718043 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5718045 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@460c5318
+V/DBox    (  771): 5718046 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5718048 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@460e7468
+V/DBox    (  771): 5718051 + Lcom/facebook/katana/UserInfoActivity; onPause
+V/DBox    (  771): 5718051 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5718052 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5718052 - Lcom/facebook/katana/UserInfoActivity; onPause
+V/DBox    (  771): 5718053 + Lcom/facebook/katana/AlbumsActivity; onCreate
+V/DBox    (  771): 5718116 - Lcom/facebook/katana/AlbumsActivity; onCreate
+V/DBox    (  771): 5718116 + Lcom/facebook/katana/AlbumsActivity; onResume
+V/DBox    (  771): 5718117 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5718117 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5718119 - Lcom/facebook/katana/AlbumsActivity; onResume
+V/DBox    (  771): 5718120 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5718219 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5718364 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5718365 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5718379 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    (  771): 5718380 + Lcom/facebook/katana/MyTabWidget; onFocusChange android.widget.LinearLayout@460e7468
+V/DBox    (  771): 5718381 - Lcom/facebook/katana/MyTabWidget; onFocusChange
+V/DBox    (  771): 5718412 + Lcom/facebook/katana/StreamActivity; onItemClick android.widget.ListView@462e5a60
+V/DBox    (  771): 5718416 - Lcom/facebook/katana/StreamActivity; onItemClick
+V/DBox    (  771): 5718421 + Lcom/facebook/katana/AlbumsActivity; onSaveInstanceState
+V/DBox    (  771): 5718425 - Lcom/facebook/katana/AlbumsActivity; onSaveInstanceState
+V/DBox    (  771): 5718428 + Lcom/facebook/katana/ProfileTabHostActivity; onPause
+V/DBox    (  771): 5718431 + Lcom/facebook/katana/FacebookTabActivity; onPause
+V/DBox    (  771): 5718432 + Lcom/facebook/katana/AlbumsActivity; onPause
+V/DBox    (  771): 5718433 + Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5718433 - Lcom/facebook/katana/FacebookListActivity; onPause
+V/DBox    (  771): 5718435 - Lcom/facebook/katana/AlbumsActivity; onPause
+V/DBox    (  771): 5718436 - Lcom/facebook/katana/FacebookTabActivity; onPause
+V/DBox    (  771): 5718438 - Lcom/facebook/katana/ProfileTabHostActivity; onPause
+V/DBox    (  771): 5718454 + Lcom/facebook/katana/FeedbackActivity; onCreate
+V/DBox    (  771): 5718489 - Lcom/facebook/katana/FeedbackActivity; onCreate
+V/DBox    (  771): 5718490 + Lcom/facebook/katana/FeedbackActivity; onResume
+V/DBox    (  771): 5718490 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5718490 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    (  771): 5718491 - Lcom/facebook/katana/FeedbackActivity; onResume
+V/DBox    ( 1010): 5727932 + Lcom/facebook/katana/provider/LoggingProvider; onCreate
+V/DBox    ( 1010): 5727948 - Lcom/facebook/katana/provider/LoggingProvider; onCreate
+V/DBox    ( 1010): 5727950 + Lcom/facebook/katana/provider/NotificationsProvider; onCreate
+V/DBox    ( 1010): 5727950 - Lcom/facebook/katana/provider/NotificationsProvider; onCreate
+V/DBox    ( 1010): 5727952 + Lcom/facebook/katana/provider/KeyValueProvider; onCreate
+V/DBox    ( 1010): 5727953 - Lcom/facebook/katana/provider/KeyValueProvider; onCreate
+V/DBox    ( 1010): 5727956 + Lcom/facebook/katana/provider/UserValuesProvider; onCreate
+V/DBox    ( 1010): 5727957 - Lcom/facebook/katana/provider/UserValuesProvider; onCreate
+V/DBox    ( 1010): 5727959 + Lcom/facebook/katana/provider/FriendsProvider; onCreate
+V/DBox    ( 1010): 5727960 - Lcom/facebook/katana/provider/FriendsProvider; onCreate
+V/DBox    ( 1010): 5727965 + Lcom/facebook/katana/provider/MailboxProvider; onCreate
+V/DBox    ( 1010): 5727966 - Lcom/facebook/katana/provider/MailboxProvider; onCreate
+V/DBox    ( 1010): 5727967 + Lcom/facebook/katana/provider/UserStatusesProvider; onCreate
+V/DBox    ( 1010): 5727968 - Lcom/facebook/katana/provider/UserStatusesProvider; onCreate
+V/DBox    ( 1010): 5727973 + Lcom/facebook/katana/provider/PhotosProvider; onCreate
+V/DBox    ( 1010): 5727973 - Lcom/facebook/katana/provider/PhotosProvider; onCreate
+V/DBox    ( 1010): 5727975 + Lcom/facebook/katana/provider/EventsProvider; onCreate
+V/DBox    ( 1010): 5727975 - Lcom/facebook/katana/provider/EventsProvider; onCreate
+V/DBox    ( 1010): 5727989 + Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    ( 1010): 5728380 < Lcom/facebook/katana/binding/AppSession; releaseWakeLock
+V/DBox    ( 1010): 5728395 - Lcom/facebook/katana/HomeActivity; onCreate
+V/DBox    ( 1010): 5728400 + Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    ( 1010): 5728401 + Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    ( 1010): 5728406 - Lcom/facebook/katana/FacebookListActivity; onResume
+V/DBox    ( 1010): 5728413 - Lcom/facebook/katana/HomeActivity; onResume
+V/DBox    ( 1010): 5728420 + Lcom/facebook/katana/service/FacebookService; onCreate
+V/DBox    ( 1010): 5728420 - Lcom/facebook/katana/service/FacebookService; onCreate
+V/DBox    ( 1010): 5728422 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5728431 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5728444 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5728492 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5728493 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5728504 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5728505 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5728516 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5729404 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5729408 > Lcom/facebook/katana/binding/AppSession; acquireWakeLock
+V/DBox    ( 1010): 5729410 - Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5729411 + Lcom/facebook/katana/service/FacebookService; onStart
+V/DBox    ( 1010): 5729422 - Lcom/facebook/katana/service/FacebookService; onStart

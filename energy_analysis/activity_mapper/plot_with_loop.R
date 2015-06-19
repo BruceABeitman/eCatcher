@@ -1,0 +1,654 @@
+## This file is supposed to be called from batch_plot.script with useArgs set to TRUE
+## To execute this file inside R, set useArgs to FALSE
+rm(list=ls())
+source("plot_args.R")
+library(calibrate)
+useArgs <- TRUE
+
+## args: options (1:actions, 2:sequences, 3:both), data_dir
+args <- commandArgs(trailingOnly = TRUE)
+home_dir <- getwd()
+
+wd <- c()
+plot_opt <- c()
+if(useArgs == TRUE) {
+  plot_opt <- args[1]
+  wd <- args[2]
+} else {
+  print("Input plot option (0:non-interaction, 1:actions, 2:sequences, 3:all)")
+  plot_opt <- scan(what=character(0), nmax=1)
+  print("input data folder")
+  wd <- scan(what=character(0), nmax=1)
+}
+
+## set up working directory
+wd <- paste(home_dir, "/", wd, sep="")
+setwd(wd)
+
+package_name <- c()
+print("Load package info")
+load("package.Rdata")
+print(paste("Targeted package:", package_name, sep=" "))
+
+wd <- paste(wd, "/", package_name, sep="")
+setwd(wd)
+print(paste("Data folder:", wd, sep=" "))
+
+## rounding function ##########################################################
+mround <- function(x,base){ 
+        base*round(x/base) 
+} 
+
+
+## plotting function ##########################################################
+## energy plot funciton
+plot_action_energy <- function(m, save=FALSE, context=FALSE,
+                               path=wd, out_name="plot_action_energy") {
+  if(save == TRUE) {
+    if(context == TRUE) {
+      out_path <- paste(path, "/out_context", sep="")
+    } else {
+      out_path <- paste(path, "/out", sep="")
+    }
+    dir.create(out_path, showWarnings=FALSE)
+    out_file <- paste(out_path, "/", out_name, ".eps", sep="")
+    postscript(file=out_file, paper="letter", horizontal=TRUE)
+  }
+
+  ## m contains 4 lists: id, energy, label, duration
+  med <- median(m$avg_energy)
+  if(med > 0)
+    m$avg_energy <- m$avg_energy/med
+
+  ylim=c(min(m$avg_energy), min(10, max(m$avg_energy))) 
+  #ylim=c(0, max(m$avg_energy))
+  #boxplot(energy~id, m, main="", lwd=1.5, ylim=ylim)
+
+  if(context == TRUE) {
+    m$id <- m$context_id
+  }
+
+  idx = which(m$label == "N")
+  if(length(idx) > 0) {
+
+    #print(paste("id:", m$id[idx], sep=" "))
+    #print(paste("avg_energy:", m$avg_energy[idx], sep=" "))
+    #par(mar=c(5,5,.1,.1))
+    par(mar=c(15,5,1,.1))
+    #normal$id = m$id[idx]
+    
+    plot(m$id[idx], m$avg_energy[idx], type="p", ylim=c(.5, 2),  
+         pch=pch[1], lwd=1.5, cex.lab=2, cex.axis=1.5, xaxt='n',
+         ylab="Normalized Avg. Energy")
+    mtext("Action Unit", side=1, line=7, cex=2)
+    idx = which(m$label == "I")
+    axis(1,1:20, labels=FALSE, tick=FALSE, line=-.5)
+    ActionLabels <- c("ML->onResume","ML->OptSelect  ","ML->Click         ","ML->ItemClick  ","FL->Create        ","FL->Resume      ","FL->ItemClick    ","FL->SaveState  ","FL->Pause        ","ML->Create       ","ML->OptSelect  ","ML->Click        ","AS->Create        ","ML->SaveState","ML->Pause        ","MV->Create      ","MV->Resume    ","MV->Click        ","MV->Options    ","MV->OptSelect")
+    text(x = seq(1, 20, by=1), par("usr")[1]+.55, labels = ActionLabels, srt = -90, pos = 1, xpd = TRUE)
+    points(m$id[idx], m$avg_energy[idx], lwd=1.5, col="red", pch=pch[2])
+  } else {
+    idx = which(m$label == "I")
+    #print(paste("m$avg_energy[idx]:", m$avg_energy, sep=" "))
+    plot(m$id[idx][idp], m$avg_energy[idx][idp], type="p", ylim=c(.75, 1.25), col="red", 
+         pch=pch[2], lwd=1.5, cex.lab=1.2, cex.axis=0.45, 
+         xlab="Action Unit", ylab="Normalized Average Energy Consumption")
+  }
+
+  if(save == TRUE) { 
+    dev.off()
+  }
+    
+  return(m)
+}
+
+## duration plot function
+plot_action_duration <- function(m, save=FALSE, context=FALSE,
+                                 path=wd, out_name="plot_action_duration") {
+  if(save == TRUE) {
+    if(context == TRUE) {
+      out_path <- paste(path, "/out_context", sep="")
+    } else {
+      out_path <- paste(path, "/out", sep="")
+    }
+    dir.create(out_path, showWarnings=FALSE)
+    out_file <- paste(out_path, "/", out_name, ".eps", sep="")
+    postscript(file=out_file, paper="letter", horizontal=TRUE)
+  }
+
+  ## m contains 4 lists: id, energy, label, duration
+  med <- median(m$duration)
+  if(med > 0)
+    m$duration <- m$duration/med
+
+  #ylim=c(0, min(10, max(m$duration))) 
+  ylim=c(min(m$duration), max(m$duration))
+  #boxplot(duration~id, m, main="", lwd=1.5, ylim=ylim)
+  
+  if(context == TRUE) {
+    m$id <- m$context_id
+  }
+
+  idx = which(m$label == "N")
+  if(length(idx) > 0) {
+    plot(m$id[idx], m$duration[idx], type="p", lwd=1.5, ylim=c(min(m$duration), max(m$duration)),  pch=pch[1])
+    idx = which(m$label == "I")
+    points(m$id[idx], m$duration[idx], lwd=1.5, col="red", pch=pch[2])
+  } else {
+    idx = which(m$label == "I")
+    plot(m$id[idx], m$duration[idx], type="p", lwd=1.5, ylim=c(min(m$duration), max(m$duration)), col="red", pch=pch[2])
+  }
+
+  if(save == TRUE) { 
+    dev.off()
+  }
+    
+  return(m)
+}
+
+## chronological plot function
+plot_action_chrono <- function(m, appm, appm2, save=FALSE, context=FALSE,
+                                 path=wd, out_name="plot_action_chrono") {
+    if(save == TRUE) {
+    if(context == TRUE) {
+      out_path <- paste(path, "/out_context", sep="")
+    } else {
+      out_path <- paste(path, "/out", sep="")
+    }
+    dir.create(out_path, showWarnings=FALSE)
+    out_file <- paste(out_path, "/", out_name, ".eps", sep="")
+    postscript(file=out_file, paper="letter", horizontal=TRUE)
+  }
+
+  ## m contains 4 lists: id, energy, label, duration
+  med <- median(m$avg_energy)
+  if(med > 0)
+    #m$avg_energy <- m$avg_energy/med
+  
+  if(context == TRUE) {
+    m$id <- m$context_id
+  }
+  
+  # Convert .5s energy gathering to 1s
+  m$conv_avg_energy <- m$avg_energy
+
+  timeshift = 0
+  AddCompsUp = 0
+  if (AddCompsUp==1) {
+      ## Add each component up to composite
+      appm$app_energy <- ((appm$app_energy))*2
+      appm$app_phoneBase_energy <- ((appm$app_phoneBase_energy))*2
+      appm$app_wifiBase_energy <- ((appm$app_wifiBase_energy))*2
+      # Subsume wifiBase into wifi's energy
+      appm$app_wifi_energy <- ((appm$app_wifi_energy))*2 + appm$app_phoneBase_energy + appm$app_wifiBase_energy
+      #appm$app_wifiBase_energy <- (appm$app_wifiBase_energy)/1000 + appm$app_wifi_energy
+      appm$app_display_energy <- ((appm$app_display_energy))*2 + appm$app_wifi_energy
+      #appm$app_MT_energy <- ((appm$app_MT_energy))*2 + appm$app_display_energy
+      appm$app_cpu_energy <- ((appm$app_cpu_energy))*2 + appm$app_display_energy
+      appm$app_total <- appm$app_cpu_energy
+
+      if (appm2!=0){
+        ## Add each component up to composite
+        appm2$app_energy <- ((appm2$app_energy))*2
+        appm2$app_phoneBase_energy <- ((appm2$app_phoneBase_energy))*2
+        appm2$app_wifiBase_energy <- ((appm2$app_wifiBase_energy))*2
+        # Subsume wifiBase into wifi's energy
+        appm2$app_wifi_energy <- ((appm2$app_wifi_energy))*2 + appm2$app_phoneBase_energy + appm2$app_wifiBase_energy
+        #appm2$app_wifiBase_energy <- (appm2$app_wifiBase_energy)/1000 + appm2$app_wifi_energy
+        appm2$app_display_energy <- ((appm2$app_display_energy))*2 + appm2$app_wifi_energy
+        #appm$app_MT_energy <- ((appm2$app_MT_energy))*2 + appm2$app_display_energy
+        appm2$app_cpu_energy <- ((appm2$app_cpu_energy))*2 + appm2$app_display_energy
+        appm2$app_total <- appm2$app_cpu_energy
+      }
+  }
+  else {
+
+     appm$app_energy <- ((appm$app_energy))*2
+     appm$app_phoneBase_energy <- ((appm$app_phoneBase_energy))*2
+     appm$app_wifiBase_energy <- ((appm$app_wifiBase_energy))*2
+     # Subsume wifiBase into wifi's energy
+     appm$app_wifi_energy <- ((appm$app_wifi_energy))*2 + appm$app_wifiBase_energy
+     appm$app_display_energy <- ((appm$app_display_energy))*2
+     #appm$app_MT_energy <- ((appm$app_MT_energy))*2
+     appm$app_cpu_energy <- ((appm$app_cpu_energy))*2
+
+#    if (nrow(appm2) > 1){
+    if (appm2!=0){
+        ## Add each component up to composite
+        appm2$app_energy <- ((appm2$app_energy))*2
+        appm2$app_phoneBase_energy <- ((appm2$app_phoneBase_energy))*2
+        appm2$app_wifiBase_energy <- ((appm2$app_wifiBase_energy))*2
+        # Subsume wifiBase into wifi's energy
+        appm2$app_wifi_energy <- ((appm2$app_wifi_energy))*2
+        appm2$app_display_energy <- ((appm2$app_display_energy))*2
+        #appm2$app_MT_energy <- ((appm2$app_MT_energy))*2
+        appm2$app_cpu_energy <- ((appm2$app_cpu_energy))*2
+
+        # Align the two traces up properly
+        appm2$app_time = appm2$app_time - timeshift;
+      }
+  }
+
+  #m$avg_time <- ((m$action_start + m$action_end)/2)*2
+  m$avg_time <- m$action_start
+
+  # BAB Change ylim if normalization changes
+  #ylim=c(min(m$avg_energy), min(10, max(m$avg_energy))) 
+  ylim=c(0, max(appm$app_total))
+  #ylim=c(0, 650)
+  #xlim=c(min(m$avg_time), max(m$avg_time))
+  #boxplot(duration~id, m, main="", lwd=1.5, ylim=ylim)
+
+  #print(paste("action_start:", m$action_start, sep=" "))
+  #print(paste("action_end:", m$action_end, sep=" "))
+  #print(paste("avg_energy:", m$avg_energy, sep=" "))
+  #print(paste("appm$app_time:", appm$app_time, sep=" "))
+  #print(paste("appm$app_ATcpu_energy:", appm$app_ATcpu_energy, sep=" "))
+
+#1app_energy=app_total_energy,
+#2app_time=app_time,
+#3app_AT_energy=app_ATcpu_energy,
+#4app_MT_energy=app_MTcpu_energy,
+#5app_display_energy=app_display_energy,
+#6app_wifi_energy=app_wifi_energy,
+#7app_wifiBase_energy=app_wifi_base_energy,
+#8app_phoneBase_energy=app_phone_base_energy)
+  # PLOT Total App Energy ######################################################################
+  #print(paste("app_time:", appm$app_time, sep=" "))
+  #print(paste("app_energy:", appm$app_energy, sep=" "))
+  #par(mar=c(5,5,.1,.1))
+  par(mar=c(15,5,1,.1))
+  plot(appm$app_time, appm$app_cpu_energy, type="l", lwd=1.5, lty=2, pch=1, cex.axis=2, cex.lab=2, col="red",
+      # BAB Limit the total plot time to actions
+      #xlim=c(min(m$avg_time), max(m$avg_time)),
+      xlim=c(50, 140), 
+      ylim=c(0, 450),
+      xlab="Time (s)", ylab="Energy (mW)")
+
+  if (appm2!=0){
+    print(paste("APPM2 Not 0 !!!!!!!!!!!!!!!!!:", appm2$app_total, sep=" "))
+    lines(appm2$app_time, appm2$app_total, type="l", lwd=1.5, lty=1, ylim=ylim,  pch=19, cex=.6, col="black")
+  }
+  #lines(appm$app_time, appm$app_AT_energy, type="b", lwd=.5, lty=1, ylim=ylim,  pch=19, cex=.5,
+  #    xlim=c(min(m$avg_time), max(m$avg_time)))
+  #lines(appm$app_time, appm$app_cpu_energy, type="b", lwd=.5, lty=1, ylim=ylim,  pch=0, cex=.5, col="red",
+  #    xlim=c(min(m$avg_time), max(m$avg_time)))
+
+  # OPTIONAL Components::
+  lines(appm$app_time, appm$app_display_energy, type="b", lwd=1, lty=2, ylim=ylim,  pch=19, cex=.6, col="blue",
+      xlim=c(min(m$avg_time), max(m$avg_time)))
+  lines(appm$app_time, appm$app_wifi_energy, type="b", lwd=1, lty=2, ylim=ylim,  pch=23, cex=.6, col="orange",
+      xlim=c(min(m$avg_time), max(m$avg_time)))
+  lines(appm$app_time, appm$app_phoneBase_energy, type="l", lwd=1.5, lty=2, ylim=ylim,  pch=17, cex=.6, col="black",
+      xlim=c(min(m$avg_time), max(m$avg_time)))
+
+  # Power Legend
+  legend_labels <- c("CPU", "Display", "Wifi", "Base")
+  legend(60, 450, legend_labels, 
+         cex=1.5, pt.cex=1, lty=c(2,2,2), lwd=1.4, col=c("red", "blue", "orange", "black"), pch=c(NA, 19, 23), horiz=TRUE);
+  #legend_labels <- c("With bug", "No bug")
+  #legend(50, 850, legend_labels, 
+  #       cex=1.5, pt.cex=1, lty=c(2,1), lwd=1.4, col=c("red", "black"), pch=c(NA, NA), horiz=TRUE);
+
+  # Action Legend
+  # turn off clipping:
+  par(xpd=TRUE)
+  Action_lagend_labels <- c("1   onResume", "7   onClick", "8   onCreateOptionsMenu", "9   onOptionsItemSelected")
+  legend(58, -105, Action_lagend_labels, cex=1.5, ncol=2);
+
+  print(paste("m$avg_energy:", m$avg_energy, sep=" "))
+  #textxy(m$action_start, m$avg_energy, m$id, cex=1.5, col="#666666")
+  idx = which(m$label == "N")
+  if(length(idx) > 0) {
+    textxy(m$action_start[idx], m$avg_energy[idx], m$id[idx], cex=1.5, col="black")
+  }
+  idx = which(m$label == "I")
+  if(length(idx) > 0) {
+    #m$action_start[idx] = m$action_start[idx] - timeshift
+    m$avg_energy[idx] = 22
+    textxy(m$action_start[idx], m$avg_energy[idx], m$id[idx], cex=1.5, col="#666666")
+  }
+  #abline(v = m$action_start, col = "red", lty=1, lwd=.1)
+  #abline(v = m$action_end, col = "black", lty=2, lwd=.25)
+  #textxy(m$action_start, 100, m$id)
+
+  # BAB Change ylim if normalization changes
+  #ylim=c(min(m$avg_energy), min(10, max(m$avg_energy))) 
+  ylim=c(0, max(m$conv_avg_energy))
+  #boxplot(duration~id, m, main="", lwd=1.5, ylim=ylim)
+
+  font_size <- 1.2
+  # PLOT EACH ACTION BASED ON ITS LABEL (Normal/Illegal) #######################################
+  idx = which(m$label == "N")
+  #normal = m[idx]
+  if(length(idx) > 0) {
+    # plot normal main thread first
+    #idx = which(m$thread == "MT")
+    plot(m$avg_time[idx], m$conv_avg_energy[idx], type="l", lwd=1.5, ylim=ylim,  pch=pch[1],
+    xlab="Time (s)", ylab="Average Energy Consumption", axes=FALSE)
+    axis(side=1, at=seq(0, (max(m$avg_time)+mround(max(m$avg_time)/20,5)), by=mround(max(m$avg_time)/20,5)))
+    axis(side=2, at=seq(0, (max(m$conv_avg_energy)+1)), by=1)
+    #axis(1, at=min(m$avg_time):max(m$avg_time))
+    #axis(1, at=min(m$avg_time):max(m$avg_time))
+    textxy(m$avg_time[idx], m$conv_avg_energy[idx], m$id[idx], cex=font_size)
+
+    idx = which(m$label == "I")
+    #ill = m[idx]
+    #idx = which(ill$thread == "MT")
+    lines(m$avg_time[idx], m$conv_avg_energy[idx], type="l", lwd=1.5, ylim=ylim,  pch=pch[1],
+        xlab="Time (s)", ylab="Average Energy Consumption", axes=FALSE)
+
+    #print(paste("action_start:", m$action_start[idx], sep=" "))
+    #print(paste("avg_energy:", m$avg_energy[idx], sep=" "))
+    if (length(m$avg_time[idx]) > 0) {
+        plot(m$avg_time[idx], m$conv_avg_energy[idx], type="l", lwd=1.5, ylim=ylim, col="red", pch=pch[1],
+        xlab="Time (s)", ylab="Average Energy Consumption", axes=FALSE)
+        axis(side=1, at=seq(0, (max(m$avg_time)+mround(max(m$avg_time)/20,5)), by=mround(max(m $avg_time)/20,5)))
+        axis(side=2, at=seq(0, (max(m$conv_avg_energy)+1)), by=1)
+        textxy(m$avg_time[idx], m$conv_avg_energy[idx], m$id[idx], cex=font_size)
+        #legend(0, ylim, c("No Bug","Bug"), col=c("black","red"));
+
+        idx = which(m$label == "I" && m$thread == "AT")
+        lines(m$avg_time[idx], m$conv_avg_energy[idx], type="l", lwd=1.5, ylim=ylim,  pch=pch[1],
+            xlab="Time (s)", ylab="Average Energy Consumption", axes=FALSE)
+    }
+
+  } else {
+    idx = which(m$label == "I")
+    #print(paste("action_start:", m$action_start[idx], sep=" "))
+    #print(paste("avg_energy:", m$avg_energy[idx], sep=" "))
+    print(paste("MAX_TIME:", max(m$avg_time)+mround(max(m$avg_time)/20,5), sep=" "))
+    print(paste("MAX_ENERGY:", max(m$conv_avg_energy)))
+    plot(m$avg_time[idx], m$conv_avg_energy[idx], type="l", lwd=1.5, ylim=ylim, col="red", pch=pch[2],
+    xlab="Time (s)", ylab="Average Energy Consumption", axes=FALSE)
+    axis(side=1, at=seq(0, (max(m$avg_time)+mround(max(m$avg_time)/20,5)), by=mround(max(m$avg_time)/20,5)))
+    axis(side=2, at=seq(0, (max(m$conv_avg_energy)+1)), by=1)
+#axis(side=2, at=seq(0, max(m$avg_energy), by=mround(max(m$avg_energy)/10,10^ceiling(log10(max(m$avg_energy)/10)))))
+    #axis(1, at=min(m$avg_time):max(m$avg_time))
+    textxy(m$avg_time[idx], m$conv_avg_energy[idx], m$id[idx], cex=font_size)
+  }
+
+  if(save == TRUE) { 
+    dev.off()
+  }
+    
+  return(m)
+}
+
+## plot function for actions
+plot_actions <- function() {
+  ## retrieve action files
+  data_path <- paste(wd, "/actions", sep="")
+  action_files <- list.files(path=data_path, pattern="^action_", 
+                             full.names=TRUE, recursive=FALSE)
+  action_avg_energy <- c()
+  ret <- apply(as.array(action_files), 1, 
+               function(x) {
+                 load(x)
+                 ## use average energy consumption instead of the absolute total value
+                 ## By doing this, we can remove the effect caused by the length of the 
+                 ## action, and have two separate attributes: average energy & duration.
+                 ## The effect of the duration is: small power draw * long duration might
+                 ## have the same value of large power draw * short duration. 
+                 
+                 ## ignore records with duration 0 if they happened rarely
+                 effective_idx <- c(1:length(total_time))
+                 if(length(which(total_time==0)) < length(total_time)/4) {
+                   effective_idx <- which(total_time>0)
+                 }
+                
+                 total_time_s <- total_time/1000
+                 avg_energy <- total_energy/total_time_s
+                 avg_energy[which(is.na(avg_energy))] <- 0
+
+                 #m <- median(avg_energy)
+                 ##m <- mean(avg_energy)
+                 #if(m > 0)
+                 #  avg_energy <- avg_energy/m
+
+                 context_id <- paste(prev_id, action_id, next_id, sep="_")
+                 energy_local <- cbind(action_id, avg_energy[effective_idx], 
+                                       action_label[effective_idx], total_time[effective_idx], 
+                                       log_name[effective_idx], context_id[effective_idx],
+                                       total_action_start[effective_idx], 
+                                       total_action_end[effective_idx])
+
+                 if (action_id %in% c(1,2,3,4,5,6,7,8,9,17,18,20,21,22,23,24,25,26,27,29)) {
+                     action_avg_energy <<- rbind(action_avg_energy, energy_local)
+                 }
+
+                 ## plot energy dist in an action
+                 action_energy_local <- data.frame(id=as.factor(energy_local[,1]), 
+                                                   avg_energy=as.numeric(energy_local[,2]),
+                                                   label=energy_local[,3], 
+                                                   duration=as.numeric(energy_local[,4]),
+                                                   context_id=as.factor(energy_local[,6]),
+                                                   action_start=as.numeric(energy_local[,7]), 
+                                                   action_end=as.numeric(energy_local[,8]))
+                
+                 out_name <- strsplit(basename(x), split=".Rdata")[[1]]
+                 #plot_action_energy(action_energy_local, save=TRUE, 
+                 #                   path=data_path, out_name=paste(out_name, "energy", sep="_"))
+                 #plot_action_duration(action_energy_local, save=TRUE, 
+                 #                     path=data_path, out_name=paste(out_name, "duration", sep="_"))
+               })
+
+  action_energy <- data.frame(id=as.factor(action_avg_energy[,1]), 
+                              avg_energy=as.numeric(action_avg_energy[,2]),
+                              label=action_avg_energy[,3],
+                              duration=as.numeric(action_avg_energy[,4]),
+                              context_id=as.factor(action_avg_energy[,6]),
+                              action_start=as.numeric(action_avg_energy[,7]), 
+                              action_end=as.numeric(action_avg_energy[,8]))
+
+  sortedm <- action_energy[order(action_energy[,7]),]
+
+  TotEn_file <- paste(wd, "/TotalEnergy.Rdata", sep="")
+  load(TotEn_file)
+
+  Tot_app_energy <- data.frame(app_energy=app_total_energy,
+                           app_time=app_time,
+                           app_cpu_energy=app_cpu_energy,
+                           #app_MT_energy=app_MTcpu_energy,
+                           app_display_energy=app_display_energy,
+                           app_wifi_energy=app_wifi_energy,
+                           app_wifiBase_energy=app_wifi_base_energy,
+                           app_phoneBase_energy=app_phone_base_energy)
+
+  sappm <- Tot_app_energy[order(Tot_app_energy[,2]),]
+  #print(paste("sappm:", sappm, sep=" "))
+
+  TotEn2_file <- paste(wd, "/TotalEnergy2.Rdata", sep="")
+  if (file.exists(TotEn2_file)) {
+    load(TotEn2_file)
+
+    Tot_app_energy2 <- data.frame(app_energy=app_total_energy,
+                           app_time=app_time,
+                           app_cpu_energy=app_cpu_energy,
+                           #app_MT_energy=app_MTcpu_energy,
+                           app_display_energy=app_display_energy,
+                           app_wifi_energy=app_wifi_energy,
+                           app_wifiBase_energy=app_wifi_base_energy,
+                           app_phoneBase_energy=app_phone_base_energy)
+
+    sappm2 <- Tot_app_energy2[order(Tot_app_energy2[,2]),]
+    #print(paste("sappm2:", sappm2, sep=" "))
+
+    plot_action_chrono(sortedm, sappm, sappm2, save=TRUE, path=data_path)
+  }
+  else {
+
+      plot_action_energy(action_energy, save=TRUE, path=data_path)
+      plot_action_duration(action_energy, save=TRUE, path=data_path)
+      plot_action_chrono(sortedm, sappm, 0, save=TRUE, path=data_path)
+
+      plot_action_energy(action_energy, save=TRUE, path=data_path, context=TRUE)
+      plot_action_duration(action_energy, save=TRUE, path=data_path, context=TRUE)
+  }
+  
+  return(ret)
+}
+
+
+## plot function for sequences
+plot_sequences <- function() {
+      print("plot_sequences")
+  ## retrieve sequence files
+  data_path <- paste(wd, "/sequences", sep="")
+  seq_files <- list.files(path=data_path, pattern="seq_", 
+                          full.names=TRUE, recursive=FALSE)
+  sequence_energy <- c()
+  ret <- apply(as.array(seq_files), 1, 
+               function(x) {
+                 load(x)
+                 #if(length(total_energy$tot_energy) > 0) {
+
+                   energy_local <- cbind(total_energy$seq_id,
+                                         total_energy$tot_energy, 
+                                         total_energy$tot_time, 
+                                         total_energy$seq_label)
+                  
+
+                    sequence_energy <<- rbind(sequence_energy, energy_local)
+                   
+                    
+                 #}
+
+                 #dev.off()
+               }
+   )
+  
+  action_energy <- data.frame(id=sequence_energy[,1],
+                              energy=sequence_energy[,2],
+                              time=sequence_energy[,3],
+                              label=sequence_energy[,4])
+
+    
+    #args <- unlist(total_energy$log_name)
+
+    ## plot
+    out_path <- paste(data_path, "/out", sep="")
+    dir.create(out_path, showWarnings=FALSE)
+    out_file <- paste(out_path, "/", 
+                     strsplit(basename(x), split=".Rdata")[[1]], ".eps", sep="")
+    postscript(file=out_file, paper="letter", horizontal=TRUE)
+
+    ## barplot
+    #h <- array(unlist(total_energy$seq_energy), 
+    #           dim=c(seq_len, length(total_energy$seq_energy)))
+    #ylim <- c(0, max(colSums(h)))
+    #m <- barplot(h, ylim=ylim)
+    #text(m, par("usr")[3]-1, srt=60, adj=1,
+    #     labels=args, xpd=TRUE, cex=0.8)
+
+    ## segments 
+    #ylim <- c(0, max(unlist(total_energy$seq_energy)))
+    ylim <- unlist(total_energy$tot_energy)/unlist(total_energy$tot_time)
+    ylim[which(is.na(ylim))] = 0
+    ylim <- c(0, 1)
+    plot(c(1:length(total_energy$tot_energy[[1]])), 
+        total_energy$tot_energy[[1]], type="n", ylim=ylim)
+    for(i in 1:length(total_energy$tot_energy)) {
+     illegal_file <- "ill"
+     col <- ifelse(grepl(illegal_file, total_energy$i[[i]]), "red", "black")
+     #energy <- total_energy$seq_energy[[i]]
+     ## average energy consumption per action during a frequent sequence
+     #energy <- total_energy$tot_energy[[i]]/total_energy$tot_time[[i]]
+     energy <- total_energy$tot_energy[[i]]/total_energy$tot_time[[i]]
+     energy[which(is.na(energy))] = 0
+     points(c(1:length(energy)), energy,
+            pch=pch[1], lwd=2.0, col=col)
+     if(length(energy) > 1) {
+       h <- embed(energy, dimension=2)
+       h_col <- embed(col, dimension=2)
+       col <- ifelse(h_col[,1]=="red" & h_col[,1]==h_col[,2], "red", "black")
+       segments(c(1:length(h[,1])), h[,2], 
+                c(1:length(h[,1]))+1, h[,1], 
+                lty=lty[i%%length(lty)], lwd=2.0, col=col)
+                    
+
+  return(ret)
+}
+
+## plot funciton for non-interaction energy
+plot_non_int <- function() {
+  data_path <- wd
+  out_path <- paste(data_path, "/out", sep="")
+  dir.create(out_path, showWarnings=FALSE)
+  out_file <- paste(out_path, "/plot_non_int.eps", sep="")
+  postscript(file=out_file, paper="letter", horizontal=TRUE)
+
+  non_int_file <- paste(data_path, "/non_interaction.Rdata", sep="")
+  load(non_int_file)
+
+  ## lead_action_desc, duration, energy, display_use, label
+  m <- data.frame(lead_action_desc, duration, energy, display_use, label)
+  m$energy_avg <- m$energy/m$duration
+
+  ylim=c(min(m$energy/m$duration), min(10, max(m$energy/m$duration))) 
+
+  idx_n_disp_1 <- which(m$label=="N" & m$display_use==1)
+  idx_n_disp_0 <- which(m$label=="N" & m$display_use==0)
+  idx_i_disp_1 <- which(m$label=="I" & m$display_use==1)
+  idx_i_disp_0 <- which(m$label=="I" & m$display_use==0)
+  plot(as.factor(m$lead_action_desc[idx_n_disp_1]), m$energy_avg[idx_n_disp_1],
+       type="p", lwd=1.5, ylim=ylim, pch=pch[1])
+  points(as.factor(m$lead_action_desc[idx_n_disp_0]), m$energy_avg[idx_n_disp_0],
+         lwd="1.5", col="blue", pch=pch[2])
+  points(as.factor(m$lead_action_desc[idx_i_disp_1]), m$energy_avg[idx_i_disp_1],
+         lwd="1.5", col="red", pch=pch[3])
+  points(as.factor(m$lead_action_desc[idx_i_disp_0]), m$energy_avg[idx_i_disp_0],
+         lwd="1.5", col="#FF6600", pch=pch[4])
+
+  dev.off()
+  return(m)
+}
+
+
+## plot clustering results 
+plot_cluster <- function(m, save=FALSE,
+                         path=wd, out_name="plot_action_cluster", ylab="") {
+  if(save == TRUE) {
+    out_path <- paste(path, "/out", sep="")
+    dir.create(out_path, showWarnings=FALSE)
+    out_file <- paste(out_path, "/", out_name, ".eps", sep="")
+    postscript(file=out_file, paper="letter", horizontal=TRUE)
+  }
+
+  ## m contains 3 clummns: action, result, data size
+  x <- strsplit(m[,1], "_")
+  args <- unlist(lapply(x, function(x) x[2]))
+
+  h <- as.numeric(m[,2])
+  idx <- which(!is.na(h))
+  
+  barplot(h[idx], lwd=1.5, cex.lab=1.2, cex.axis=1.2, 
+          names.arg=args[idx], cex.names=0.6, xlab="Action Unit", ylab=ylab)
+
+
+  if(save == TRUE) { 
+    dev.off()
+  }
+    
+  return(m)
+}
+
+
+
+## end of plotting ############################################################
+if(plot_opt == "0") {
+  plot_non_int()
+} else if(plot_opt == "1") {
+  plot_actions()
+} else if(plot_opt == "2") {
+  plot_sequences()
+} else if(plot_opt == "3") {
+#  plot_non_int()
+#  plot_actions()
+#  plot_sequences()
+} else {
+  print("Error: unknow options")
+}
+
+setwd(home_dir)
+
+

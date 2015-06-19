@@ -1,0 +1,137 @@
+.class Lcom/twidroid/activity/UberSocialBaseActivity$9;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/twidroid/activity/UberSocialBaseActivity;->a(Ljava/lang/String;Z)V
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Ljava/lang/String;
+
+.field final synthetic b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+
+# direct methods
+.method constructor <init>(Lcom/twidroid/activity/UberSocialBaseActivity;Ljava/lang/String;)V
+    .registers 3
+
+    iput-object p1, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+    iput-object p2, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->a:Ljava/lang/String;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .registers 5
+
+    :try_start_0
+    iget-object v0, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+    iget-object v0, v0, Lcom/twidroid/activity/UberSocialBaseActivity;->J:Lcom/twidroid/UberSocialApplication;
+
+    invoke-virtual {v0}, Lcom/twidroid/UberSocialApplication;->g()Lcom/twidroid/b/a/b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/twidroid/b/a/b;->x()Lcom/twidroid/net/a/c/c;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->a:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Lcom/twidroid/net/a/c/c;->b(Ljava/lang/String;)Lcom/twidroid/model/twitter/User;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+    iget-object v1, v1, Lcom/twidroid/activity/UberSocialBaseActivity;->X:Landroid/os/Handler;
+
+    new-instance v2, Lcom/twidroid/activity/UberSocialBaseActivity$9$1;
+
+    invoke-direct {v2, p0, v0}, Lcom/twidroid/activity/UberSocialBaseActivity$9$1;-><init>(Lcom/twidroid/activity/UberSocialBaseActivity$9;Lcom/twidroid/model/twitter/User;)V
+
+    invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+    :try_end_1e
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_1e} :catch_1f
+
+    :goto_1e
+    return-void
+
+    :catch_1f
+    move-exception v0
+
+    const-string v1, "BeFriend EXEPTION"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, ": "
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v0}, Ljava/lang/Exception;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Lcom/ubermedia/b/m;->e(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v1, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+    iget-object v2, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+    const v3, 0x7f0c0035
+
+    invoke-virtual {v2, v3}, Lcom/twidroid/activity/UberSocialBaseActivity;->e(I)Ljava/lang/CharSequence;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    iput-object v2, v1, Lcom/twidroid/activity/UberSocialBaseActivity;->U:Ljava/lang/String;
+
+    iget-object v1, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+    iget-object v1, v1, Lcom/twidroid/activity/UberSocialBaseActivity;->X:Landroid/os/Handler;
+
+    new-instance v2, Lcom/twidroid/activity/UberSocialBaseActivity$9$2;
+
+    invoke-direct {v2, p0}, Lcom/twidroid/activity/UberSocialBaseActivity$9$2;-><init>(Lcom/twidroid/activity/UberSocialBaseActivity$9;)V
+
+    invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    iget-object v1, p0, Lcom/twidroid/activity/UberSocialBaseActivity$9;->b:Lcom/twidroid/activity/UberSocialBaseActivity;
+
+    const/4 v2, 0x0
+
+    iput-boolean v2, v1, Lcom/twidroid/activity/UberSocialBaseActivity;->T:Z
+
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+    goto :goto_1e
+.end method

@@ -1,0 +1,88 @@
+.class final Lcom/spotify/mobile/android/ui/menus/d$6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/MenuItem$OnMenuItemClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/spotify/mobile/android/ui/menus/d;->a(Landroid/content/Context;Landroid/view/ContextMenu;Lcom/spotify/mobile/android/util/ViewUri$Verified;Lcom/spotify/mobile/android/util/ViewUri$SubView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Landroid/content/Context;
+
+.field final synthetic b:Lcom/spotify/mobile/android/util/ViewUri$Verified;
+
+.field final synthetic c:Lcom/spotify/mobile/android/util/ViewUri$SubView;
+
+.field final synthetic d:Ljava/lang/String;
+
+.field final synthetic e:Ljava/lang/String;
+
+.field final synthetic f:Ljava/lang/String;
+
+.field final synthetic g:Lcom/spotify/mobile/android/ui/menus/d;
+
+
+# direct methods
+.method constructor <init>(Lcom/spotify/mobile/android/ui/menus/d;Landroid/content/Context;Lcom/spotify/mobile/android/util/ViewUri$Verified;Lcom/spotify/mobile/android/util/ViewUri$SubView;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .registers 8
+
+    iput-object p1, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->g:Lcom/spotify/mobile/android/ui/menus/d;
+
+    iput-object p2, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->a:Landroid/content/Context;
+
+    iput-object p3, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->b:Lcom/spotify/mobile/android/util/ViewUri$Verified;
+
+    iput-object p4, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->c:Lcom/spotify/mobile/android/util/ViewUri$SubView;
+
+    iput-object p5, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->d:Ljava/lang/String;
+
+    iput-object p6, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->e:Ljava/lang/String;
+
+    iput-object p7, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->f:Ljava/lang/String;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onMenuItemClick(Landroid/view/MenuItem;)Z
+    .registers 7
+
+    iget-object v0, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->g:Lcom/spotify/mobile/android/ui/menus/d;
+
+    iget-object v1, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->a:Landroid/content/Context;
+
+    iget-object v2, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->b:Lcom/spotify/mobile/android/util/ViewUri$Verified;
+
+    iget-object v3, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->c:Lcom/spotify/mobile/android/util/ViewUri$SubView;
+
+    sget-object v4, Lcom/spotify/mobile/android/util/ClientEvent$Event;->q:Lcom/spotify/mobile/android/util/ClientEvent$Event;
+
+    invoke-static {v0, v1, v2, v3, v4}, Lcom/spotify/mobile/android/ui/menus/d;->a(Lcom/spotify/mobile/android/ui/menus/d;Landroid/content/Context;Lcom/spotify/mobile/android/util/ViewUri$Verified;Lcom/spotify/mobile/android/util/ViewUri$SubView;Lcom/spotify/mobile/android/util/ClientEvent$Event;)V
+
+    iget-object v0, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->g:Lcom/spotify/mobile/android/ui/menus/d;
+
+    invoke-static {v0}, Lcom/spotify/mobile/android/ui/menus/d;->c(Lcom/spotify/mobile/android/ui/menus/d;)Lcom/spotify/mobile/android/ui/actions/a;
+
+    iget-object v0, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->a:Landroid/content/Context;
+
+    iget-object v1, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->d:Ljava/lang/String;
+
+    iget-object v2, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->e:Ljava/lang/String;
+
+    iget-object v3, p0, Lcom/spotify/mobile/android/ui/menus/d$6;->f:Ljava/lang/String;
+
+    invoke-static {v0, v1, v2, v3}, Lcom/spotify/mobile/android/ui/actions/a;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    const/4 v0, 0x1
+
+    return v0
+.end method

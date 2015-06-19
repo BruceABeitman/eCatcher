@@ -1,0 +1,529 @@
+
+R version 2.14.1 (2011-12-22)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ## This file is supposed to be called from batch_util_mapping.script with useArgs set to TRUE
+> ## To execute this file inside R, set useArgs to FALSE
+> rm(list=ls())
+> useArgs <- TRUE 
+> 
+> ## args: package_name, data_dir, targeted_log
+> args <- commandArgs(trailingOnly = TRUE)
+> home_dir <- getwd()
+> 
+> wd <- c()
+> package_name <- c()
+> targeted_log <- c()
+> context <- FALSE
+> if(useArgs == TRUE) {
++   wd <- args[2]
++   package_name <- args[1]
++   targeted_log <- args[3]
++   if(args[4] == "1")
++     context <- TRUE
++ } else {
++   print("input data folder")
++   wd <- scan(what=character(0), nmax=1)
++   print("Input targeted package")
++   package_name <- scan(what=character(0), nmax=1)
++   print("Input targeted log (*_util.log w/o _util.log)")
++   targeted_log <- scan(what=character(0), nmax=1)
++   print("Record context info? 1: Yes, 2: No")
++   if(scan(what=character(0), nmax=1) == "1")
++     context <- TRUE
++ }
+> 
+> ## set up working directory
+> wd <- paste(home_dir, "/", wd, sep="")
+> setwd(wd)
+> 
+> print(paste("Data folder:", wd, sep=" "))
+[1] "Data folder: /home/beitman/Projects/MobEBug/OrigMobEBug/project_code/energy_analysis/jychen-activity-mapper-17f2c895d909/log"
+> print(paste("Targeted package:", package_name, sep=" "))
+[1] "Targeted package: com.fsck.k9"
+> print(paste("Targeted log:", targeted_log, sep=" "))
+[1] "Targeted log: PowerTrace315970878179_normal"
+> print(paste("Record context info:", context, sep=" "))
+[1] "Record context info: FALSE"
+> 
+> ##== generate app utilization log =============================================
+> ##=============================================================================
+> in_util <- paste(targeted_log, "_util.log.util", sep="")
+> app_util_raw <- read.table(in_util, header=TRUE, stringsAsFactors=FALSE)
+> 
+> ## elapsed time for each record (msec) 
+> up_time_diff <- diff(app_util_raw$up_time, lag=1)
+> up_time_diff[length(up_time_diff)+1] <- 0
+> 
+> ## Calculate component utilization per ~502ms
+> ## up_time_diff should be all about 500ms
+> 
+> ## cpu utilization
+> work_time_diff <- diff(app_util_raw$cpu_app, lag=1)
+> total_time_diff <- diff(app_util_raw$cpu_total, lag=1)
+> cpu_frac <- work_time_diff/total_time_diff
+> cpu_frac[length(cpu_frac)+1] <- 0
+> ## cpu_factor = cpu_freq * utilization * time in ms
+> cpu_factor <- app_util_raw$cpu_freq * cpu_frac * up_time_diff
+> 
+> ## display_factor = display_on (1/0) * brightness * time in ms
+> display_factor <- app_util_raw$display_use * app_util_raw$display_on * 
++                   app_util_raw$brightness * up_time_diff
+> 
+> ## wifi # of data received in KB
+> wifi_rx_diff <- diff(app_util_raw$wifi_rx, lag=1)/1000
+> wifi_rx_diff[length(wifi_rx_diff)+1] <- 0
+> ## wifi # of data sent in KB
+> wifi_tx_diff <- diff(app_util_raw$wifi_tx, lag=1)/1000
+> wifi_tx_diff[length(wifi_tx_diff)+1] <- 0
+> 
+> ## total data transmision on wifi
+> wifi_total_diff <- wifi_rx_diff + wifi_tx_diff
+> 
+> ## wifi_base = wifi_on (1/0) * time in ms
+> wifi_base <- app_util_raw$wifi_on * up_time_diff
+> 
+> 
+> ## app utilization raw matrix
+> app_util_raw <- cbind(app_util_raw, up_time_diff, cpu_frac, cpu_factor, 
++                       display_factor, wifi_base, wifi_total_diff, 
++                       wifi_rx_diff, wifi_tx_diff)
+> #app_util_raw <- data.frame(app_util_raw)
+> app_util_raw <- app_util_raw[1:(length(app_util_raw$up_time)-1),]
+> 
+> 
+> ## To further estimate the energy consumption of an app, we need to
+> ## calculate the average of each component utilization per 10 seconds,
+> ## and then use the pre-built per-phone power model for the estimation.
+> ##
+> ## In our power model, we keep wifi and phone base consumption shared
+> ## with all processes/apps, and therefore, simply the sum of estimated 
+> ## energy consumed by all apps will be larger than the whole phone 
+> ## energy consumption estimated. Guess we can estimate the energy 
+> ## specifically used by an app by excluding wifi and phone base energy 
+> ## consumption.
+> 
+> app_util_est <- data.frame(up_time=app_util_raw$up_time, 
++                            time_base=app_util_raw$up_time_diff,
++                            display_use=app_util_raw$display_use)
+> 
+> ## todo: need to check if it's 500ms between records
+> interval <- 20 # 10 seconds
+> num_section <- length(app_util_raw$up_time)%/%interval
+> if(num_section >= 1) {
++   cpu_rate <- apply(array(1:num_section), 1,
++     function(x)
++       sum(app_util_raw$cpu_factor[(1+interval*(x-1)):(interval*x)])/
++       sum(app_util_raw$up_time_diff[(1+interval*(x-1)):(interval*x)]))
++   
++   display_rate <- apply(array(1:num_section), 1,
++     function(x)
++       sum(app_util_raw$display_factor[(1+interval*(x-1)):(interval*x)])/
++       sum(app_util_raw$up_time_diff[(1+interval*(x-1)):(interval*x)]))
++   
++   wifi_rate <- apply(array(1:num_section), 1,
++     function(x)
++       sum(app_util_raw$wifi_total_diff[(1+interval*(x-1)):(interval*x)])/
++       sum(app_util_raw$up_time_diff[(1+interval*(x-1)):(interval*x)]))
++   
++   wifi_base_rate <- apply(array(1:num_section), 1,
++     function(x)
++       sum(app_util_raw$wifi_base[(1+interval*(x-1)):(interval*x)])/
++       sum(app_util_raw$up_time_diff[(1+interval*(x-1)):(interval*x)]))
++   
++   #mws_rate <- apply(array(1:num_section), 1,
++   #  function(x)
++   #    sum(app_util_raw$mws[(1+interval*(x-1)):(interval*x)])/
++   #    sum(app_util_raw$up_time_diff[(1+interval*(x-1)):(interval*x)]))
++   
++   app_util_est$cpu <- 0
++   app_util_est$display <- 0
++   app_util_est$wifi <- 0
++   app_util_est$wifi_base <- 0
++   #app_util_est$mws <- 0
++   for(x in 1:num_section) {
++     app_util_est$cpu[(1+interval*(x-1)):(interval*x)] <- cpu_rate[x]
++     app_util_est$display[(1+interval*(x-1)):(interval*x)] <- display_rate[x]
++     app_util_est$wifi[(1+interval*(x-1)):(interval*x)] <- wifi_rate[x]
++     app_util_est$wifi_base[(1+interval*(x-1)):(interval*x)] <- wifi_base_rate[x]
++     #app_util_est$mws[(1+interval*(x-1)):(interval*x)] <- mws_rate[x]
++   }
++ 
++   if(length(app_util_raw$up_time)%%interval < 16) {
++     ## discard the last few data because of the length being too short
++     app_util_est <- app_util_est[1:(num_section*interval),]
++   } else {
++     section_begin <- (1 + num_section * interval)
++     section_end <- length(app_util_raw$up_time)
++     app_util_est$cpu[section_begin:section_end] <- 
++                       sum(app_util_raw$cpu_factor[section_begin:section_end])/
++                       sum(app_util_raw$up_time_diff[section_begin:section_end])
++     
++     app_util_est$display[section_begin:section_end] <- 
++                       sum(app_util_raw$display_factor[section_begin:section_end])/
++                       sum(app_util_raw$up_time_diff[section_begin:section_end])
++     
++     app_util_est$wifi[section_begin:section_end] <- 
++                       sum(app_util_raw$wifi_total_diff[section_begin:section_end])/
++                       sum(app_util_raw$up_time_diff[section_begin:section_end])
++     
++     app_util_est$wifi_base[section_begin:section_end] <- 
++                       sum(app_util_raw$wifi_base[section_begin:section_end])/
++                       sum(app_util_raw$up_time_diff[section_begin:section_end])
++     
++     #app_util_est$mws[section_begin:section_end] <- 
++     #                  sum(app_util_raw$mws[section_begin:section_end])/
++     #                  sum(app_util_raw$up_time_diff[section_begin:section_end])
++     
++   }
++ 
++   ## apply the average utilization to each time period
++   app_util_est$cpu <- app_util_est$cpu*app_util_est$time_base
++   app_util_est$display <- app_util_est$display*app_util_est$time_base
++   app_util_est$wifi <- app_util_est$wifi*app_util_est$time_base
++   app_util_est$wifi_base <- app_util_est$wifi_base*app_util_est$time_base
++   #app_util_est$mws <- app_util_est$mws*app_util_est$time_base
++ } else {
++   ## log length is less than one section (10 sec)
++   app_util_est$cpu <- 
++       (sum(app_util_raw$cpu_factor)/sum(app_util_raw$up_time_diff))*app_util_raw$up_time_diff
++   app_util_est$display <- 
++       (sum(app_util_raw$display_factor)/sum(app_util_raw$up_time_diff))*app_util_raw$up_time_diff
++   app_util_est$wifi <- 
++       (sum(app_util_raw$wifi_total_diff)/sum(app_util_raw$up_time_diff))*app_util_raw$up_time_diff 
++   app_util_est$wifi_base <- 
++       (sum(app_util_raw$wifi_base)/sum(app_util_raw$up_time_diff))*app_util_raw$up_time_diff
++   #app_util_est$mws <- 
++   #    (sum(app_util_raw$mws)/sum(app_util_raw$up_time_diff))*app_util_raw$up_time_diff
++ }
+> 
+> 
+> ## save object data
+> dir.create(package_name)
+> print(paste("Save util info: ", package_name, "/", targeted_log, "_util.Rdata", sep=""))
+[1] "Save util info: com.fsck.k9/PowerTrace315970878179_normal_util.Rdata"
+> save(app_util_raw, app_util_est, file=paste(package_name, "/", targeted_log, "_util.Rdata", sep=""))
+> 
+> 
+> ##== get chronological action log =============================================
+> ##=============================================================================
+> ## read app log file (modified)
+> #print("input app log file name (xxx.log w/o .log)")
+> #log_name <- scan(what=character(0), nmax=1)
+> 
+> in_log <- paste(targeted_log, "_user.log.new", sep="")
+> print(paste("Read app log file: ", in_log, sep=""))
+[1] "Read app log file: PowerTrace315970878179_normal_user.log.new"
+> app_log <- read.table(in_log, col.names=c("up_time", "action"), stringsAsFactors=FALSE)
+> 
+> ## elapsed time for each record (msec) 
+> up_time_diff <- diff(app_log$up_time, lag=1)
+> up_time_diff[length(up_time_diff)+1] <- 0
+> app_log$up_time_diff <- up_time_diff
+> 
+> print(paste("app_log$up_time|||diff: ", app_log$up_time, "|||", app_log$up_time_diff, sep=""))
+ [1] "app_log$up_time|||diff: 2295122|||1"     
+ [2] "app_log$up_time|||diff: 2295123|||114"   
+ [3] "app_log$up_time|||diff: 2295237|||0"     
+ [4] "app_log$up_time|||diff: 2295237|||398502"
+ [5] "app_log$up_time|||diff: 2693739|||1"     
+ [6] "app_log$up_time|||diff: 2693740|||7"     
+ [7] "app_log$up_time|||diff: 2693747|||118"   
+ [8] "app_log$up_time|||diff: 2693865|||7661"  
+ [9] "app_log$up_time|||diff: 2701526|||0"     
+[10] "app_log$up_time|||diff: 2701526|||14"    
+[11] "app_log$up_time|||diff: 2701540|||2"     
+[12] "app_log$up_time|||diff: 2701542|||53"    
+[13] "app_log$up_time|||diff: 2701595|||6"     
+[14] "app_log$up_time|||diff: 2701601|||11"    
+[15] "app_log$up_time|||diff: 2701612|||4"     
+[16] "app_log$up_time|||diff: 2701616|||135"   
+[17] "app_log$up_time|||diff: 2701751|||60"    
+[18] "app_log$up_time|||diff: 2701811|||1"     
+[19] "app_log$up_time|||diff: 2701812|||1"     
+[20] "app_log$up_time|||diff: 2701813|||4"     
+[21] "app_log$up_time|||diff: 2701817|||0"     
+[22] "app_log$up_time|||diff: 2701817|||28"    
+[23] "app_log$up_time|||diff: 2701845|||0"     
+[24] "app_log$up_time|||diff: 2701845|||3"     
+[25] "app_log$up_time|||diff: 2701848|||45"    
+[26] "app_log$up_time|||diff: 2701893|||0"     
+[27] "app_log$up_time|||diff: 2701893|||6"     
+[28] "app_log$up_time|||diff: 2701899|||3"     
+[29] "app_log$up_time|||diff: 2701902|||0"     
+[30] "app_log$up_time|||diff: 2701902|||914"   
+[31] "app_log$up_time|||diff: 2702816|||17"    
+[32] "app_log$up_time|||diff: 2702833|||1495"  
+[33] "app_log$up_time|||diff: 2704328|||41"    
+[34] "app_log$up_time|||diff: 2704369|||993"   
+[35] "app_log$up_time|||diff: 2705362|||3"     
+[36] "app_log$up_time|||diff: 2705365|||5"     
+[37] "app_log$up_time|||diff: 2705370|||62"    
+[38] "app_log$up_time|||diff: 2705432|||1278"  
+[39] "app_log$up_time|||diff: 2706710|||2"     
+[40] "app_log$up_time|||diff: 2706712|||0"     
+[41] "app_log$up_time|||diff: 2706712|||1"     
+[42] "app_log$up_time|||diff: 2706713|||170748"
+[43] "app_log$up_time|||diff: 2877461|||1"     
+[44] "app_log$up_time|||diff: 2877462|||5"     
+[45] "app_log$up_time|||diff: 2877467|||170"   
+[46] "app_log$up_time|||diff: 2877637|||27431" 
+[47] "app_log$up_time|||diff: 2905068|||0"     
+[48] "app_log$up_time|||diff: 2905068|||11"    
+[49] "app_log$up_time|||diff: 2905079|||1"     
+[50] "app_log$up_time|||diff: 2905080|||28"    
+[51] "app_log$up_time|||diff: 2905108|||1"     
+[52] "app_log$up_time|||diff: 2905109|||27"    
+[53] "app_log$up_time|||diff: 2905136|||1"     
+[54] "app_log$up_time|||diff: 2905137|||27"    
+[55] "app_log$up_time|||diff: 2905164|||0"     
+[56] "app_log$up_time|||diff: 2905164|||67"    
+[57] "app_log$up_time|||diff: 2905231|||0"     
+[58] "app_log$up_time|||diff: 2905231|||11"    
+[59] "app_log$up_time|||diff: 2905242|||1"     
+[60] "app_log$up_time|||diff: 2905243|||133"   
+[61] "app_log$up_time|||diff: 2905376|||27"    
+[62] "app_log$up_time|||diff: 2905403|||2"     
+[63] "app_log$up_time|||diff: 2905405|||2"     
+[64] "app_log$up_time|||diff: 2905407|||2"     
+[65] "app_log$up_time|||diff: 2905409|||5"     
+[66] "app_log$up_time|||diff: 2905414|||34"    
+[67] "app_log$up_time|||diff: 2905448|||0"     
+[68] "app_log$up_time|||diff: 2905448|||3"     
+[69] "app_log$up_time|||diff: 2905451|||89"    
+[70] "app_log$up_time|||diff: 2905540|||1"     
+[71] "app_log$up_time|||diff: 2905541|||0"     
+[72] "app_log$up_time|||diff: 2905541|||2"     
+[73] "app_log$up_time|||diff: 2905543|||6"     
+[74] "app_log$up_time|||diff: 2905549|||4469"  
+[75] "app_log$up_time|||diff: 2910018|||19"    
+[76] "app_log$up_time|||diff: 2910037|||5059"  
+[77] "app_log$up_time|||diff: 2915096|||35"    
+[78] "app_log$up_time|||diff: 2915131|||4742"  
+[79] "app_log$up_time|||diff: 2919873|||1"     
+[80] "app_log$up_time|||diff: 2919874|||12"    
+[81] "app_log$up_time|||diff: 2919886|||46"    
+[82] "app_log$up_time|||diff: 2919932|||10246" 
+[83] "app_log$up_time|||diff: 2930178|||1"     
+[84] "app_log$up_time|||diff: 2930179|||4964"  
+[85] "app_log$up_time|||diff: 2935143|||5"     
+[86] "app_log$up_time|||diff: 2935148|||9811"  
+[87] "app_log$up_time|||diff: 2944959|||2"     
+[88] "app_log$up_time|||diff: 2944961|||5146"  
+[89] "app_log$up_time|||diff: 2950107|||4"     
+[90] "app_log$up_time|||diff: 2950111|||9946"  
+[91] "app_log$up_time|||diff: 2960057|||2"     
+[92] "app_log$up_time|||diff: 2960059|||0"     
+> 
+> func_action_cpu <- function(t) {
++   t_lower <- which(app_util_est$up_time <= app_log$up_time[t])
++   t_upper <- which(app_util_est$up_time > app_log$up_time[t])
++   if(length(t_lower)==0 || length(t_upper)==0) {
++     ## timestamp out of utilization log range
++     return(NA)
++   } else {
++     t_lower <- max(t_lower)
++     action_end <- app_log$up_time[t] + app_log$up_time_diff[t]
++     t_upper <- max(which(app_util_est$up_time <= action_end))
++ 
++     if(t_lower < t_upper) {
++       head_to_remove <- (app_log$up_time[t]-app_util_est$up_time[t_lower])/app_util_est$time_base[t_lower]
++       tail_to_append <- (action_end-app_util_est$up_time[t_upper])/app_util_est$time_base[t_upper]
++ 
++       cpu <- sum(app_util_est$cpu[t_lower:(t_upper-1)]) - 
++              app_util_est$cpu[t_lower]*head_to_remove + 
++              app_util_est$cpu[t_upper]*tail_to_append
++     } else if(t_lower == t_upper) {
++       action_length <- app_log$up_time_diff[t]/app_util_est$time_base[t_lower]
++       cpu <- app_util_est$cpu[t_lower]*action_length
++     }
++ 
++     return(cpu)
++   }
++ }
+> 
+> func_action_display <- function(t) {
++   t_lower <- which(app_util_est$up_time <= app_log$up_time[t])
++   t_upper <- which(app_util_est$up_time > app_log$up_time[t])
++   if(length(t_lower)==0 || length(t_upper)==0) {
++     ## timestamp out of utilization log range
++     return(NA)
++   } else {
++     t_lower <- max(t_lower)
++     action_end <- app_log$up_time[t] + app_log$up_time_diff[t]
++     t_upper <- max(which(app_util_est$up_time <= action_end))
++ 
++     if(t_lower < t_upper) {
++       head_to_remove <- (app_log$up_time[t]-app_util_est$up_time[t_lower])/app_util_est$time_base[t_lower]
++       tail_to_append <- (action_end-app_util_est$up_time[t_upper])/app_util_est$time_base[t_upper]
++ 
++       display <- sum(app_util_est$display[t_lower:(t_upper-1)]) - 
++                  app_util_est$display[t_lower]*head_to_remove + 
++                  app_util_est$display[t_upper]*tail_to_append
++     } else if(t_lower == t_upper) {
++       action_length <- app_log$up_time_diff[t]/app_util_est$time_base[t_lower]
++       display <- app_util_est$display[t_lower]*action_length
++     }
++ 
++     return(display)
++   }
++ }
+> 
+> func_action_display_use <- function(t) {
++   t_lower <- which(app_util_est$up_time <= app_log$up_time[t])
++   t_upper <- which(app_util_est$up_time > app_log$up_time[t])
++   if(length(t_lower)==0 || length(t_upper)==0) {
++     ## timestamp out of utilization log range
++     return(NA)
++   } else {
++     return(app_util_est$display_use[max(t_lower)])
++   }
++ }
+> 
+> func_action_wifi <- function(t) {
++   t_lower <- which(app_util_est$up_time <= app_log$up_time[t])
++   t_upper <- which(app_util_est$up_time > app_log$up_time[t])
++   if(length(t_lower)==0 || length(t_upper)==0) {
++     ## timestamp out of utilization log range
++     return(NA)
++   } else {
++     t_lower <- max(t_lower)
++     action_end <- app_log$up_time[t] + app_log$up_time_diff[t]
++     t_upper <- max(which(app_util_est$up_time <= action_end))
++ 
++     if(t_lower < t_upper) {
++       head_to_remove <- (app_log$up_time[t]-app_util_est$up_time[t_lower])/app_util_est$time_base[t_lower]
++       tail_to_append <- (action_end-app_util_est$up_time[t_upper])/app_util_est$time_base[t_upper]
++ 
++       wifi <- sum(app_util_est$wifi[t_lower:(t_upper-1)]) - 
++                  app_util_est$wifi[t_lower]*head_to_remove + 
++                  app_util_est$wifi[t_upper]*tail_to_append
++     } else if(t_lower == t_upper) {
++       action_length <- app_log$up_time_diff[t]/app_util_est$time_base[t_lower]
++       wifi <- app_util_est$wifi[t_lower]*action_length
++     }
++ 
++     return(wifi)
++   }
++ }
+> 
+> func_action_wifi_base <- function(t) {
++   t_lower <- which(app_util_est$up_time <= app_log$up_time[t])
++   t_upper <- which(app_util_est$up_time > app_log$up_time[t])
++   if(length(t_lower)==0 || length(t_upper)==0) {
++     ## timestamp out of utilization log range
++     return(NA)
++   } else {
++     t_lower <- max(t_lower)
++     action_end <- app_log$up_time[t] + app_log$up_time_diff[t]
++     t_upper <- max(which(app_util_est$up_time <= action_end))
++ 
++     if(t_lower < t_upper) {
++       head_to_remove <- (app_log$up_time[t]-app_util_est$up_time[t_lower])/app_util_est$time_base[t_lower]
++       tail_to_append <- (action_end-app_util_est$up_time[t_upper])/app_util_est$time_base[t_upper]
++ 
++       wifi_base <- sum(app_util_est$wifi_base[t_lower:(t_upper-1)]) - 
++                        app_util_est$wifi_base[t_lower]*head_to_remove + 
++                        app_util_est$wifi_base[t_upper]*tail_to_append
++     } else if(t_lower == t_upper) {
++       action_length <- app_log$up_time_diff[t]/app_util_est$time_base[t_lower]
++       wifi_base <- app_util_est$wifi_base[t_lower]*action_length
++     }
++ 
++     return(wifi_base)
++   }
++ }
+> 
+> app_log$cpu <- apply(array(1:length(app_log$up_time)), 1, function(x) func_action_cpu(x))
+> app_log$display <- apply(array(1:length(app_log$up_time)), 1, function(x) func_action_display(x))
+> app_log$display_use <- apply(array(1:length(app_log$up_time)), 1, function(x) func_action_display_use(x))
+> app_log$wifi <- apply(array(1:length(app_log$up_time)), 1, function(x) func_action_wifi(x))
+> app_log$wifi_base <- apply(array(1:length(app_log$up_time)), 1, function(x) func_action_wifi_base(x))
+> 
+> ## estimate the energy consumed
+> ## the coeficient for Google HTC Nexus One
+> coef <- list(cpu=0.9195579, display=0.2123821, 
++              wifi=0.4439166, wifi_base=0.01391701, phone_base=0.3594519)
+> 
+> app_log$energy <- app_log$cpu*coef$cpu + app_log$display*coef$display +
++                   app_log$wifi*coef$wifi + app_log$wifi_base*coef$wifi_base + 
++                   app_log$up_time_diff*coef$phone_base
+> 
+> ## BAB ADDED:
+> #print(paste("cpu: ", app_log$cpu*coef$cpu, sep=""))
+> #print(paste("display: ", app_log$display*coef$display, sep=""))
+> #print(paste("wifi: ", app_log$wifi*coef$wifi, sep=""))
+> #print(paste("wifi_base: ", app_log$wifi_base*coef$wifi_base, sep=""))
+> #print(paste("phone_base: ", app_log$up_time_diff*coef$phone_base, sep=""))
+> print(paste("app_log$energy: ", app_log$energy, sep=""))
+ [1] "app_log$energy: NA"                "app_log$energy: NA"               
+ [3] "app_log$energy: NA"                "app_log$energy: NA"               
+ [5] "app_log$energy: NA"                "app_log$energy: NA"               
+ [7] "app_log$energy: NA"                "app_log$energy: NA"               
+ [9] "app_log$energy: NA"                "app_log$energy: NA"               
+[11] "app_log$energy: NA"                "app_log$energy: NA"               
+[13] "app_log$energy: NA"                "app_log$energy: NA"               
+[15] "app_log$energy: NA"                "app_log$energy: NA"               
+[17] "app_log$energy: NA"                "app_log$energy: NA"               
+[19] "app_log$energy: NA"                "app_log$energy: NA"               
+[21] "app_log$energy: NA"                "app_log$energy: NA"               
+[23] "app_log$energy: NA"                "app_log$energy: NA"               
+[25] "app_log$energy: NA"                "app_log$energy: NA"               
+[27] "app_log$energy: NA"                "app_log$energy: NA"               
+[29] "app_log$energy: NA"                "app_log$energy: NA"               
+[31] "app_log$energy: NA"                "app_log$energy: NA"               
+[33] "app_log$energy: NA"                "app_log$energy: NA"               
+[35] "app_log$energy: NA"                "app_log$energy: NA"               
+[37] "app_log$energy: NA"                "app_log$energy: NA"               
+[39] "app_log$energy: NA"                "app_log$energy: NA"               
+[41] "app_log$energy: NA"                "app_log$energy: NA"               
+[43] "app_log$energy: 0.448753420700217" "app_log$energy: 2.24376710350109" 
+[45] "app_log$energy: 76.288081519037"   "app_log$energy: 12503.6834911026" 
+[47] "app_log$energy: 0"                 "app_log$energy: 5.30984741608135" 
+[49] "app_log$energy: 0.482713401461941" "app_log$energy: 13.5159752409344" 
+[51] "app_log$energy: 0.482713401461941" "app_log$energy: 13.0332618394724" 
+[53] "app_log$energy: 0.482713401461941" "app_log$energy: 13.0332618394724" 
+[55] "app_log$energy: 0"                 "app_log$energy: 32.3417978979501" 
+[57] "app_log$energy: 0"                 "app_log$energy: 5.30984741608135" 
+[59] "app_log$energy: 0.482713401461941" "app_log$energy: 64.2008823944382" 
+[61] "app_log$energy: 13.0332618394724"  "app_log$energy: 0.965426802923883"
+[63] "app_log$energy: 0.965426802923883" "app_log$energy: 0.965426802923883"
+[65] "app_log$energy: 2.41356700730971"  "app_log$energy: 16.412255649706"  
+[67] "app_log$energy: 0"                 "app_log$energy: 1.44814020438582" 
+[69] "app_log$energy: 42.9614927301128"  "app_log$energy: 0.482713401461941"
+[71] "app_log$energy: 0"                 "app_log$energy: 0.965426802923883"
+[73] "app_log$energy: 2.89628040877165"  "app_log$energy: 2157.24619113342" 
+[75] "app_log$energy: 9.17155462777689"  "app_log$energy: 2440.83281829525" 
+[77] "app_log$energy: 16.4612977294857"  "app_log$energy: 2230.27068094918" 
+[79] "app_log$energy: 0.47032279227102"  "app_log$energy: 5.64387350725224" 
+[81] "app_log$energy: 21.6348484444669"  "app_log$energy: 4840.46977458959" 
+[83] "app_log$energy: 0.474482368440304" "app_log$energy: 2353.91209360818" 
+[85] "app_log$energy: 2.32064602725656"  "app_log$energy: 4553.57163468282" 
+[87] "app_log$energy: 0.928258410902624" "app_log$energy: 2401.76573375296" 
+[89] "app_log$energy: 1.86693354436365"  "app_log$energy: 4932.1302393867"  
+[91] "app_log$energy: 1.0476624726451"   "app_log$energy: 0"                
+> print(paste("length(app_log$up_time): ", length(app_log$up_time), sep=""))
+[1] "length(app_log$up_time): 92"
+> 
+> app_util_est$energy <- app_util_est$cpu*coef$cpu + 
++                        app_util_est$display*coef$display +
++                        app_util_est$wifi*coef$wifi + 
++                        app_util_est$wifi_base*coef$wifi_base + 
++                        app_util_est$up_time_diff*coef$phone_base
+Done!

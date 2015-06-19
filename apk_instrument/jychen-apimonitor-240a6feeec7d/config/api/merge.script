@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#pr -t -s *.api > api_collections
+
+echo "pr -t -s $@ > api_collections"
+pr -t -s $@ > api_collections
+
+
+## network and io related api:
+## android_network.api, java_io.api, java_net.api
+

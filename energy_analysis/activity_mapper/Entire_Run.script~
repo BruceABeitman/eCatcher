@@ -1,0 +1,22 @@
+#!/bin/bash
+
+## usage: ./extract_app_util.script -p <target_package_name> <log_file> [log_file_2 ...]
+
+
+##  2. preprocess.script *_user.log
+./preprocess.script log/*_user.log
+##  3. analyzer.script *_user.log
+./analyzer.script log/*_user.log
+##  4. extract_app_util.script -p <target_package_name> *util.log
+./extract_app_util.script -p com.fsck.k9 log/*util.log
+#./extract_app_util.script -p com.facebook.katana log/*util.log
+##  5. batch_util_mapping.script <target_package_name> <data_folder> <Context 1:Y/2:N>
+./batch_util_mapping.script com.fsck.k9 log N
+#./batch_util_mapping.script com.facebook.katana log N
+
+##  8. batch_plot.script <options> <data_folder>
+./batch_plot.script 1 log
+#./batch_diagnosis.script 1 log
+
+echo "Done!"
+

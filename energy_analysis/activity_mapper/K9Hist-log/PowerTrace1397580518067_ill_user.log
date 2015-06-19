@@ -1,0 +1,1706 @@
+
+
+
+
+274770 + Lcom/fsck/k9/service/MailService; onCreate
+274772 - Lcom/fsck/k9/service/MailService; onCreate
+274799 + Lcom/fsck/k9/service/MailService; onDestroy
+274800 - Lcom/fsck/k9/service/MailService; onDestroy
+309408 + Lcom/fsck/k9/activity/MessageList; onResume
+309409 + Lcom/fsck/k9/K9Activity; onResume
+309411 - Lcom/fsck/k9/K9Activity; onResume
+309617 - Lcom/fsck/k9/activity/MessageList; onResume
+312982 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+313011 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+313012 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+313013 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+313014 + Lcom/fsck/k9/activity/MessageList; onPause
+313014 - Lcom/fsck/k9/activity/MessageList; onPause
+313027 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+313027 + Lcom/fsck/k9/K9Activity; onCreate
+313029 - Lcom/fsck/k9/K9Activity; onCreate
+313093 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+313095 + Lcom/fsck/k9/activity/MessageCompose; onResume
+313095 + Lcom/fsck/k9/K9Activity; onResume
+313097 - Lcom/fsck/k9/K9Activity; onResume
+313098 - Lcom/fsck/k9/activity/MessageCompose; onResume
+315595 + Lcom/fsck/k9/activity/MessageCompose; onPause
+315596 - Lcom/fsck/k9/activity/MessageCompose; onPause
+315613 + Lcom/fsck/k9/activity/MessageList; onResume
+315613 + Lcom/fsck/k9/K9Activity; onResume
+315615 - Lcom/fsck/k9/K9Activity; onResume
+315665 - Lcom/fsck/k9/activity/MessageList; onResume
+317535 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+317536 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+320052 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+320058 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+320059 + Lcom/fsck/k9/activity/MessageList; onPause
+320062 - Lcom/fsck/k9/activity/MessageList; onPause
+321250 + Lcom/fsck/k9/activity/MessageList; onResume
+321250 + Lcom/fsck/k9/K9Activity; onResume
+321252 - Lcom/fsck/k9/K9Activity; onResume
+321303 - Lcom/fsck/k9/activity/MessageList; onResume
+326032 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+326034 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+326966 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sender
+326981 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+329913 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+329913 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+331271 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+331272 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+333465 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@43f1e4f8
+333466 - Lcom/fsck/k9/activity/MessageList; onClick
+334823 + Lcom/fsck/k9/service/MailService; onCreate
+334828 - Lcom/fsck/k9/service/MailService; onCreate
+334934 + Lcom/fsck/k9/service/MailService; onDestroy
+334934 - Lcom/fsck/k9/service/MailService; onDestroy
+335282 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+335297 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+335299 + Lcom/fsck/k9/activity/MessageList; onPause
+335300 - Lcom/fsck/k9/activity/MessageList; onPause
+335323 + Lcom/fsck/k9/activity/FolderList; onCreate
+335323 + Lcom/fsck/k9/K9ListActivity; onCreate
+335325 - Lcom/fsck/k9/K9ListActivity; onCreate
+335376 - Lcom/fsck/k9/activity/FolderList; onCreate
+335380 + Lcom/fsck/k9/activity/FolderList; onResume
+335380 + Lcom/fsck/k9/K9ListActivity; onResume
+335382 - Lcom/fsck/k9/K9ListActivity; onResume
+335521 - Lcom/fsck/k9/activity/FolderList; onResume
+337392 + Lcom/fsck/k9/activity/FolderList; onPause
+337396 - Lcom/fsck/k9/activity/FolderList; onPause
+338622 + Lcom/fsck/k9/activity/Accounts; onCreate
+338623 + Lcom/fsck/k9/K9ListActivity; onCreate
+338625 - Lcom/fsck/k9/K9ListActivity; onCreate
+338718 - Lcom/fsck/k9/activity/Accounts; onCreate
+338726 + Lcom/fsck/k9/activity/MessageList; onCreate
+338726 + Lcom/fsck/k9/K9Activity; onCreate
+338730 - Lcom/fsck/k9/K9Activity; onCreate
+338810 - Lcom/fsck/k9/activity/MessageList; onCreate
+338812 + Lcom/fsck/k9/activity/MessageList; onResume
+338813 + Lcom/fsck/k9/K9Activity; onResume
+338818 - Lcom/fsck/k9/K9Activity; onResume
+338942 - Lcom/fsck/k9/activity/MessageList; onResume
+339731 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@4406ba58
+339770 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+340626 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Check mail
+340627 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+345869 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Account settings
+345896 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+345926 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+345928 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+345930 + Lcom/fsck/k9/activity/MessageList; onPause
+345931 - Lcom/fsck/k9/activity/MessageList; onPause
+345969 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+345970 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+345979 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+346171 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+346172 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+346180 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+347454 + Lcom/fsck/k9/service/MailService; onCreate
+347454 - Lcom/fsck/k9/service/MailService; onCreate
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+347562 + Lcom/fsck/k9/activity/MessageList; onResume
+347562 + Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->closeV
+347575 - Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+347676 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+347771 + Lcom/fsck/k9/service/MailService; onDestroy
+347780 - Lcom/fsck/k9/service/MailService; onDestroy
+Ljava/net/Socket;->connectV
+350915 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+350931 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+350937 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+350941 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+350941 + Lcom/fsck/k9/activity/MessageList; onPause
+350947 - Lcom/fsck/k9/activity/MessageList; onPause
+350963 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+350964 + Lcom/fsck/k9/K9Activity; onCreate
+350965 - Lcom/fsck/k9/K9Activity; onCreate
+351111 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+351112 + Lcom/fsck/k9/activity/MessageCompose; onResume
+351112 + Lcom/fsck/k9/K9Activity; onResume
+351115 - Lcom/fsck/k9/K9Activity; onResume
+351117 - Lcom/fsck/k9/activity/MessageCompose; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+353207 + Lcom/fsck/k9/activity/MessageCompose; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44050300
+353232 - Lcom/fsck/k9/activity/MessageCompose; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+355103 + Lcom/fsck/k9/activity/MessageCompose; onPause
+355104 - Lcom/fsck/k9/activity/MessageCompose; onPause
+355129 + Lcom/fsck/k9/activity/MessageList; onResume
+355130 + Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->connectV
+355132 - Lcom/fsck/k9/K9Activity; onResume
+355316 - Lcom/fsck/k9/activity/MessageList; onResume
+357068 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+357070 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+359008 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Read/unread
+359015 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+361330 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+361333 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+362467 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+362468 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+363524 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@44037898
+363526 - Lcom/fsck/k9/activity/MessageList; onClick
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+365403 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+365442 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+365449 + Lcom/fsck/k9/activity/MessageList; onPause
+365449 - Lcom/fsck/k9/activity/MessageList; onPause
+365474 + Lcom/fsck/k9/activity/FolderList; onCreate
+365475 + Lcom/fsck/k9/K9ListActivity; onCreate
+365477 - Lcom/fsck/k9/K9ListActivity; onCreate
+365564 - Lcom/fsck/k9/activity/FolderList; onCreate
+365565 + Lcom/fsck/k9/activity/FolderList; onResume
+365566 + Lcom/fsck/k9/K9ListActivity; onResume
+365568 - Lcom/fsck/k9/K9ListActivity; onResume
+Ljava/net/Socket;->connectV
+365641 - Lcom/fsck/k9/activity/FolderList; onResume
+366885 + Lcom/fsck/k9/activity/FolderList; onPause
+366886 - Lcom/fsck/k9/activity/FolderList; onPause
+368010 + Lcom/fsck/k9/activity/Accounts; onCreate
+368018 + Lcom/fsck/k9/K9ListActivity; onCreate
+368024 - Lcom/fsck/k9/K9ListActivity; onCreate
+368087 - Lcom/fsck/k9/activity/Accounts; onCreate
+368110 + Lcom/fsck/k9/activity/MessageList; onCreate
+368111 + Lcom/fsck/k9/K9Activity; onCreate
+368116 - Lcom/fsck/k9/K9Activity; onCreate
+368171 - Lcom/fsck/k9/activity/MessageList; onCreate
+368172 + Lcom/fsck/k9/activity/MessageList; onResume
+368178 + Lcom/fsck/k9/K9Activity; onResume
+368187 - Lcom/fsck/k9/K9Activity; onResume
+368317 - Lcom/fsck/k9/activity/MessageList; onResume
+369100 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44164708
+369152 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+370299 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Check mail
+370301 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+376205 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Account settings
+376224 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+376252 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+376254 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+376254 + Lcom/fsck/k9/activity/MessageList; onPause
+376255 - Lcom/fsck/k9/activity/MessageList; onPause
+376269 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+376270 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+376276 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+376502 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+376503 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+376507 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+383291 + Lcom/fsck/k9/service/MailService; onCreate
+383292 - Lcom/fsck/k9/service/MailService; onCreate
+383329 + Lcom/fsck/k9/service/MailService; onDestroy
+383330 - Lcom/fsck/k9/service/MailService; onDestroy
+385012 + Lcom/fsck/k9/service/MailService; onCreate
+385013 - Lcom/fsck/k9/service/MailService; onCreate
+385028 + Lcom/fsck/k9/activity/MessageList; onResume
+385029 + Lcom/fsck/k9/K9Activity; onResume
+385031 - Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+385142 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+385711 + Lcom/fsck/k9/service/MailService; onDestroy
+385711 - Lcom/fsck/k9/service/MailService; onDestroy
+386275 + Lcom/fsck/k9/activity/MessageList; onPause
+386276 - Lcom/fsck/k9/activity/MessageList; onPause
+392628 + Lcom/fsck/k9/activity/Accounts; onCreate
+Ljava/net/Socket;->closeV
+392800 + Lcom/fsck/k9/K9ListActivity; onCreate
+392920 - Lcom/fsck/k9/K9ListActivity; onCreate
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+393723 - Lcom/fsck/k9/activity/Accounts; onCreate
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+393855 + Lcom/fsck/k9/activity/MessageList; onCreate
+393855 + Lcom/fsck/k9/K9Activity; onCreate
+393872 - Lcom/fsck/k9/K9Activity; onCreate
+Ljava/net/Socket;->closeV
+394059 - Lcom/fsck/k9/activity/MessageList; onCreate
+394060 + Lcom/fsck/k9/activity/MessageList; onResume
+394065 + Lcom/fsck/k9/K9Activity; onResume
+394070 - Lcom/fsck/k9/K9Activity; onResume
+394107 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+394989 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@441b6d08
+395009 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+396051 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+396104 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+396106 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+396109 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+396111 + Lcom/fsck/k9/activity/MessageList; onPause
+396112 - Lcom/fsck/k9/activity/MessageList; onPause
+396127 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+396128 + Lcom/fsck/k9/K9Activity; onCreate
+396131 - Lcom/fsck/k9/K9Activity; onCreate
+396179 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+396180 + Lcom/fsck/k9/activity/MessageCompose; onResume
+396180 + Lcom/fsck/k9/K9Activity; onResume
+396182 - Lcom/fsck/k9/K9Activity; onResume
+396183 - Lcom/fsck/k9/activity/MessageCompose; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+399782 + Lcom/fsck/k9/activity/MessageCompose; onPause
+399782 - Lcom/fsck/k9/activity/MessageCompose; onPause
+400011 + Lcom/fsck/k9/activity/MessageList; onResume
+400020 + Lcom/fsck/k9/K9Activity; onResume
+400118 - Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+400681 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+403454 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+403455 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+404633 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Read/unread
+404711 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+407762 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+407762 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+410121 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+410123 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+411180 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@440f7de8
+411185 - Lcom/fsck/k9/activity/MessageList; onClick
+412851 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+412951 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+412957 + Lcom/fsck/k9/activity/MessageList; onPause
+412958 - Lcom/fsck/k9/activity/MessageList; onPause
+412972 + Lcom/fsck/k9/activity/FolderList; onCreate
+412978 + Lcom/fsck/k9/K9ListActivity; onCreate
+412981 - Lcom/fsck/k9/K9ListActivity; onCreate
+413021 - Lcom/fsck/k9/activity/FolderList; onCreate
+413021 + Lcom/fsck/k9/activity/FolderList; onResume
+413022 + Lcom/fsck/k9/K9ListActivity; onResume
+413024 - Lcom/fsck/k9/K9ListActivity; onResume
+413172 - Lcom/fsck/k9/activity/FolderList; onResume
+415171 + Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44003708
+415185 - Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+416667 + Lcom/fsck/k9/activity/FolderList; onPause
+416668 - Lcom/fsck/k9/activity/FolderList; onPause
+417761 + Lcom/fsck/k9/activity/Accounts; onCreate
+417762 + Lcom/fsck/k9/K9ListActivity; onCreate
+417773 - Lcom/fsck/k9/K9ListActivity; onCreate
+417810 - Lcom/fsck/k9/activity/Accounts; onCreate
+417820 + Lcom/fsck/k9/activity/MessageList; onCreate
+417822 + Lcom/fsck/k9/K9Activity; onCreate
+417829 - Lcom/fsck/k9/K9Activity; onCreate
+417915 - Lcom/fsck/k9/activity/MessageList; onCreate
+417918 + Lcom/fsck/k9/activity/MessageList; onResume
+417919 + Lcom/fsck/k9/K9Activity; onResume
+417925 - Lcom/fsck/k9/K9Activity; onResume
+418095 - Lcom/fsck/k9/activity/MessageList; onResume
+418691 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@441a82c8
+418709 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+419724 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Check mail
+419730 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+426318 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Account settings
+426335 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+426336 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+426338 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+426338 + Lcom/fsck/k9/activity/MessageList; onPause
+426339 - Lcom/fsck/k9/activity/MessageList; onPause
+426370 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+426372 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+426391 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+426505 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+426506 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+426509 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+Ljava/net/Socket;->connectV
+428150 + Lcom/fsck/k9/service/MailService; onCreate
+428151 - Lcom/fsck/k9/service/MailService; onCreate
+428171 + Lcom/fsck/k9/activity/MessageList; onResume
+428174 + Lcom/fsck/k9/K9Activity; onResume
+428177 - Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+428380 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+428709 + Lcom/fsck/k9/service/MailService; onDestroy
+428709 - Lcom/fsck/k9/service/MailService; onDestroy
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+430264 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+430274 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+430276 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+430281 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+430287 + Lcom/fsck/k9/activity/MessageList; onPause
+430288 - Lcom/fsck/k9/activity/MessageList; onPause
+430310 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+430316 + Lcom/fsck/k9/K9Activity; onCreate
+430318 - Lcom/fsck/k9/K9Activity; onCreate
+430553 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+430557 + Lcom/fsck/k9/activity/MessageCompose; onResume
+430559 + Lcom/fsck/k9/K9Activity; onResume
+430568 - Lcom/fsck/k9/K9Activity; onResume
+430577 - Lcom/fsck/k9/activity/MessageCompose; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+431945 + Lcom/fsck/k9/activity/MessageCompose; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@440b9e40
+431950 - Lcom/fsck/k9/activity/MessageCompose; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+433151 + Lcom/fsck/k9/activity/MessageCompose; onOptionsItemSelected Add Cc/Bcc
+433152 - Lcom/fsck/k9/activity/MessageCompose; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+440554 + Lcom/fsck/k9/activity/MessageCompose; onPause
+440558 - Lcom/fsck/k9/activity/MessageCompose; onPause
+440578 + Lcom/fsck/k9/activity/MessageList; onResume
+440579 + Lcom/fsck/k9/K9Activity; onResume
+440586 - Lcom/fsck/k9/K9Activity; onResume
+440625 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+444040 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+444041 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+447755 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+447758 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+449265 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@43fec948
+449271 - Lcom/fsck/k9/activity/MessageList; onClick
+451367 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+451547 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+451549 + Lcom/fsck/k9/activity/MessageList; onPause
+451549 - Lcom/fsck/k9/activity/MessageList; onPause
+451570 + Lcom/fsck/k9/activity/FolderList; onCreate
+451570 + Lcom/fsck/k9/K9ListActivity; onCreate
+451574 - Lcom/fsck/k9/K9ListActivity; onCreate
+451601 - Lcom/fsck/k9/activity/FolderList; onCreate
+451602 + Lcom/fsck/k9/activity/FolderList; onResume
+451603 + Lcom/fsck/k9/K9ListActivity; onResume
+451605 - Lcom/fsck/k9/K9ListActivity; onResume
+451689 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+453674 + Lcom/fsck/k9/activity/FolderList; onPause
+453674 - Lcom/fsck/k9/activity/FolderList; onPause
+455220 + Lcom/fsck/k9/activity/Accounts; onCreate
+455384 + Lcom/fsck/k9/K9ListActivity; onCreate
+455447 - Lcom/fsck/k9/K9ListActivity; onCreate
+455611 - Lcom/fsck/k9/activity/Accounts; onCreate
+456057 + Lcom/fsck/k9/activity/MessageList; onCreate
+456057 + Lcom/fsck/k9/K9Activity; onCreate
+456060 - Lcom/fsck/k9/K9Activity; onCreate
+456120 - Lcom/fsck/k9/activity/MessageList; onCreate
+456123 + Lcom/fsck/k9/activity/MessageList; onResume
+456124 + Lcom/fsck/k9/K9Activity; onResume
+456127 - Lcom/fsck/k9/K9Activity; onResume
+456180 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+457224 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@441f3608
+457257 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+458430 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Check mail
+458432 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+466752 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Account settings
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+466772 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+466792 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+466793 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+466794 + Lcom/fsck/k9/activity/MessageList; onPause
+466794 - Lcom/fsck/k9/activity/MessageList; onPause
+466833 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+466833 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+466838 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+467220 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+467221 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+467226 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+472153 + Lcom/fsck/k9/service/MailService; onCreate
+472155 - Lcom/fsck/k9/service/MailService; onCreate
+472181 + Lcom/fsck/k9/activity/MessageList; onResume
+472183 + Lcom/fsck/k9/K9Activity; onResume
+472186 - Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+472402 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+472817 + Lcom/fsck/k9/service/MailService; onDestroy
+472817 - Lcom/fsck/k9/service/MailService; onDestroy
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+474328 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+474362 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+474368 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+474371 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+474376 + Lcom/fsck/k9/activity/MessageList; onPause
+474378 - Lcom/fsck/k9/activity/MessageList; onPause
+474407 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+474410 + Lcom/fsck/k9/K9Activity; onCreate
+474419 - Lcom/fsck/k9/K9Activity; onCreate
+474543 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+474547 + Lcom/fsck/k9/activity/MessageCompose; onResume
+474548 + Lcom/fsck/k9/K9Activity; onResume
+474554 - Lcom/fsck/k9/K9Activity; onResume
+474560 - Lcom/fsck/k9/activity/MessageCompose; onResume
+476919 + Lcom/fsck/k9/activity/MessageCompose; onPause
+477050 - Lcom/fsck/k9/activity/MessageCompose; onPause
+477093 + Lcom/fsck/k9/activity/MessageList; onResume
+477210 + Lcom/fsck/k9/K9Activity; onResume
+478320 - Lcom/fsck/k9/K9Activity; onResume
+478951 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+481413 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+481413 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+483840 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Read/unread
+483895 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+491258 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+491259 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+492648 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+492649 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+493939 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@440b28a8
+493971 - Lcom/fsck/k9/activity/MessageList; onClick
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+496425 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+496560 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+496561 + Lcom/fsck/k9/activity/MessageList; onPause
+496561 - Lcom/fsck/k9/activity/MessageList; onPause
+496577 + Lcom/fsck/k9/activity/FolderList; onCreate
+496577 + Lcom/fsck/k9/K9ListActivity; onCreate
+496579 - Lcom/fsck/k9/K9ListActivity; onCreate
+496602 - Lcom/fsck/k9/activity/FolderList; onCreate
+496603 + Lcom/fsck/k9/activity/FolderList; onResume
+496604 + Lcom/fsck/k9/K9ListActivity; onResume
+496605 - Lcom/fsck/k9/K9ListActivity; onResume
+496666 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+497973 + Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@43fdc0d0
+497985 - Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+500817 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Compose
+500839 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+500861 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+500873 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+500874 + Lcom/fsck/k9/activity/FolderList; onPause
+500874 - Lcom/fsck/k9/activity/FolderList; onPause
+500901 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+500907 + Lcom/fsck/k9/K9Activity; onCreate
+500909 - Lcom/fsck/k9/K9Activity; onCreate
+500995 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+500996 + Lcom/fsck/k9/activity/MessageCompose; onResume
+500996 + Lcom/fsck/k9/K9Activity; onResume
+500998 - Lcom/fsck/k9/K9Activity; onResume
+500999 - Lcom/fsck/k9/activity/MessageCompose; onResume
+502794 + Lcom/fsck/k9/activity/MessageCompose; onPause
+502795 - Lcom/fsck/k9/activity/MessageCompose; onPause
+502821 + Lcom/fsck/k9/activity/FolderList; onResume
+502823 + Lcom/fsck/k9/K9ListActivity; onResume
+502827 - Lcom/fsck/k9/K9ListActivity; onResume
+502974 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+507619 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Account settings
+507638 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+507644 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+507645 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+507646 + Lcom/fsck/k9/activity/FolderList; onPause
+507646 - Lcom/fsck/k9/activity/FolderList; onPause
+507661 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+507661 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+507667 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+Ljava/net/Socket;->connectV
+507794 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+507794 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+507799 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+509605 + Lcom/fsck/k9/service/MailService; onCreate
+509606 - Lcom/fsck/k9/service/MailService; onCreate
+509686 + Lcom/fsck/k9/activity/FolderList; onResume
+509687 + Lcom/fsck/k9/K9ListActivity; onResume
+509689 - Lcom/fsck/k9/K9ListActivity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+509961 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+510922 + Lcom/fsck/k9/service/MailService; onDestroy
+510922 - Lcom/fsck/k9/service/MailService; onDestroy
+511403 + Lcom/fsck/k9/activity/FolderList; onPause
+511403 - Lcom/fsck/k9/activity/FolderList; onPause
+Ljava/net/Socket;->connectV
+512404 + Lcom/fsck/k9/activity/Accounts; onCreate
+512405 + Lcom/fsck/k9/K9ListActivity; onCreate
+512406 - Lcom/fsck/k9/K9ListActivity; onCreate
+512449 - Lcom/fsck/k9/activity/Accounts; onCreate
+512457 + Lcom/fsck/k9/activity/MessageList; onCreate
+512457 + Lcom/fsck/k9/K9Activity; onCreate
+512464 - Lcom/fsck/k9/K9Activity; onCreate
+512538 - Lcom/fsck/k9/activity/MessageList; onCreate
+512539 + Lcom/fsck/k9/activity/MessageList; onResume
+512540 + Lcom/fsck/k9/K9Activity; onResume
+512545 - Lcom/fsck/k9/K9Activity; onResume
+512600 - Lcom/fsck/k9/activity/MessageList; onResume
+513395 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@441b50a0
+513432 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+514444 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+514469 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+514470 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+514471 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+514477 + Lcom/fsck/k9/activity/MessageList; onPause
+514477 - Lcom/fsck/k9/activity/MessageList; onPause
+514500 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+514506 + Lcom/fsck/k9/K9Activity; onCreate
+514509 - Lcom/fsck/k9/K9Activity; onCreate
+514675 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+514676 + Lcom/fsck/k9/activity/MessageCompose; onResume
+514676 + Lcom/fsck/k9/K9Activity; onResume
+514678 - Lcom/fsck/k9/K9Activity; onResume
+514681 - Lcom/fsck/k9/activity/MessageCompose; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+516987 + Lcom/fsck/k9/activity/MessageCompose; onPause
+516989 - Lcom/fsck/k9/activity/MessageCompose; onPause
+517009 + Lcom/fsck/k9/activity/MessageList; onResume
+517011 + Lcom/fsck/k9/K9Activity; onResume
+517013 - Lcom/fsck/k9/K9Activity; onResume
+517055 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+518675 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+518677 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+521768 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Subject
+Ljava/net/Socket;->connectV
+521787 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+525032 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+525032 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+527802 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+527804 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+529332 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@43f634e0
+529335 - Lcom/fsck/k9/activity/MessageList; onClick
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+532376 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+532600 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+532730 + Lcom/fsck/k9/activity/MessageList; onPause
+532731 - Lcom/fsck/k9/activity/MessageList; onPause
+532944 + Lcom/fsck/k9/activity/FolderList; onCreate
+532945 + Lcom/fsck/k9/K9ListActivity; onCreate
+532947 - Lcom/fsck/k9/K9ListActivity; onCreate
+Ljava/net/Socket;->closeV
+533090 - Lcom/fsck/k9/activity/FolderList; onCreate
+533110 + Lcom/fsck/k9/activity/FolderList; onResume
+533110 + Lcom/fsck/k9/K9ListActivity; onResume
+533112 - Lcom/fsck/k9/K9ListActivity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+533292 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+535616 + Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@43fbcb28
+535629 - Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu
+536754 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Check mail
+536758 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+538066 + Lcom/fsck/k9/activity/FolderList; onPause
+538066 - Lcom/fsck/k9/activity/FolderList; onPause
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+539322 + Lcom/fsck/k9/activity/Accounts; onCreate
+539323 + Lcom/fsck/k9/K9ListActivity; onCreate
+539325 - Lcom/fsck/k9/K9ListActivity; onCreate
+539600 - Lcom/fsck/k9/activity/Accounts; onCreate
+539628 + Lcom/fsck/k9/activity/MessageList; onCreate
+539628 + Lcom/fsck/k9/K9Activity; onCreate
+539631 - Lcom/fsck/k9/K9Activity; onCreate
+539653 - Lcom/fsck/k9/activity/MessageList; onCreate
+539654 + Lcom/fsck/k9/activity/MessageList; onResume
+539654 + Lcom/fsck/k9/K9Activity; onResume
+539656 - Lcom/fsck/k9/K9Activity; onResume
+539684 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+540512 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44123d78
+540556 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+543914 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Account settings
+543932 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+543933 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+543934 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+543935 + Lcom/fsck/k9/activity/MessageList; onPause
+543940 - Lcom/fsck/k9/activity/MessageList; onPause
+543956 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+543960 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+543969 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+544087 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+544087 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+544097 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+546504 + Lcom/fsck/k9/service/MailService; onCreate
+546505 - Lcom/fsck/k9/service/MailService; onCreate
+546522 + Lcom/fsck/k9/activity/MessageList; onResume
+546522 + Lcom/fsck/k9/K9Activity; onResume
+546524 - Lcom/fsck/k9/K9Activity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+546763 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+547243 + Lcom/fsck/k9/service/MailService; onDestroy
+547247 - Lcom/fsck/k9/service/MailService; onDestroy
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+551261 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+551280 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+551300 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+551302 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+551303 + Lcom/fsck/k9/activity/MessageList; onPause
+551303 - Lcom/fsck/k9/activity/MessageList; onPause
+551330 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+551330 + Lcom/fsck/k9/K9Activity; onCreate
+551333 - Lcom/fsck/k9/K9Activity; onCreate
+551474 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+551476 + Lcom/fsck/k9/activity/MessageCompose; onResume
+551477 + Lcom/fsck/k9/K9Activity; onResume
+551479 - Lcom/fsck/k9/K9Activity; onResume
+551481 - Lcom/fsck/k9/activity/MessageCompose; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+553576 + Lcom/fsck/k9/activity/MessageCompose; onPause
+553585 - Lcom/fsck/k9/activity/MessageCompose; onPause
+553606 + Lcom/fsck/k9/activity/MessageList; onResume
+553607 + Lcom/fsck/k9/K9Activity; onResume
+553609 - Lcom/fsck/k9/K9Activity; onResume
+554005 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+560198 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+560198 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+562028 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Star
+562034 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+566807 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+566808 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+568157 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+568158 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+569475 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@440d4a60
+569476 - Lcom/fsck/k9/activity/MessageList; onClick
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+571605 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+571751 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+572036 + Lcom/fsck/k9/activity/MessageList; onPause
+572055 - Lcom/fsck/k9/activity/MessageList; onPause
+572093 + Lcom/fsck/k9/activity/FolderList; onCreate
+572094 + Lcom/fsck/k9/K9ListActivity; onCreate
+572096 - Lcom/fsck/k9/K9ListActivity; onCreate
+572146 - Lcom/fsck/k9/activity/FolderList; onCreate
+572147 + Lcom/fsck/k9/activity/FolderList; onResume
+572147 + Lcom/fsck/k9/K9ListActivity; onResume
+572148 - Lcom/fsck/k9/K9ListActivity; onResume
+Ljava/net/Socket;->connectV
+572256 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+605960 + Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44040b70
+605962 - Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+606556 + Lcom/fsck/k9/service/MailService; onCreate
+606557 - Lcom/fsck/k9/service/MailService; onCreate
+606619 + Lcom/fsck/k9/service/MailService; onDestroy
+606620 - Lcom/fsck/k9/service/MailService; onDestroy
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+610116 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Compact
+610122 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+611715 + Lcom/fsck/k9/activity/FolderList; onPause
+611716 - Lcom/fsck/k9/activity/FolderList; onPause
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+612883 + Lcom/fsck/k9/activity/Accounts; onCreate
+612884 + Lcom/fsck/k9/K9ListActivity; onCreate
+612940 - Lcom/fsck/k9/K9ListActivity; onCreate
+613128 - Lcom/fsck/k9/activity/Accounts; onCreate
+613156 + Lcom/fsck/k9/activity/MessageList; onCreate
+613157 + Lcom/fsck/k9/K9Activity; onCreate
+613159 - Lcom/fsck/k9/K9Activity; onCreate
+613220 - Lcom/fsck/k9/activity/MessageList; onCreate
+613221 + Lcom/fsck/k9/activity/MessageList; onResume
+613222 + Lcom/fsck/k9/K9Activity; onResume
+613225 - Lcom/fsck/k9/K9Activity; onResume
+613267 - Lcom/fsck/k9/activity/MessageList; onResume
+Ljava/net/Socket;->closeV
+614865 + Lcom/fsck/k9/service/MailService; onCreate
+614866 - Lcom/fsck/k9/service/MailService; onCreate
+614901 + Lcom/fsck/k9/service/MailService; onDestroy
+614901 - Lcom/fsck/k9/service/MailService; onDestroy
+615608 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@440107b8
+615638 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+616410 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Compose
+616432 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+616455 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+616456 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+616458 + Lcom/fsck/k9/activity/MessageList; onPause
+616458 - Lcom/fsck/k9/activity/MessageList; onPause
+616480 + Lcom/fsck/k9/activity/MessageCompose; onCreate
+616480 + Lcom/fsck/k9/K9Activity; onCreate
+616487 - Lcom/fsck/k9/K9Activity; onCreate
+616552 - Lcom/fsck/k9/activity/MessageCompose; onCreate
+616552 + Lcom/fsck/k9/activity/MessageCompose; onResume
+616553 + Lcom/fsck/k9/K9Activity; onResume
+616555 - Lcom/fsck/k9/K9Activity; onResume
+616556 - Lcom/fsck/k9/activity/MessageCompose; onResume
+618705 + Lcom/fsck/k9/activity/MessageCompose; onPause
+618710 - Lcom/fsck/k9/activity/MessageCompose; onPause
+618740 + Lcom/fsck/k9/activity/MessageList; onResume
+618741 + Lcom/fsck/k9/K9Activity; onResume
+618743 - Lcom/fsck/k9/K9Activity; onResume
+618799 - Lcom/fsck/k9/activity/MessageList; onResume
+620426 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+620426 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+623208 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Subject
+623226 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+626983 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+626984 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+629932 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+629934 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+632580 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@440f1ef0
+632587 - Lcom/fsck/k9/activity/MessageList; onClick
+634385 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+634399 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+634401 + Lcom/fsck/k9/activity/MessageList; onPause
+634401 - Lcom/fsck/k9/activity/MessageList; onPause
+634423 + Lcom/fsck/k9/activity/FolderList; onCreate
+634423 + Lcom/fsck/k9/K9ListActivity; onCreate
+634431 - Lcom/fsck/k9/K9ListActivity; onCreate
+634466 - Lcom/fsck/k9/activity/FolderList; onCreate
+634467 + Lcom/fsck/k9/activity/FolderList; onResume
+634467 + Lcom/fsck/k9/K9ListActivity; onResume
+634469 - Lcom/fsck/k9/K9ListActivity; onResume
+634500 - Lcom/fsck/k9/activity/FolderList; onResume
+639390 + Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@4413fc58
+639401 - Lcom/fsck/k9/activity/FolderList; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+640640 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Check mail
+640642 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+644941 + Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected Account settings
+644983 - Lcom/fsck/k9/activity/FolderList; onOptionsItemSelected
+645004 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+645005 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+645006 + Lcom/fsck/k9/activity/FolderList; onPause
+645006 - Lcom/fsck/k9/activity/FolderList; onPause
+645020 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+645021 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+645030 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+645173 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+645174 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+645179 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+647467 + Lcom/fsck/k9/service/MailService; onCreate
+647469 - Lcom/fsck/k9/service/MailService; onCreate
+647485 + Lcom/fsck/k9/activity/FolderList; onResume
+647486 + Lcom/fsck/k9/K9ListActivity; onResume
+647488 - Lcom/fsck/k9/K9ListActivity; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+647634 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->connectV
+648454 + Lcom/fsck/k9/service/MailService; onDestroy
+648456 - Lcom/fsck/k9/service/MailService; onDestroy
+648583 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+648584 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+648585 + Lcom/fsck/k9/activity/FolderList; onPause
+648585 - Lcom/fsck/k9/activity/FolderList; onPause
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+649751 1159 + Lboston/Bus/Map/Main; onCreate
+650805 1159 - Lboston/Bus/Map/Main; onCreate
+650806 1159 + Lboston/Bus/Map/Main; onResume
+650816 1159 - Lboston/Bus/Map/Main; onResume
+651969 + Lcom/fsck/k9/activity/FolderList; onResume
+651969 + Lcom/fsck/k9/K9ListActivity; onResume
+651971 - Lcom/fsck/k9/K9ListActivity; onResume
+652041 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+653419 + Lcom/fsck/k9/activity/FolderList; onPause
+653420 - Lcom/fsck/k9/activity/FolderList; onPause
+Ljava/net/Socket;->connectV
+654532 + Lcom/fsck/k9/activity/Accounts; onCreate
+654533 + Lcom/fsck/k9/K9ListActivity; onCreate
+654544 - Lcom/fsck/k9/K9ListActivity; onCreate
+654564 - Lcom/fsck/k9/activity/Accounts; onCreate
+654572 + Lcom/fsck/k9/activity/MessageList; onCreate
+654572 + Lcom/fsck/k9/K9Activity; onCreate
+654575 - Lcom/fsck/k9/K9Activity; onCreate
+654620 - Lcom/fsck/k9/activity/MessageList; onCreate
+654620 + Lcom/fsck/k9/activity/MessageList; onResume
+654621 + Lcom/fsck/k9/K9Activity; onResume
+654625 - Lcom/fsck/k9/K9Activity; onResume
+654706 - Lcom/fsck/k9/activity/MessageList; onResume
+655464 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@441b5270
+655468 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+Ljava/net/Socket;->connectV
+657571 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+657572 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+661316 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Date
+661329 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+664593 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+664593 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+674737 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+674738 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+676875 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+676875 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+679609 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+679636 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+679637 + Lcom/fsck/k9/activity/MessageList; onPause
+679638 - Lcom/fsck/k9/activity/MessageList; onPause
+679656 + Lcom/fsck/k9/activity/FolderList; onCreate
+679656 + Lcom/fsck/k9/K9ListActivity; onCreate
+679658 - Lcom/fsck/k9/K9ListActivity; onCreate
+Ljava/net/Socket;->closeV
+679694 - Lcom/fsck/k9/activity/FolderList; onCreate
+679694 + Lcom/fsck/k9/activity/FolderList; onResume
+679695 + Lcom/fsck/k9/K9ListActivity; onResume
+679696 - Lcom/fsck/k9/K9ListActivity; onResume
+679748 - Lcom/fsck/k9/activity/FolderList; onResume
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->closeV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+Ljava/net/Socket;->connectV
+685328 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+685328 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+685329 + Lcom/fsck/k9/activity/FolderList; onPause
+685329 - Lcom/fsck/k9/activity/FolderList; onPause
+

@@ -1,0 +1,43 @@
+.class Lcom/pinguo/camera360/scenetemplate/SceneTemplateSelectPopup$4;
+.super Ljava/lang/Object;
+.source "SceneTemplateSelectPopup.java"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/pinguo/camera360/scenetemplate/SceneTemplateSelectPopup;->showIsDownloadDialog(Lcom/pinguo/camera360/scenetemplate/SceneTemplate;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/pinguo/camera360/scenetemplate/SceneTemplateSelectPopup;
+
+
+# direct methods
+.method constructor <init>(Lcom/pinguo/camera360/scenetemplate/SceneTemplateSelectPopup;)V
+    .registers 2
+
+    iput-object p1, p0, Lcom/pinguo/camera360/scenetemplate/SceneTemplateSelectPopup$4;->this$0:Lcom/pinguo/camera360/scenetemplate/SceneTemplateSelectPopup;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/content/DialogInterface;I)V
+    .registers 3
+
+    invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
+
+    return-void
+.end method

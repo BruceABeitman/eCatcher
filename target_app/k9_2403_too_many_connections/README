@@ -1,0 +1,32 @@
+IMAP servers have a max # of simultaneous connections limit
+
+e.g. Gmail server has a limit of 15 simultaneous connections
+http://support.google.com/mail/bin/answer.py?hl=en&answer=97150
+
+Ths bug will be manifested if user manually set the # of "push" 
+folder over the connection limit set by the server. By default,
+the app works fine without this issue. 
+
+##================================================================
+In 2.800 release notes:
+
+- Move the configuration for the maximum number of push folders to 
+  the Incoming server Settings. -- danapple ## Notifications ##
+
+- To help with battery life, give up trying to IMAP IDLE after 10 
+  failures. -- danapple
+
+- To help with battery life, increase IMAP IDLE retry delays -- danapple
+
+
+Wakelock fixes (not sure if it's related to this bug):
+Correct fault in IDLE WakeLock usage. The ThreadLocal in 
+MessagingControllerPushReceiver meant that the WakeLock acquired 
+when the DONE was sent was not being released when entering back 
+into IDLE state. -- danapple
+
+##================================================================
+After the 2.800 fix, the issue still happens in the later version.
+
+Ref: issue 3348, 3383, 3678
+

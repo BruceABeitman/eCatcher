@@ -1,0 +1,4317 @@
+phone-service power-off
+signal -1
+phone-call idle
+data disconnected
+battery_status, 1385357, 0.98, 4.109, 28.6
+batt_current 4.0199999999999996E-4
+batt_temp 29.1
+batt_charge 4786.5599999999995
+setting_brightness 1
+setting_screen_timeout 1800000
+time 1350621833224
+localtime_offset -14400000
+model passion
+associate 10048 edu.umich.PowerTutor@13
+begin, 1385924, 1385933
+display, 10048, 1, 0.00392156862745098, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13416, 1804, 5827, 117394, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 32, service, 100, Radio Subsystem
+cpu, 1000, 164, 3774, 2211, service, 100, System
+cpu, 10048, 537, 2484, 1174, service, 100, PowerTutor
+cpu, 10000, 259, 933, 114, app, 400, com.android.providers.applications
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10051, 526, 1696, 29, app, 400, PowerModelTest
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 350, 61, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2284, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 55, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 214, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 314, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+associate 10000 android.uid.shared:10000@8
+associate 10002 com.android.bluetooth@8
+associate 10009 android.uid.calendar:10009@8
+associate 10014 com.android.deskclock@8
+associate 10016 android.media:10016@8
+associate 10020 com.cooliris.media@30682
+associate 10022 com.android.inputmethod.latin@8
+associate 10026 com.android.mms@8
+associate 10032 com.android.quicksearchbox@110
+associate 10033 com.koushikdutta.rommanager@2506
+associate 10036 com.noshufou.android.su@24
+associate 10040 com.android.voicedialer@8
+associate 10044 com.mhuang.overclocking@69
+associate 10051 edu.osu.cse.powermodeltest@1
+begin, 1386404, 1386413
+display, 10048, 1, 0.00392156862745098, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13429, 1804, 5831, 117426, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 32, service, 100, Radio Subsystem
+cpu, 1000, 164, 3781, 2212, service, 100, System
+cpu, 10048, 537, 2491, 1176, service, 100, PowerTutor
+cpu, 10000, 259, 933, 114, app, 400, com.android.providers.applications
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10051, 526, 1696, 29, app, 400, PowerModelTest
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2285, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 55, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 214, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 314, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1386865, 1386874
+display, 10048, 1, 0.00392156862745098, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13441, 1804, 5833, 117466, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 32, service, 100, Radio Subsystem
+cpu, 1000, 164, 3781, 2213, service, 100, System
+cpu, 10048, 537, 2502, 1178, service, 100, PowerTutor
+cpu, 10000, 259, 933, 114, app, 400, com.android.providers.applications
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10051, 526, 1696, 29, app, 400, PowerModelTest
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2286, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 55, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 214, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 314, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1387365, 1387374
+display, 10000, 1, 0.00392156862745098, com.android.providers.applications
+cpu_freq, 0.8965517
+cpu_total, 13463, 1804, 5844, 117481, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 32, service, 100, Radio Subsystem
+cpu, 1000, 164, 3794, 2218, service, 100, System
+cpu, 10000, 259, 937, 114, app, 100, com.android.providers.applications
+cpu, 10048, 537, 2508, 1182, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10051, 526, 1696, 29, app, 400, PowerModelTest
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2287, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 214, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 314, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1387875, 1387884
+display, 10000, 1, 0.00392156862745098, com.android.providers.applications
+cpu_freq, 0.22000718
+cpu_total, 13468, 1804, 5849, 117519, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3795, 2218, service, 100, System
+cpu, 10000, 259, 937, 114, app, 100, com.android.providers.applications
+cpu, 10048, 537, 2512, 1186, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10051, 526, 1696, 29, app, 400, PowerModelTest
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2288, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 214, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 314, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1388362, 1388371
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.55172414
+cpu_total, 13485, 1804, 5863, 117537, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3803, 2222, service, 100, System
+cpu, 10051, 526, 1698, 30, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2518, 1186, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2289, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 215, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1388877, 1388886
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13505, 1804, 5873, 117556, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3820, 2228, service, 100, System
+cpu, 10051, 526, 1698, 30, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2521, 1190, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2289, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 215, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1389379, 1389388
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13510, 1804, 5878, 117598, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3820, 2228, service, 100, System
+cpu, 10051, 526, 1698, 30, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2525, 1194, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2290, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 215, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1389885, 1389894
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13517, 1804, 5880, 117639, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3822, 2228, service, 100, System
+cpu, 10051, 526, 1698, 30, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2532, 1196, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2291, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 215, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1390387, 1390396
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13526, 1804, 5881, 117679, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3823, 2228, service, 100, System
+cpu, 10051, 526, 1698, 30, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2540, 1197, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2292, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 8, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1390885, 1390894
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13537, 1804, 5883, 117716, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3824, 2228, service, 100, System
+cpu, 10051, 526, 1698, 30, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2550, 1199, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2293, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1391387, 1391396
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13545, 1804, 5889, 117752, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3829, 2228, service, 100, System
+cpu, 10051, 526, 1698, 30, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2552, 1205, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 351, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2293, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 258, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1391866, 1391875
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13548, 1804, 5895, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3831, 2229, service, 100, System
+cpu, 10051, 526, 1698, 31, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2556, 1209, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2294, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 320, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1392362, 1392371
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13557, 1834, 5902, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3833, 2229, service, 100, System
+cpu, 10051, 526, 1729, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2560, 1210, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2295, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1392870, 1392879
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13560, 1878, 5905, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3834, 2230, service, 100, System
+cpu, 10051, 526, 1770, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2563, 1212, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2296, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1393365, 1393374
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13564, 1922, 5907, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3835, 2230, service, 100, System
+cpu, 10051, 526, 1814, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2565, 1214, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2296, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1393869, 1393878
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13568, 1968, 5907, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3835, 2230, service, 100, System
+cpu, 10051, 526, 1858, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2570, 1214, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2297, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1394362, 1394371
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13575, 2014, 5908, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3835, 2230, service, 100, System
+cpu, 10051, 526, 1902, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2578, 1215, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2298, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1394865, 1394874
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13577, 2055, 5911, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 33, service, 100, Radio Subsystem
+cpu, 1000, 164, 3836, 2230, service, 100, System
+cpu, 10051, 526, 1942, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2579, 1219, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2298, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1395371, 1395380
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13581, 2100, 5912, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3836, 2230, service, 100, System
+cpu, 10051, 526, 1986, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2583, 1220, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2299, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1395867, 1395876
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13586, 2145, 5912, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3838, 2230, service, 100, System
+cpu, 10051, 526, 2030, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2588, 1220, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2300, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1396362, 1396371
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13590, 2190, 5914, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3838, 2230, service, 100, System
+cpu, 10051, 526, 2074, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2590, 1222, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2301, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1396864, 1396873
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13592, 2235, 5916, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3838, 2230, service, 100, System
+cpu, 10051, 526, 2117, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2593, 1224, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2301, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1397367, 1397376
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13594, 2281, 5919, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 46, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3838, 2230, service, 100, System
+cpu, 10051, 526, 2162, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 941, 115, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2595, 1227, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2302, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 60, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1397870, 1397879
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13603, 2322, 5922, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3838, 2230, service, 100, System
+cpu, 10051, 526, 2202, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2601, 1230, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2303, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1398365, 1398374
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13608, 2363, 5922, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3839, 2230, service, 100, System
+cpu, 10051, 526, 2241, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2606, 1230, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2303, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1398863, 1398872
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13611, 2408, 5924, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3840, 2230, service, 100, System
+cpu, 10051, 526, 2285, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2608, 1232, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2304, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1399366, 1399375
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13614, 2454, 5925, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3841, 2230, service, 100, System
+cpu, 10051, 526, 2330, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2611, 1234, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2305, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1399869, 1399878
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13616, 2500, 5927, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3841, 2230, service, 100, System
+cpu, 10051, 526, 2373, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2614, 1236, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2306, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1400367, 1400376
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13618, 2546, 5930, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3841, 2230, service, 100, System
+cpu, 10051, 526, 2418, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2616, 1239, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2306, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1400867, 1400876
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13621, 2591, 5931, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3841, 2230, service, 100, System
+cpu, 10051, 526, 2461, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2620, 1240, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2307, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 327, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1401367, 1401376
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13624, 2637, 5932, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3842, 2230, service, 100, System
+cpu, 10051, 526, 2506, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2623, 1242, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2308, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1401867, 1401876
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13632, 2678, 5933, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3843, 2230, service, 100, System
+cpu, 10051, 526, 2545, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2631, 1243, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2309, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1402367, 1402376
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13636, 2723, 5934, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3843, 2230, service, 100, System
+cpu, 10051, 526, 2589, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 943, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2634, 1244, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2310, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1402868, 1402877
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13642, 2765, 5936, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3843, 2230, service, 100, System
+cpu, 10051, 526, 2631, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2637, 1246, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2310, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1403363, 1403372
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13644, 2810, 5939, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3843, 2230, service, 100, System
+cpu, 10051, 526, 2675, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2640, 1248, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2311, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1403867, 1403876
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13646, 2856, 5942, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3844, 2230, service, 100, System
+cpu, 10051, 526, 2720, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2642, 1251, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2312, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1404370, 1404379
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13649, 2901, 5943, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3844, 2230, service, 100, System
+cpu, 10051, 526, 2763, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2645, 1253, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2312, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1404869, 1404878
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13652, 2947, 5944, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3845, 2230, service, 100, System
+cpu, 10051, 526, 2807, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2649, 1254, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2313, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1405369, 1405378
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13658, 2993, 5947, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3845, 2230, service, 100, System
+cpu, 10051, 526, 2852, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2655, 1256, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2314, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1405865, 1405874
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13661, 3034, 5948, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3845, 2231, service, 100, System
+cpu, 10051, 526, 2891, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2658, 1258, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2315, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1406362, 1406371
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13665, 3079, 5949, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3846, 2231, service, 100, System
+cpu, 10051, 526, 2934, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2662, 1259, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2315, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1406862, 1406871
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13668, 3125, 5950, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3846, 2231, service, 100, System
+cpu, 10051, 526, 2979, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2666, 1260, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2316, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1407372, 1407381
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13670, 3170, 5953, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3846, 2231, service, 100, System
+cpu, 10051, 526, 3023, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2668, 1263, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2317, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1407870, 1407879
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13673, 3215, 5955, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3847, 2231, service, 100, System
+cpu, 10051, 526, 3067, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2671, 1265, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2317, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1408369, 1408378
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13675, 3261, 5957, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3848, 2231, service, 100, System
+cpu, 10051, 526, 3110, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2672, 1268, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2318, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1408869, 1408878
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13681, 3307, 5959, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3849, 2231, service, 100, System
+cpu, 10051, 526, 3155, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2679, 1270, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2319, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1409369, 1409378
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13683, 3349, 5961, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3849, 2231, service, 100, System
+cpu, 10051, 526, 3195, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2681, 1273, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2320, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1409862, 1409871
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13683, 3395, 5965, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3850, 2231, service, 100, System
+cpu, 10051, 526, 3239, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2682, 1277, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2320, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1410365, 1410374
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13687, 3441, 5965, 117793, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3851, 2231, service, 100, System
+cpu, 10051, 526, 3283, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2685, 1278, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2321, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 216, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 328, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1410878, 1410887
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.4827586
+cpu_total, 13699, 3471, 5974, 117796, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 47, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3855, 2231, service, 100, System
+cpu, 10051, 526, 3316, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2688, 1282, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2322, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 217, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1411375, 1411384
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13714, 3471, 5984, 117822, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3867, 2234, service, 100, System
+cpu, 10051, 526, 3319, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2692, 1286, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2323, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 217, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1411865, 1411874
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13727, 3471, 5989, 117852, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3874, 2236, service, 100, System
+cpu, 10051, 526, 3319, 32, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2698, 1288, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2323, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 217, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1412377, 1412386
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13738, 3471, 6000, 117880, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3877, 2242, service, 100, System
+cpu, 10051, 526, 3325, 33, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2701, 1292, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 61, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2324, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 259, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 217, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1412877, 1412887
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13751, 3471, 6002, 117917, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3880, 2242, service, 100, System
+cpu, 10051, 526, 3325, 33, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2711, 1294, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2325, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 260, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 217, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 19, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1413370, 1413379
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.8965517
+cpu_total, 13766, 3471, 6011, 117941, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3888, 2244, service, 100, System
+cpu, 10051, 526, 3328, 33, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2713, 1298, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2326, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 57, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 261, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 218, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+batt_current 2.68E-4
+begin, 1413876, 1413885
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13774, 3471, 6012, 117982, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3889, 2244, service, 100, System
+cpu, 10051, 526, 3328, 33, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2720, 1299, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2327, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 261, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 218, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1414388, 1414397
+display, 10051, 1, 0.00392156862745098, PowerModelTest
+cpu_freq, 0.22000718
+cpu_total, 13778, 3471, 6019, 118023, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3890, 2245, service, 100, System
+cpu, 10051, 526, 3328, 33, app, 100, PowerModelTest
+cpu, 10000, 259, 944, 117, app, 400, com.android.providers.applications
+cpu, 10048, 537, 2724, 1304, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 400, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2327, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 56, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 261, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 218, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1414874, 1414883
+display, 10000, 1, 0.00392156862745098, com.android.providers.applications
+cpu_freq, 0.22000718
+cpu_total, 13799, 3471, 6030, 118042, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3902, 2251, service, 100, System
+cpu, 10000, 259, 948, 118, app, 100, com.android.providers.applications
+cpu, 10051, 526, 3329, 33, app, 400, PowerModelTest
+cpu, 10048, 537, 2728, 1308, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2328, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 57, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 262, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 218, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 334, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1415365, 1415374
+display, 10000, 1, 0.00392156862745098, com.android.providers.applications
+cpu_freq, 0.22000718
+cpu_total, 13806, 3471, 6039, 118073, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3905, 2251, service, 100, System
+cpu, 10000, 259, 948, 118, app, 100, com.android.providers.applications
+cpu, 10051, 526, 3329, 33, app, 400, PowerModelTest
+cpu, 10048, 537, 2733, 1311, service, 200, PowerTutor
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2329, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 57, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 262, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 218, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 341, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1415877, 1415886
+display, 10048, 1, 0.00392156862745098, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13830, 3471, 6044, 118093, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3911, 2254, service, 100, System
+cpu, 10048, 537, 2741, 1312, service, 100, PowerTutor
+cpu, 10000, 259, 956, 118, app, 400, com.android.providers.applications
+cpu, 10051, 526, 3329, 33, app, 400, PowerModelTest
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2330, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 57, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 263, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 219, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 341, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1416365, 1416374
+display, 10048, 1, 0.00392156862745098, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13853, 3471, 6050, 118122, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 48, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3918, 2259, service, 100, System
+cpu, 10048, 537, 2756, 1313, service, 100, PowerTutor
+cpu, 10000, 259, 956, 118, app, 400, com.android.providers.applications
+cpu, 10051, 526, 3330, 33, app, 400, PowerModelTest
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2331, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 57, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 263, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 219, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 341, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1416885, 1416894
+display, 10048, 1, 0.00392156862745098, PowerTutor
+cpu_freq, 0.22000718
+cpu_total, 13858, 3471, 6054, 118157, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 49, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3919, 2259, service, 100, System
+cpu, 10048, 537, 2761, 1317, service, 100, PowerTutor
+cpu, 10000, 259, 956, 118, app, 400, com.android.providers.applications
+cpu, 10051, 526, 3330, 33, app, 400, PowerModelTest
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2331, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 57, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 263, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 219, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 341, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0
+begin, 1417370, 1417379
+display, 10048, 1, 0.00392156862745098, PowerTutor
+cpu_freq, 0.8965517
+cpu_total, 13870, 3471, 6063, 118183, 78, 1, 16, 0, 0, 0
+cpu, 10022, 247, 205, 34, service, 200, Android keyboard
+cpu, 1001, 253, 49, 34, service, 100, Radio Subsystem
+cpu, 1000, 164, 3923, 2261, service, 100, System
+cpu, 10048, 537, 2768, 1321, app, 100, PowerTutor
+cpu, 10000, 259, 956, 118, app, 400, com.android.providers.applications
+cpu, 10051, 526, 3330, 33, app, 400, PowerModelTest
+cpu, 1000, 436, 1852, 311, app, 400, System
+cpu, 10016, 313, 71, 24, app, 400, DRM Protected Content Storage
+cpu, 10036, 547, 13, 7, app, 400, Superuser
+cpu, 10044, 714, 493, 75, app, 400, SetCPU
+cpu, 10020, 443, 25, 8, app, 400, Gallery
+cpu, 10014, 342, 14, 3, app, 400, Clock
+cpu, 10009, 331, 14, 10, app, 400, Calendar Storage
+cpu, 10033, 382, 352, 62, app, 500, ROM Manager
+cpu, 10040, 392, 4, 0, app, 500, Voice Dialer
+cpu, 10032, 428, 6, 2, app, 500, Search
+cpu, 10026, 362, 4, 8, app, 100, Messaging
+cpu, 10002, 306, 9, 5, app, 500, Bluetooth Share
+cpu, 0, 128, 0, 1, kernel, kernel, Kernel
+cpu, 1008, 125, 7, 2332, kernel, kernel, Compass Device (e.g. akmd)
+cpu, 1017, 124, 0, 1, kernel, kernel, sys_1017
+cpu, 0, 123, 4, 18, kernel, kernel, Kernel
+cpu, 1002, 122, 0, 3, kernel, kernel, Bluetooth Subsystem
+cpu, 1013, 121, 57, 32, kernel, kernel, Media Server
+cpu, 0, 120, 456, 92, kernel, kernel, Kernel
+cpu, 1001, 119, 4, 5, kernel, kernel, Radio Subsystem
+cpu, 0, 117, 0, 2, kernel, kernel, Kernel
+cpu, 0, 116, 0, 3, kernel, kernel, Kernel
+cpu, 1000, 115, 7, 9, kernel, kernel, System
+cpu, 0, 66, 15, 0, kernel, kernel, Kernel
+cpu, 0, 65, 8, 61, kernel, kernel, Kernel
+cpu, 0, 63, 5, 0, kernel, kernel, Kernel
+cpu, 0, 62, 0, 151, kernel, kernel, Kernel
+cpu, 0, 61, 0, 59, kernel, kernel, Kernel
+cpu, 0, 51, 0, 10, kernel, kernel, Kernel
+cpu, 0, 50, 0, 264, kernel, kernel, Kernel
+cpu, 0, 34, 1, 0, kernel, kernel, Kernel
+cpu, 0, 13, 0, 219, kernel, kernel, Kernel
+cpu, 0, 12, 0, 18, kernel, kernel, Kernel
+cpu, 0, 10, 1, 0, kernel, kernel, Kernel
+cpu, 0, 9, 10, 0, kernel, kernel, Kernel
+cpu, 0, 5, 0, 341, kernel, kernel, Kernel
+cpu, 0, 3, 1, 20, kernel, kernel, Kernel
+cpu, 0, 1, 3, 164, kernel, kernel, Kernel
+network_total, 0, 0, 0, 0
+network, 10014, -1, -1
+network, 10044, -1, -1
+network, 10009, -1, -1
+network, 10040, -1, -1
+network, 10036, -1, -1
+network, 10000, -1, -1
+network, 10033, -1, -1
+network, 10002, -1, -1
+network, 10032, -1, -1
+network, 1001, -1, -1
+network, 1000, -1, -1
+network, 10026, -1, -1
+network, 10048, -1, -1
+network, 10022, -1, -1
+network, 10020, -1, -1
+network, 10051, -1, -1
+network, 10016, -1, -1
+mobile_total, 0, 0

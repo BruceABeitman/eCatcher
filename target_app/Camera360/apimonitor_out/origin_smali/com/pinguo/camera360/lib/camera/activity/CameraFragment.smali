@@ -1,0 +1,600 @@
+.class public abstract Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;
+.super Lcom/pinguo/camera360/base/BaseFragment;
+.source "CameraFragment.java"
+
+# interfaces
+.implements Landroid/view/SurfaceHolder$Callback;
+.implements Landroid/hardware/Camera$PreviewCallback;
+.implements Lcom/pinguo/camera360/lib/camera/model/CameraModel$CameraProcessCallback;
+
+
+# static fields
+.field private static final TAG:Ljava/lang/String;
+
+
+# instance fields
+.field private mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+.field protected mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    const-class v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;
+
+    invoke-virtual {v0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+
+    move-result-object v0
+
+    sput-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .registers 1
+
+    invoke-direct {p0}, Lcom/pinguo/camera360/base/BaseFragment;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected getCameraModel()Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+    .registers 2
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    return-object v0
+.end method
+
+.method protected abstract initCameraModel()Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+.end method
+
+.method protected abstract needEnablePreviewCallback()Z
+.end method
+
+.method public onCameraOpen(ILcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraProxy;)V
+    .registers 5
+
+    invoke-static {}, Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;->instance()Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object v1
+
+    invoke-virtual {v0, p1, v1}, Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;->setCameraId(ILandroid/content/Context;)V
+
+    invoke-virtual {v0, p2}, Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;->setCamera(Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraProxy;)V
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;->setJpegOrientation(I)V
+
+    return-void
+.end method
+
+.method public onCameraOpenFail(Ljava/lang/Exception;)V
+    .registers 8
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v2, "onCameraOpenFail:"
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string/jumbo v2, ", at time:"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object v0
+
+    const v1, 0x7f080246
+
+    const v2, 0x7f0800a7
+
+    const v3, 0x7f080002
+
+    new-instance v4, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment$1;
+
+    invoke-direct {v4, p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment$1;-><init>(Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;)V
+
+    new-instance v5, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment$2;
+
+    invoke-direct {v5, p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment$2;-><init>(Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;)V
+
+    invoke-static/range {v0 .. v5}, Lcom/pinguo/camera360/ui/dialog/BSDialogUtils;->showDialogNoTitle(Landroid/content/Context;IIILandroid/content/DialogInterface$OnClickListener;Landroid/content/DialogInterface$OnClickListener;)Lcom/pinguo/camera360/ui/dialog/BSAlertDialog;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/ui/dialog/BSAlertDialog;->show()V
+
+    return-void
+.end method
+
+.method public onCreate(Landroid/os/Bundle;)V
+    .registers 4
+
+    invoke-super {p0, p1}, Lcom/pinguo/camera360/base/BaseFragment;->onCreate(Landroid/os/Bundle;)V
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onCreate"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->initCameraModel()Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0, p0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->setCameraProcessCallback(Lcom/pinguo/camera360/lib/camera/model/CameraModel$CameraProcessCallback;)V
+
+    return-void
+.end method
+
+.method public onPause()V
+    .registers 3
+
+    invoke-super {p0}, Lcom/pinguo/camera360/base/BaseFragment;->onPause()V
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onPause"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->stopPreview()V
+
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->releaseCamera()V
+
+    return-void
+.end method
+
+.method public onPreReleaseCamera()V
+    .registers 3
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onPreReleaseCamera"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    if-eqz v0, :cond_1c
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;->setCameraRelease(Z)V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;->resetSensorValue()V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;->stopSensor()V
+
+    :cond_1c
+    invoke-static {}, Lcom/pinguo/camera360/camera/businessPrefSetting/CameraBusinessSettingModel;->backupCameraSettings()V
+
+    return-void
+.end method
+
+.method public onPreviewFrame([BLandroid/hardware/Camera;)V
+    .registers 3
+
+    return-void
+.end method
+
+.method public onReleaseCamera()V
+    .registers 3
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onReleaseCamera"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public onResume()V
+    .registers 3
+
+    invoke-super {p0}, Lcom/pinguo/camera360/base/BaseFragment;->onResume()V
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onResume"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->openCamera()V
+
+    return-void
+.end method
+
+.method public onStartPreview()V
+    .registers 3
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onStartPreview"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;->setPreviewPause(Z)V
+
+    return-void
+.end method
+
+.method public onStartPreviewFail(Ljava/lang/Exception;)V
+    .registers 4
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onStartPreviewFail"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public onStopPreview()V
+    .registers 3
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "onStopPreview"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;->setPreviewPause(Z)V
+
+    return-void
+.end method
+
+.method public onSwitchCamera(Z)V
+    .registers 5
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v2, "onSwitchCamera, facingFront:"
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method protected openCamera()V
+    .registers 5
+
+    iget-object v2, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v2}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v2
+
+    sget-object v3, Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;->CAMERA_STOPPED:Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    if-ne v2, v3, :cond_17
+
+    invoke-static {}, Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;->instance()Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/pinguo/camera360/lib/camera/lib/parameters/CameraSettingModel;->getCameraId()I
+
+    move-result v0
+
+    iget-object v2, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v2, v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->openCamera(I)Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraProxy;
+
+    :cond_17
+    return-void
+.end method
+
+.method public preCameraOpen()V
+    .registers 3
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "preCameraOpen"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    new-instance v0, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->getActivity()Landroid/support/v4/app/FragmentActivity;
+
+    move-result-object v1
+
+    invoke-direct {v0, v1}, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;-><init>(Landroid/content/Context;)V
+
+    iput-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mFocusManager:Lcom/pinguo/camera360/lib/camera/lib/FocusManager;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lcom/pinguo/camera360/lib/camera/lib/FocusManager;->setCameraRelease(Z)V
+
+    return-void
+.end method
+
+.method public preStartPreview()V
+    .registers 3
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "preStartPreview"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    const/16 v1, 0x5a
+
+    invoke-virtual {v0, v1}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->setDisplayOrientation(I)V
+
+    return-void
+.end method
+
+.method protected releaseCamera()V
+    .registers 3
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;->PREVIEW_STOPPED:Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    if-ne v0, v1, :cond_f
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->releaseCamera()V
+
+    :cond_f
+    return-void
+.end method
+
+.method protected startPreview()V
+    .registers 4
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v2, "startPreview state = "
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object v2, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v2}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->i(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;->PREVIEW_STOPPED:Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    if-ne v0, v1, :cond_2a
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->startPreview()V
+
+    :cond_2a
+    return-void
+.end method
+
+.method protected stopPreview()V
+    .registers 3
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;->IDLE:Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    if-eq v0, v1, :cond_14
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;->PREVIEW_STOPPED:Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    if-ne v0, v1, :cond_19
+
+    :cond_14
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->stopPreview()V
+
+    :cond_19
+    return-void
+.end method
+
+.method public surfaceChanged(Landroid/view/SurfaceHolder;III)V
+    .registers 8
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v2, "surfaceChanged width="
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string/jumbo v2, " height="
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v2}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;->IDLE:Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    if-eq v0, v1, :cond_3e
+
+    iget-object v0, p0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->mCameraModel:Lcom/pinguo/camera360/lib/camera/model/CameraModel;
+
+    invoke-virtual {v0}, Lcom/pinguo/camera360/lib/camera/model/CameraModel;->getCameraState()Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    move-result-object v0
+
+    sget-object v1, Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;->PREVIEW_STOPPED:Lcom/pinguo/camera360/lib/camera/lib/CameraManager$CameraState;
+
+    if-ne v0, v1, :cond_41
+
+    :cond_3e
+    invoke-virtual {p0}, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->startPreview()V
+
+    :cond_41
+    return-void
+.end method
+
+.method public surfaceCreated(Landroid/view/SurfaceHolder;)V
+    .registers 5
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    const-string/jumbo v2, "surfaceCreated surfaceHolder ="
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public surfaceDestroyed(Landroid/view/SurfaceHolder;)V
+    .registers 4
+
+    sget-object v0, Lcom/pinguo/camera360/lib/camera/activity/CameraFragment;->TAG:Ljava/lang/String;
+
+    const-string/jumbo v1, "surfaceDestroyed"
+
+    invoke-static {v0, v1}, Lcom/pinguo/lib/log/GLogger;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method

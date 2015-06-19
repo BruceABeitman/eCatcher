@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PowerModelTest</string>
+    <string name="prompt">Hello! \n</string>
+    <string name="btn_cpu">CPU</string>
+    <string name="btn_wifi">WiFi</string>
+    <string name="btn_lcd">LCD</string>
+    <string name="btn_root">Root Req</string>
+</resources>

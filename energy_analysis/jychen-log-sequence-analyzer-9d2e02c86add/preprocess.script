@@ -1,0 +1,13 @@
+#!/bin/bash
+
+## pre-process user behavior log file
+
+for p in "$@"
+  do  
+    echo "Process $p" 
+    cp $p $p.bak
+    awk -F': ' '{print $2}' $p > $p.tmp
+    mv $p.tmp $p
+  done
+
+

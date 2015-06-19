@@ -1,0 +1,6 @@
+.class public interface abstract Lcom/google/android/gms/games/request/d;
+.super Ljava/lang/Object;
+.method public abstract a(Lcom/google/android/gms/games/request/GameRequest;)V
+.end method
+.method public abstract a(Ljava/lang/String;)V
+.end method

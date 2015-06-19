@@ -1,0 +1,61 @@
+.class final Lcom/handmark/pulltorefresh/library/x;
+.super Landroid/webkit/WebView;
+.source "SourceFile"
+.field static final a:I = 0x2
+.field static final b:F = 1.5f
+.field final synthetic c:Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;
+.method public constructor <init>(Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;Landroid/content/Context;Landroid/util/AttributeSet;)V
+.registers 4
+iput-object p1, p0, Lcom/handmark/pulltorefresh/library/x;->c:Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;
+invoke-direct {p0, p2, p3}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+return-void
+.end method
+.method private a()I
+.registers 5
+const/4 v1, 0x0
+iget-object v0, p0, Lcom/handmark/pulltorefresh/library/x;->c:Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;
+iget-object v0, v0, Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;->n:Landroid/view/View;
+check-cast v0, Landroid/webkit/WebView;
+invoke-virtual {v0}, Landroid/webkit/WebView;->getContentHeight()I
+move-result v0
+int-to-float v2, v0
+iget-object v0, p0, Lcom/handmark/pulltorefresh/library/x;->c:Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;
+iget-object v0, v0, Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;->n:Landroid/view/View;
+check-cast v0, Landroid/webkit/WebView;
+invoke-virtual {v0}, Landroid/webkit/WebView;->getScale()F
+move-result v0
+mul-float/2addr v0, v2
+invoke-static {v0}, Landroid/util/FloatMath;->floor(F)F
+move-result v0
+invoke-virtual {p0}, Lcom/handmark/pulltorefresh/library/x;->getHeight()I
+move-result v2
+invoke-virtual {p0}, Lcom/handmark/pulltorefresh/library/x;->getPaddingBottom()I
+move-result v3
+sub-int/2addr v2, v3
+invoke-virtual {p0}, Lcom/handmark/pulltorefresh/library/x;->getPaddingTop()I
+move-result v3
+sub-int/2addr v2, v3
+int-to-float v2, v2
+sub-float/2addr v0, v2
+invoke-static {v1, v0}, Ljava/lang/Math;->max(FF)F
+move-result v0
+float-to-int v0, v0
+return v0
+.end method
+.method protected overScrollBy(IIIIIIIIZ)Z
+.registers 20
+invoke-super/range {p0 .. p9}, Landroid/webkit/WebView;->overScrollBy(IIIIIIIIZ)Z
+move-result v9
+iget-object v0, p0, Lcom/handmark/pulltorefresh/library/x;->c:Lcom/handmark/pulltorefresh/library/PullToRefreshWebView;
+invoke-direct {p0}, Lcom/handmark/pulltorefresh/library/x;->a()I
+move-result v5
+const/4 v6, 0x2
+const/high16 v7, 0x3fc0
+move v1, p1
+move v2, p3
+move v3, p2
+move v4, p4
+move/from16 v8, p9
+invoke-static/range {v0 .. v8}, Lcom/handmark/pulltorefresh/library/e;->a(Lcom/handmark/pulltorefresh/library/PullToRefreshBase;IIIIIIFZ)V
+return v9
+.end method

@@ -1,0 +1,5 @@
+.class public interface abstract Lcom/d/a/a/a/b/a;
+.super Ljava/lang/Object;
+.source "FileNameGenerator.java"
+.method public abstract a(Ljava/lang/String;)Ljava/lang/String;
+.end method

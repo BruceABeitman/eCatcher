@@ -1,0 +1,287 @@
+.class public final Lcom/instagram/cliffjumper/util/e;
+.super Ljava/lang/Object;
+.source "VertexUtil.java"
+
+
+# static fields
+.field private static final a:[[F
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 4
+
+    const/16 v3, 0x8
+
+    new-array v0, v3, [[F
+
+    const/4 v1, 0x0
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_48
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x1
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_5c
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x2
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_70
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x3
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_84
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x4
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_98
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x5
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_ac
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x6
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_c0
+
+    aput-object v2, v0, v1
+
+    const/4 v1, 0x7
+
+    new-array v2, v3, [F
+
+    fill-array-data v2, :array_d4
+
+    aput-object v2, v0, v1
+
+    sput-object v0, Lcom/instagram/cliffjumper/util/e;->a:[[F
+
+    return-void
+
+    nop
+
+    :array_48
+    .array-data 0x4
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+    .end array-data
+
+    :array_5c
+    .array-data 0x4
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+    .end array-data
+
+    :array_70
+    .array-data 0x4
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+    .end array-data
+
+    :array_84
+    .array-data 0x4
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+    .end array-data
+
+    :array_98
+    .array-data 0x4
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+    .end array-data
+
+    :array_ac
+    .array-data 0x4
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+    .end array-data
+
+    :array_c0
+    .array-data 0x4
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+    .end array-data
+
+    :array_d4
+    .array-data 0x4
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x0t 0x0t
+        0x0t 0x0t 0x80t 0x3ft
+    .end array-data
+.end method
+
+.method public static final a()Lcom/instagram/cliffjumper/util/a;
+    .registers 4
+
+    new-instance v0, Lcom/instagram/cliffjumper/util/a;
+
+    invoke-static {}, Lcom/instagram/cliffjumper/util/e;->b()[F
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/instagram/cliffjumper/util/e;->a([F)Ljava/nio/FloatBuffer;
+
+    move-result-object v1
+
+    const/4 v2, 0x0
+
+    invoke-static {v2}, Lcom/instagram/cliffjumper/util/e;->a(I)[F
+
+    move-result-object v2
+
+    invoke-static {v2}, Lcom/instagram/cliffjumper/util/e;->a([F)Ljava/nio/FloatBuffer;
+
+    move-result-object v2
+
+    const/4 v3, 0x4
+
+    invoke-static {v3}, Lcom/instagram/cliffjumper/util/e;->a(I)[F
+
+    move-result-object v3
+
+    invoke-static {v3}, Lcom/instagram/cliffjumper/util/e;->a([F)Ljava/nio/FloatBuffer;
+
+    move-result-object v3
+
+    invoke-direct {v0, v1, v2, v3}, Lcom/instagram/cliffjumper/util/a;-><init>(Ljava/nio/FloatBuffer;Ljava/nio/FloatBuffer;Ljava/nio/FloatBuffer;)V
+
+    return-object v0
+.end method
+
+.method private static a([F)Ljava/nio/FloatBuffer;
+    .registers 3
+
+    array-length v0, p0
+
+    mul-int/lit8 v0, v0, 0x4
+
+    invoke-static {v0}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
+
+    move-result-object v0
+
+    invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asFloatBuffer()Ljava/nio/FloatBuffer;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p0}, Ljava/nio/FloatBuffer;->put([F)Ljava/nio/FloatBuffer;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Ljava/nio/FloatBuffer;->position(I)Ljava/nio/Buffer;
+
+    return-object v0
+.end method
+
+.method private static a(I)[F
+    .registers 3
+
+    sget-object v0, Lcom/instagram/cliffjumper/util/e;->a:[[F
+
+    rem-int/lit8 v1, p0, 0x8
+
+    aget-object v0, v0, v1
+
+    return-object v0
+.end method
+
+.method private static b()[F
+    .registers 1
+
+    const/16 v0, 0x8
+
+    new-array v0, v0, [F
+
+    fill-array-data v0, :array_8
+
+    return-object v0
+
+    :array_8
+    .array-data 0x4
+        0x0t 0x0t 0x80t 0xbft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0xbft
+        0x0t 0x0t 0x80t 0xbft
+        0x0t 0x0t 0x80t 0x3ft
+        0x0t 0x0t 0x80t 0xbft
+    .end array-data
+.end method

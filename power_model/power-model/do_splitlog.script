@@ -1,0 +1,12 @@
+#!/bin/bash
+
+## parameter: $1 - input folder
+## log location: $PWD/$1/raw/
+export IN=$1/raw
+export OUT=$1/analysis_data
+echo "Input log location: $IN"
+echo "Output location: $OUT"
+echo ""
+
+for FILE in $(ls $IN/*PowerTrace*.log); do ./splitlog.script ${FILE##*/} $1; done;
+

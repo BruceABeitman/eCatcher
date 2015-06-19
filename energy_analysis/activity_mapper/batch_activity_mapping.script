@@ -1,0 +1,32 @@
+#!/bin/bash
+## Step-by-Step
+## 1. PowerTutor + extract_user_log.script (not included here)
+## 2. preprocessor.script *_user.log
+## 3. analyzer.sciript *_user.log
+##   - generate action files
+##   - generate p.dict and p.rec
+##
+## To map app power consumption
+## 4. extract_app_util.script *_util.log
+## 5. batch_util_mapping.script
+
+if [ $# -lt 3 ]; then
+  echo "Usage: ./batch_activity_mapping.script <targeted_package_name> <data_folder> <context? 1:Y/2:N>"
+  exit
+fi
+
+echo "Pre-process user script"
+./preprocess.script $2/*_user.log
+
+echo "Batch analyzing logs"
+./analyzer.script $2/*_user.log
+
+echo "Extract application utilization"
+./extract_app_util.script -p $1 $2/*_util.log
+
+echo "Batch mapping utilization"
+./batch_util_mapping.script $1 $2 $3
+
+echo "Done!"
+
+

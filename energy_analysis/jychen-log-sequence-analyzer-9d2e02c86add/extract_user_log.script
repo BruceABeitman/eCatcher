@@ -1,0 +1,6 @@
+#!/bin/bash
+
+user_log="user.log"
+
+adb logcat *:s -t "DBox" | tee $user_log
+

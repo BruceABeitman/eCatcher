@@ -1,0 +1,1971 @@
+From: <Saved by Mozilla 5.0 (X11)>
+Subject: Issue 3972 - k9mail - Too many simultaneous connections - K-9 Mail
+ is an advanced email client for Android - Google Project Hosting
+Date: Mon, 04 Mar 2013 03:21:15 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_1FE73386.00178065"
+X-MAF-Information: Produced By MAF V2.0.9
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://code.google.com/p/k9mail/issues/detail?id=3972
+
+<!DOCTYPE html><html><head>
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF-8">
+ <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+ <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge,chrome=3D1">
+=20
+ <meta name=3D"ROBOTS" content=3D"NOARCHIVE">
+=20
+ <link rel=3D"icon" type=3D"image/vnd.microsoft.icon" href=3D"http://www.gs=
+tatic.com/codesite/ph/images/phosting.ico">
+=20
+=20
+ <script async=3D"" src=3D"urn:snapshot-13DE21B9:https://apis.google.com/_/=
+scs/apps-static/_/js/k=3Doz.gapi.en.tdoMa4o8pXE.O/m=3Dplusone/am=3DqQ/rt=3D=
+j/d=3D1/rs=3DAItRSTMicd-4tNH9te779tO60Mvx4_VhYg/cb=3Dgapi.loaded_0"></scrip=
+t><script gapi_processed=3D"true" src=3D"urn:snapshot-01DC93F5:https://apis=
+.google.com/js/plusone.js" async=3D"" type=3D"text/javascript"></script><sc=
+ript type=3D"text/javascript"><!--
+/* Script removed by snapshot save */
+--></script><script src=3D"urn:snapshot-36B4D836:http://www.google-analytic=
+s.com/ga.js" async=3D"" type=3D"text/javascript"></script>
+=20
+=20
+ <title>Issue 3972 -=20
+ k9mail -
+=20
+ Too many simultaneous connections -=20
+ K-9 Mail is an advanced email client for Android - Google Project Hosting
+ </title>
+ <link type=3D"text/css" rel=3D"stylesheet" href=3D"urn:snapshot-6074A38D:h=
+ttp://www.gstatic.com/codesite/ph/9019872673698702027/css/core.css">
+=20
+ <link type=3D"text/css" rel=3D"stylesheet" href=3D"urn:snapshot-64880750:h=
+ttp://www.gstatic.com/codesite/ph/9019872673698702027/css/ph_detail.css">
+=20
+=20
+=20
+=20
+<!--[if IE]>
+ <link type=3D"text/css" rel=3D"stylesheet" href=3D"http://www.gstatic.com/=
+codesite/ph/9019872673698702027/css/d_ie.css" >
+<![endif]-->
+ <style type=3D"text/css"><!--
+/* Effective stylesheet produced by snapshot save */
+.menuIcon.off { background: url("urn:not-loaded:http://www.gstatic.com/code=
+site/ph/images/dropdown_sprite.gif") no-repeat scroll 0px -42px transparent=
+; }
+.menuIcon.on { background: url("urn:not-loaded:http://www.gstatic.com/codes=
+ite/ph/images/dropdown_sprite.gif") no-repeat scroll 0px -28px transparent;=
+ }
+.menuIcon.down { background: url("urn:not-loaded:http://www.gstatic.com/cod=
+esite/ph/images/dropdown_sprite.gif") no-repeat scroll 0px 0px transparent;=
+ }
+.attachments { width: 33%; border-top: 2px solid rgb(153, 153, 153); paddin=
+g-top: 3px; margin-left: 0.7em; }
+.attachments table { margin-bottom: 0.75em; }
+.attachments table tr td { padding: 0px; margin: 0px; font-size: 95%; }
+.preview { border: 2px solid rgb(195, 217, 255); padding: 1px; }
+.preview:hover { border: 2px solid blue; }
+.label { white-space: nowrap; }
+.derived { font-style: italic; }
+.cursor_on .author { background: url("urn:not-loaded:http://www.gstatic.com=
+/codesite/ph/images/show-arrow.gif") no-repeat scroll 2px center transparen=
+t; }
+.hiddenform { display: none; }
+--></style>
+</head>
+<body class=3D"t3">
+<div id=3D"dic_bubble" class=3D"selection_bubble fontSize13 noSelect" style=
+=3D"z-index: 9999; border: 1px solid rgb(74, 174, 222); visibility: hidden;=
+"></div><script type=3D"text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+<div class=3D"headbg">
+
+ <div id=3D"gaia">
+=20
+
+ <span>
+=20
+=20
+=20
+ <a href=3D"#" id=3D"multilogin-dropdown" onclick=3D""><u><b>JauYuan.Chen@g=
+mail.com</b></u> <small>=E2=96=BC</small></a>
+=20
+=20
+ | <a href=3D"http://code.google.com/u/109671134972867406630/" id=3D"projec=
+ts-dropdown" onclick=3D""><u>My favorites</u> <small>=E2=96=BC</small></a>
+ | <a href=3D"http://code.google.com/u/109671134972867406630/" onclick=3D""=
+ title=3D"Profile, Updates, and Settings"><u>Profile</u></a>
+ | <a href=3D"https://www.google.com/accounts/Logout?continue=3Dhttp%3A%2F%=
+2Fcode.google.com%2Fp%2Fk9mail%2Fissues%2Fdetail%3Fid%3D3972" onclick=3D"">=
+<u>Sign out</u></a>
+=20
+ </span>
+
+ </div>
+
+ <div class=3D"gbh" style=3D"left: 0pt;"></div>
+ <div class=3D"gbh" style=3D"right: 0pt;"></div>
+=20
+=20
+ <div style=3D"height: 1px"></div>
+<!--[if lte IE 7]>
+<div style=3D"text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href=3D"http://www.firefox.com">Fire=
+fox</a>,
+<a href=3D"http://www.google.com/chrome">Google Chrome</a>, or
+<a href=3D"http://code.google.com/chrome/chromeframe/">Google Chrome Frame<=
+/a>.
+</div>
+<![endif]-->
+
+
+
+ <table style=3D"padding:0px; margin: 0px 0px 10px 0px; width:100%" itemsco=
+pe=3D"" itemtype=3D"http://schema.org/CreativeWork" cellpadding=3D"0" cells=
+pacing=3D"0">
+ <tbody><tr style=3D"height: 58px;">
+=20
+=20
+=20
+ <td id=3D"plogo">
+ <link itemprop=3D"url" href=3D"http://code.google.com/p/k9mail">
+ <a href=3D"http://code.google.com/p/k9mail/">
+=20
+=20
+ <img src=3D"http://code.google.com/p/k9mail/logo?cct=3D1354504696" alt=3D"=
+Logo" itemprop=3D"image">
+=20
+ </a>
+ </td>
+=20
+ <td style=3D"padding-left: 0.5em">
+=20
+ <div id=3D"pname">
+ <a href=3D"http://code.google.com/p/k9mail/"><span itemprop=3D"name">k9mai=
+l</span></a>
+ </div>
+=20
+ <div id=3D"psum">
+ <a id=3D"project_summary_link" href=3D"http://code.google.com/p/k9mail/"><=
+span itemprop=3D"description">K-9 Mail is an advanced email client for Andr=
+oid</span></a>
+=20
+ </div>
+=20
+=20
+ </td>
+ <td style=3D"white-space:nowrap;text-align:right; vertical-align:bottom;">
+=20
+ <form action=3D"http://code.google.com/hosting/search">
+ <input size=3D"30" name=3D"q" type=3D"text">
+=20
+ <input name=3D"projectsearch" value=3D"Search projects" type=3D"submit">
+ </form>
+=20
+ </td></tr>
+ </tbody></table>
+
+</div>
+
+=20
+<div id=3D"mt" class=3D"gtb">=20
+ <a href=3D"http://code.google.com/p/k9mail/" class=3D"tab ">Project=C2=A0H=
+ome</a>
+=20
+=20
+=20
+=20
+ <a href=3D"http://code.google.com/p/k9mail/downloads/list" class=3D"tab ">=
+Downloads</a>
+=20
+=20
+=20
+=20
+=20
+ <a href=3D"http://code.google.com/p/k9mail/wiki/GitHubWiki?tm=3D6" class=
+=3D"tab ">Wiki</a>
+=20
+=20
+=20
+=20
+=20
+ <a href=3D"http://code.google.com/p/k9mail/issues/list" class=3D"tab activ=
+e">Issues</a>
+=20
+=20
+=20
+=20
+=20
+ <a href=3D"http://code.google.com/p/k9mail/wiki/GitHub?tm=3D4" class=3D"ta=
+b ">Source</a>
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+ <div class=3D"gtbc"></div>
+</div>
+<table class=3D"st" align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" width=3D"100%">
+ <tbody><tr>
+=20
+=20
+=20
+=20
+=20
+ <td class=3D"subt">
+ <div class=3D"issueDetail">
+<div class=3D"isf">
+=20
+=20
+ <span class=3D"inIssueEntry">
+ <a class=3D"buttonify" href=3D"http://code.google.com/p/k9mail/issues/entr=
+y" onclick=3D"">New issue</a>
+ </span> =C2=A0
+=20
+ <span class=3D"inIssueList">
+ <span>Search</span>
+ <form action=3D"http://code.google.com/p/k9mail/issues/list" method=3D"GET=
+" style=3D"display:inline">
+ <select id=3D"can" name=3D"can">
+=20
+<option disabled=3D"disabled">Search within:</option>
+<option value=3D"1">=C2=A0All issues</option>
+<option value=3D"2" selected=3D"selected">=C2=A0Open issues</option>
+
+ <option value=3D"3">=C2=A0Open and owned by me</option>
+ <option value=3D"4">=C2=A0Open and reported by me</option>
+ <option value=3D"5">=C2=A0Open and starred by me</option>
+ <option value=3D"8">=C2=A0Open with comment by me</option>
+
+<option value=3D"6">=C2=A0New issues</option>
+<option value=3D"7">=C2=A0Issues to verify</option>
+
+ </select>
+ <span>for</span>
+ <span id=3D"qq"><input size=3D"38" id=3D"searchq" name=3D"q" autocomplete=
+=3D"off" onkeydown=3D"" type=3D"text"></span>
+=20
+=20
+ <span id=3D"search_colspec"><input name=3D"colspec" value=3D"ID Product Ty=
+pe Status Priority Milestone Owner Summary" type=3D"hidden"></span>
+=20
+=20
+=20
+ <input name=3D"cells" value=3D"tiles" type=3D"hidden">
+ <input value=3D"Search" type=3D"submit">
+ </form>
+ </span> =C2=A0
+ <span class=3D"inIssueAdvSearch">
+ <a href=3D"http://code.google.com/p/k9mail/issues/advsearch">Advanced sear=
+ch</a>
+ </span> =C2=A0
+ <span class=3D"inIssueSearchTips">
+ <a href=3D"http://code.google.com/p/k9mail/issues/searchtips">Search tips<=
+/a>
+ </span> =C2=A0
+ <span class=3D"inIssueSubscriptions">
+ <a href=3D"http://code.google.com/p/k9mail/issues/subscriptions">Subscript=
+ions</a>
+ </span>
+</div>
+</div>
+ </td>
+=20
+=20
+=20
+=20
+ <td class=3D"bevel-right" align=3D"right" valign=3D"top"></td>
+ </tr>
+</tbody></table>
+
+
+<script type=3D"text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+<div id=3D"maincol">
+
+=20
+
+
+
+
+
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+=20
+
+
+=20
+
+<div id=3D"color_control" class=3D"">
+<div id=3D"issueheader">
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody>
+ <tr>
+ <td class=3D"vt h3" style=3D"padding:0 5px" nowrap=3D"nowrap">
+=20
+=20
+=20
+=20
+ <img src=3D"http://www.gstatic.com/codesite/ph/images/star_off.gif" style=
+=3D"cursor:pointer" id=3D"star" title=3D"Vote for this issue and get email=
+ change notifications" onclick=3D"" height=3D"15" width=3D"15">
+=20
+=20
+ Issue <a href=3D"#">3972</a>:
+ </td>
+ <td class=3D"vt" width=3D"90%">
+ <span class=3D"h3">Too many simultaneous connections</span>
+ </td>
+ <td>
+=20
+ <div class=3D"pagination">
+ <a href=3D"http://code.google.com/p/k9mail/issues/detail?id=3D3970" title=
+=3D"Prev">=E2=80=B9 Prev</a>
+ 958 of 1424
+ <a href=3D"http://code.google.com/p/k9mail/issues/detail?id=3D3973" title=
+=3D"Next">Next =E2=80=BA</a>
+ </div>
+ </td>
+ </tr>
+ <tr>
+ <td></td>
+ <td nowrap=3D"nowrap">
+=20
+=20
+ 8 people starred this issue and may be notified of changes.
+=20
+=20
+=20
+ </td>
+ <td align=3D"center" nowrap=3D"nowrap">
+=20
+ <a href=3D"http://code.google.com/p/k9mail/issues/list?cursor=3Dk9mail%3A3=
+972">Back to list</a>
+=20
+ </td>
+ </tr>
+=20
+</tbody></table>
+</div>
+<table class=3D"issuepage" id=3D"meta-container" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody class=3D"collapse">=20
+ <tr>
+ <td style=3D"min-width: 129px;" id=3D"issuemeta">
+ <div style=3D"width: 129px; position: relative; top: 0px;" id=3D"meta-floa=
+t">
+=20
+<table cellpadding=3D"0" cellspacing=3D"0">
+ <tbody><tr><th align=3D"left">Status:=C2=A0</th>
+ <td width=3D"100%">
+=20
+ <span title=3D"Issue has not had initial review yet">New</span>
+=20
+ </td>
+ </tr>
+=20
+=20
+=20
+=20
+ <tr><th align=3D"left">Owner:=C2=A0</th><td>
+=20
+=20
+ ----
+=20
+=20
+ </td>
+ </tr>
+=20
+=20
+=20
+ <tr><td colspan=3D"2">
+=20
+=20
+=20
+ <div style=3D"padding-top:2px">
+=20
+ <a href=3D"http://code.google.com/p/k9mail/issues/list?q=3Dlabel:Type-Defe=
+ct" title=3D"Report of a software defect" class=3D"label"><b>Type-</b>Defec=
+t</a>
+=20
+ </div>
+=20
+=20
+=20
+=20
+ <div style=3D"padding-top:2px">
+=20
+ <a href=3D"http://code.google.com/p/k9mail/issues/list?q=3Dlabel:Priority-=
+Medium" title=3D"Normal priority" class=3D"label"><b>Priority-</b>Medium</a>
+=20
+ </div>
+=20
+=20
+=20
+=20
+ <div style=3D"padding-top:2px">
+=20
+ <a href=3D"http://code.google.com/p/k9mail/issues/list?q=3Dlabel:Product-k=
+9mail" title=3D"An issue with K-9 Mail" class=3D"label"><b>Product-</b>k9ma=
+il</a>
+=20
+ </div>
+=20
+=20
+ </td></tr>
+=20
+</tbody></table>
+<div class=3D"rel_issues">
+=20
+=20
+=20
+</div>
+
+
+ <br><br>
+=20
+=20
+=20
+=20
+ <a href=3D"javascript:void(0);">Add=C2=A0a=C2=A0comment=C2=A0below</a>
+=20
+=20
+=20
+=20
+
+
+=20
+ </div>=C2=A0
+ </td>
+ <td class=3D"vt issuedescription" id=3D"cursorarea" width=3D"100%">
+=20
+<div class=3D"cursor_off vt issuedescription" id=3D"hc0">
+ <div class=3D"author">
+=20
+ Reported by
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1158814437322599270=
+40/">a...@butin.cz</a>,
+ <span class=3D"date" title=3D"Fri Jan  6 07:33:07 2012">Jan 6, 2012</span>
+=20
+ </div>
+<pre>1. Just using K-9, IMAP account, fetching in 10 minutes interval, side=
+ by side with Apple Mail on the laptop, also fetching via IMAP in one minut=
+e interval.
+2. Randomly Apple Mail client losts connection with a message "Too many sim=
+ultaneous connections".
+3. It wasn't happend during more then 2 years when I used the native Androi=
+d's Mail Client side by side with Apple Mail.
+4. It works when K-9 is killed/disabled.
+
+<a href=3D"http://support.google.com/mail/bin/answer.py?hl=3Den&amp;answer=
+=3D97150" rel=3D"nofollow">http://support.google.com/mail/bin/answer.py?hl=
+=3Den&amp;answer=3D97150</a>
+
+It seems K-9 keeps some connections or just flood gmail during fetching mor=
+e then enough.
+
+I'm using 4.002 - the latest K-9 available on the Market.
+</pre>
+
+</div>
+
+=20
+
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc1">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Sat Jan  7 18:44:06 2012">
+ Jan 7, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+ <span class=3D"role_label">Project Member</span>
+ <a name=3D"c1" href=3D"#c1">#1</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/ashleywillis76/">as=
+hleywillis76</a></span>
+=20
+<pre>Perhaps you have push activated as well.
+Set "Account settings -&gt; Fetching mail -&gt; Push folders" to None.
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc2">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Mon Apr  9 00:24:52 2012">
+ Apr 9, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c2" href=3D"#c2">#2</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/rain.bipper@gmail.c=
+om/">rain.bipper@gmail.com</a></span>
+=20
+<pre>Have same issue, but with windows Thunderbird mail client.
+While K9 is turned off on Android device, two Thunderbird clients running=
+ on different computers work perfectly, but when K9 started - Thunderbird=
+ randomly shows subject error.
+
+I've subscribe 3 folder for Push notification in K9 and I don't want do dis=
+able it - I do need Push.
+
+It seemes than 673 issure reproduced again.
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc3">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Mon May 14 11:30:04 2012">
+ May 14, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c3" href=3D"#c3">#3</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1052678467117645573=
+41/">nicolas....@gmail.com</a></span>
+=20
+<pre>I've the same issue with 4.115... Only w/ my Gmail account not w/ my=
+ pro one
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc4">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Tue Jun  5 05:31:50 2012">
+ Jun 5, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c4" href=3D"#c4">#4</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1175118395956201635=
+24/">4485...@googlemail.com</a></span>
+=20
+<pre>Please change this issue to high!
+
+I also get too many connections using K9, either it is opening too much at=
+ the same time or not closing those it opens.
+This results in a server lock.
+So I can not fetch mail via any other computer or even not with K9.
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc5">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Thu Jun  7 15:40:48 2012">
+ Jun 7, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+ <span class=3D"role_label">Project Member</span>
+ <a name=3D"c5" href=3D"#c5">#5</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1027109095128648515=
+82/">bernhard...@gmail.com</a></span>
+=20
+<pre>you need one connection per push enabled folder. so you can try to red=
+uce the push enabled folders.
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc6">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Thu Aug 23 10:53:30 2012">
+ Aug 23, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c6" href=3D"#c6">#6</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1157956698203383486=
+84/">ro...@rogerwheatley.com</a></span>
+=20
+<pre>Can we simply have a setting that specifies the maximum number of conn=
+ections? (I have that in desktop Thunderbird), so assume it's able to be do=
+ne in K9? - Thanks.
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc7">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Thu Aug 23 16:54:49 2012">
+ Aug 23, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+ <span class=3D"role_label">Project Member</span>
+ <a name=3D"c7" href=3D"#c7">#7</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1027109095128648515=
+82/">bernhard...@gmail.com</a></span>
+=20
+<pre>Just don't push so many folders - then k9 would not use so much connec=
+tions
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc8">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Thu Aug 23 17:05:20 2012">
+ Aug 23, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+ <span class=3D"role_label">Project Member</span>
+ <a name=3D"c8" href=3D"#c8">#8</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/cketti@googlemail.c=
+om/">cketti@googlemail.com</a></span>
+=20
+<pre>Account settings &gt; Fetching mail &gt; Advanced &gt; Max folders to=
+ check with push
+
+What makes things different with K-9 Mail is that you use it on a mobile de=
+vice. So you often lose connectivity. When this happens the existing connec=
+tions aren't closed (and because of the high timeout of IDLE connections th=
+e server won't know that you're gone for quite a while). As soon as connect=
+ivity returns K-9 Mail opens new connections, possibly running into the ser=
+ver's connection limit.
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc9">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Thu Aug 23 19:41:31 2012">
+ Aug 23, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c9" href=3D"#c9">#9</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1157956698203383486=
+84/">ro...@rogerwheatley.com</a></span>
+=20
+<pre>I should note that K9 is configured to NOT push - Yet still have this=
+ issue.
+
+Regarding the response about "...mobile device..." and the loss of connecti=
+vity causing connections not to close because of high time out, etc.  The=
+ issue is I do not experience the issue with ANY other mobile imap applicat=
+ion, only with K9 do I experience this.
+
+K9 is full of option goodness, and I do like the application (a lot). Hence=
+, the suggestion to include the ability to configure the maximum number of=
+ imap connections. Or forgoing that, if anyone could please offer a fix. :)
+
+Thanks muchly! :)
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc10">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Sat Aug 25 15:07:02 2012">
+ Aug 25, 2012
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+ <span class=3D"role_label">Project Member</span>
+ <a name=3D"c10" href=3D"#c10">#10</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1027109095128648515=
+82/">bernhard...@gmail.com</a></span>
+=20
+<pre>thats an hard issue to fix. How many connections does your mailserver=
+ allow? Can you provide an debug log where you run out of connections?=20
+
+Do you even run out of connections when you are only connected to an Wifi=
+ all the time?
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc11">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Sat Jan 12 19:38:43 2013">
+ Jan 12, 2013
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c11" href=3D"#c11">#11</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1102254486830047738=
+03/">jmaga...@gmail.com</a></span>
+=20
+<pre>This problem is the reason why I stopped using K9 mail and sold my And=
+roid. Back to the iPhone. Next time provide better support K9 mail.
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc12">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Sat Jan 12 20:05:13 2013">
+ Jan 12, 2013
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c12" href=3D"#c12">#12</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1161068559968784246=
+33/">wheatley...@gmail.com</a></span>
+=20
+<pre>In my opinion, this has nothing to do with Android and having to go to=
+ some other mobile device (there are lots of mail applications that are not=
+ K9). Rather, this potentially has to do with the mailserver and K9 in some=
+ cases, the mailserver in others, or just K9 yet in other environments. In=
+ my case, I was able to resolve the issue by tweaking the configuration of=
+ K9. It was not quite what I wanted, but for the time being it suffices. ;)
+
+Nonetheless, it would be GREAT if K9 included a feature where we could conf=
+igure how many connections it is allowed to have open at any given time. :)
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc13">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Sat Jan 12 20:11:33 2013">
+ Jan 12, 2013
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c13" href=3D"#c13">#13</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1102254486830047738=
+03/">jmaga...@gmail.com</a></span>
+=20
+<pre>Hmmm... well what exactly did you tweak? I have a business website wit=
+h hostgator limiting me to 25 processes running at one time. I have 6 diffe=
+rent e-mail accounts all with various folders/subfolders. I can see the pro=
+cesses that are running on the Cpanel end of hostgator and it exceeds it ev=
+erytime no matter what I've tried.
+
+Help, please?
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc14">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Wed Feb 13 15:11:39 2013">
+ Feb 13, 2013
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+=20
+ <a name=3D"c14" href=3D"#c14">#14</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1019541443630042214=
+21/">sanz.da...@gmail.com</a></span>
+=20
+<pre>Hi , I have the same problem!=20
+ I have a business website with hostgator limiting me to 25 processes runni=
+ng at one time. I have 6 different e-mail accounts all with various folders=
+/subfolders. I can see the processes that are running on the Cpanel end of=
+ hostgator and it exceeds it everytime no matter what I've tried.
+Any fix?
+
+
+</pre>
+=20
+=20
+ </div>
+=20
+
+=20
+=20
+=20
+=20
+ <div class=3D"cursor_off vt issuecomment" id=3D"hc15">
+ <div style=3D"float:right; margin-right:.3em; text-align:right">
+ <span class=3D"date" title=3D"Wed Feb 13 17:58:15 2013">
+ Feb 13, 2013
+ </span>
+=20
+=20
+=20
+ </div>
+=20
+ <span class=3D"author">
+ <span class=3D"role_label">Project Member</span>
+ <a name=3D"c15" href=3D"#c15">#15</a>
+=20
+
+ <a class=3D"userlink" href=3D"http://code.google.com/u/1027109095128648515=
+82/">bernhard...@gmail.com</a></span>
+=20
+<pre>Reduce number of Push enabled folders. Every push folder needs one con=
+nection.
+</pre>
+=20
+=20
+ </div>
+=20
+
+
+=20
+
+
+ </td>
+ </tr>
+
+=20
+
+</tbody>
+</table>
+<br>
+<script type=3D"text/javascript" src=3D"urn:snapshot-AC9298E1:http://www.gs=
+tatic.com/codesite/ph/9019872673698702027/js/dit_scripts.js"></script>
+
+
+
+=20
+ <div id=3D"makechanges">
+=20
+ <div class=3D"h4" style=3D"margin-bottom: 0">Add a comment
+=20
+ </div>
+ <div id=3D"makechangesarea" class=3D"closed" style=3D"margin-top:0; paddin=
+g:5px">
+=20
+ <div class=3D"updates" style=3D"margin-bottom: 1em;">
+ <div class=3D"round4"></div>
+ <div class=3D"round2"></div>
+ <div class=3D"round1"></div>
+ <div style=3D"padding-left:5px; cursor:pointer" onclick=3D"">
+=20
+=20
+ <img src=3D"http://www.gstatic.com/codesite/ph/images/star_off.gif" style=
+=3D"cursor:pointer" id=3D"star2" title=3D"Vote for this issue and get email=
+ change notifications" height=3D"15" width=3D"15">
+ <b id=3D"vote_feedback">Vote for this issue and get email change notificat=
+ions</b>
+=20
+=20
+ </div>
+ <div class=3D"round1"></div>
+ <div class=3D"round2"></div>
+ <div class=3D"round4"></div>
+ </div>
+=20
+ <div class=3D"ifClosed">
+ <textarea onmousedown=3D"_openIssueUpdateForm()" id=3D"tempt" cols=3D"85"=
+ rows=3D"8" style=3D"color:#666">Enter your comments</textarea>
+ </div>
+ <div class=3D"ifOpened">
+ <form id=3D"edit_issue_form" action=3D"http://code.google.com/p/k9mail/iss=
+ues/update.do?id=3D3972" onsubmit=3D"" method=3D"POST" enctype=3D"multipart=
+/form-data">
+ <input name=3D"_charset_" value=3D"" type=3D"hidden">
+ <input name=3D"token" value=3D"emxiAU3G2GQxYkYer-OKPK9tnU0:1362378164001"=
+ type=3D"hidden">
+ <input name=3D"can" value=3D"2" type=3D"hidden">
+ <input name=3D"q" value=3D"" type=3D"hidden">
+ <input name=3D"colspec" value=3D"ID Product Type Status Priority Milestone=
+ Owner Summary" type=3D"hidden">
+ <input name=3D"sort" value=3D"" type=3D"hidden">
+ <input name=3D"groupby" value=3D"" type=3D"hidden">
+ <input name=3D"start" value=3D"0" type=3D"hidden">
+ <input name=3D"num" value=3D"100" type=3D"hidden">
+ <input name=3D"pagegen" value=3D"1362378164159034" type=3D"hidden">
+=20
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tbody><tr>
+ <td>
+=20
+ <textarea cols=3D"85" rows=3D"8" name=3D"comment" id=3D"addCommentTextArea=
+" onkeyup=3D"_dirty(); return true;"></textarea><br>
+=20
+ <div id=3D"attachmentarea"></div>
+ <span id=3D"attachprompt"><img src=3D"http://www.gstatic.com/codesite/ph/i=
+mages/paperclip.gif" height=3D"15" border=3D"0" width=3D"15"><a href=3D"jav=
+ascript:void(0);" id=3D"attachafile">Attach a file</a></span>
+ <span id=3D"attachmaxsize" style=3D"margin-left:2em; display:none">Max. at=
+tachments per comment: 10.0 MB</span><br>
+=20
+=20
+ <br>
+ </td>
+=20
+ <td valign=3D"top">
+ <div class=3D"tip">
+ <div class=3D"round4"></div>
+ <div class=3D"round2"></div>
+ <div class=3D"round1"></div>
+ <div class=3D"box-inner">
+ Each comment triggers notification emails.
+ So, please do not post
+ "<tt style=3D"white-space:nowrap">+1 Me too!</tt>".<br>
+ Instead, click the star icon.
+ </div>
+ <div class=3D"round1"></div>
+ <div class=3D"round2"></div>
+ <div class=3D"round4"></div>
+ </div>
+ </td>
+=20
+ </tr>
+ <tr>
+ <td>
+ <table class=3D"rowmajor" border=3D"0" cellpadding=3D"2" cellspacing=3D"2">
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+ <tbody><tr>
+ <td colspan=3D"3">
+ <div id=3D"confirmarea" class=3D"novel"><span id=3D"confirmmsg"></span></d=
+iv>
+ <div id=3D"blocksubmitarea" class=3D"blockingsubmit"><span id=3D"blocksubm=
+itmsg"></span></div>
+ </td>
+</tr>
+
+ </tbody></table>
+ <input id=3D"submit" name=3D"btn" onfocus=3D"" onmousedown=3D"" value=3D"S=
+ave changes" type=3D"submit">
+ <input id=3D"discard" name=3D"nobtn" value=3D"Discard" onfocus=3D"" onclic=
+k=3D"" type=3D"button">
+=20
+=20
+ </td>
+ </tr>
+ </tbody></table>
+ </form>
+=20
+ <form action=3D"http://code.google.com/p/k9mail/issues/delete.do" method=
+=3D"POST" id=3D"delete_form" class=3D"hiddenform">
+ <input name=3D"token" value=3D"emxiAU3G2GQxYkYer-OKPK9tnU0:1362378164001"=
+ type=3D"hidden">
+ <input name=3D"id" value=3D"3972" type=3D"hidden">
+ <input name=3D"delete" value=3D"true" type=3D"hidden">
+ </form>
+=20
+ <form action=3D"http://code.google.com/p/k9mail/issues/reportAbuse.do" met=
+hod=3D"POST" id=3D"reportabuse_form" class=3D"hiddenform">
+ <input name=3D"token" value=3D"emxiAU3G2GQxYkYer-OKPK9tnU0:1362378164001"=
+ type=3D"hidden">
+ <input name=3D"id" value=3D"3972" type=3D"hidden">
+ </form>
+ </div>
+ </div>
+</div>
+<script type=3D"text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+
+
+
+=20
+=20
+
+</div>=20
+<form name=3D"delcom" action=3D"http://code.google.com/p/k9mail/issues/delC=
+omment.do?q=3D&amp;can=3D2&amp;groupby=3D&amp;sort=3D&amp;colspec=3DID+Prod=
+uct+Type+Status+Priority+Milestone+Owner+Summary" method=3D"POST">
+ <input name=3D"sequence_num" value=3D"" type=3D"hidden">
+ <input name=3D"mode" value=3D"" type=3D"hidden">
+ <input name=3D"id" value=3D"3972" type=3D"hidden">
+ <input name=3D"token" value=3D"emxiAU3G2GQxYkYer-OKPK9tnU0:1362378164001"=
+ type=3D"hidden">
+</form>
+
+<div id=3D"helparea"></div>
+<script type=3D"text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+<script type=3D"text/javascript" src=3D"urn:snapshot-BD1E1173:http://www.gs=
+tatic.com/codesite/ph/9019872673698702027/js/kibbles.js"></script>
+<script type=3D"text/javascript"><!--
+/* Script removed by snapshot save */
+--></script>
+=20
+=20
+=20
+ <script type=3D"text/javascript" src=3D"urn:snapshot-3760DD32:http://www.g=
+static.com/codesite/ph/9019872673698702027/js/ph_core.js"></script>
+=20
+=20
+=20
+=20
+</div>=20
+
+<div id=3D"footer" dir=3D"ltr">
+ <div class=3D"text">
+ <a href=3D"http://code.google.com/projecthosting/terms.html">Terms</a> -
+ <a href=3D"http://www.google.com/privacy.html">Privacy</a> -
+ <a href=3D"http://code.google.com/p/support/">Project Hosting Help</a>
+ </div>
+</div>
+ <div class=3D"hostedBy" style=3D"margin-top: -20px;">
+ <span style=3D"vertical-align: top;">Powered by <a href=3D"http://code.goo=
+gle.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+
+=20
+=20
+
+
+=20
+=20
+
+
+<div style=3D"display: none;" id=3D"menuDiv-projects-dropdown" class=3D"men=
+uDiv instance0"><div class=3D"menuCategory default"></div><div class=3D"men=
+uCategory controls"><hr class=3D"menuSeparator"><a href=3D"http://code.goog=
+le.com/hosting/" style=3D"display: block;" class=3D"menuItem">Find open sou=
+rce projects...</a><a href=3D"http://code.google.com/hosting/createProject"=
+ style=3D"display: block;" class=3D"menuItem">Create a project...</a></div>=
+</div><div style=3D"display: none;" id=3D"menuDiv-multilogin-dropdown" clas=
+s=3D"menuDiv instance1"><div class=3D"menuCategory default"><span style=3D"=
+display: block;" class=3D"menuText"><b>JauYuan.Chen@gmail.com</b></span></d=
+iv><div class=3D"menuCategory controls"><hr class=3D"menuSeparator"><a href=
+=3D"http://www.google.com/accounts/AddSession?service=3Dcode&amp;continue=
+=3Dhttp%3A%2F%2Fcode.google.com%2Fp%2Fk9mail%2Fissues%2Fdetail%3Fid%3D3972"=
+ style=3D"display: block;" class=3D"menuItem"><nobr>Sign in with another ac=
+count...</nobr></a></div></div></body></html>
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://code.google.com/p/k9mail/logo?cct=1354504696
+
+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
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gstatic.com/codesite/ph/images/star_off.gif
+
+R0lGODlhDwAPALMPAP///8zj++r7/7vb/rHW/tPt/9Lk+qzT/rbY/sHh/8Te/N7q+Nzy/7nY/djn
++f///yH5BAEAAA8ALAAAAAAPAA8AAARg8MkZjpo4k0KyNwlQBB42MICAfEF7APDRBsYzIEkewGKe
+DI1DgUckMg6GTdFIqC0QgyUgQVhgGkOi4OBBCJYdzILAywIGNcoOgCAQvowBRpE4kgzCQgPjQCAc
+EwsNTRIRADs=
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gstatic.com/codesite/ph/images/paperclip.gif
+
+R0lGODlhDwAPAOcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsLCwwMDA0NDQ4O
+Dg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsbGxwcHB0dHR4eHh8fHyAgICEh
+ISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisrKywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0
+NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdH
+R0hISElJSUpKSktLS0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpa
+WltbW1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtra2xsbG1t
+bW5ubm9vb3BwcHFxcXJycnNzc3R0dHV1dXZ2dnd3d3h4eHl5eXp6ent7e3x8fH19fX5+fn9/f4CA
+gIGBgYKCgoODg4SEhIWFhYaGhoeHh4iIiImJiYqKiouLi4yMjI2NjY6Ojo+Pj5CQkJGRkZKSkpOT
+k5SUlJWVlZaWlpeXl5iYmJmZmZqampubm5ycnJ2dnZ6enp+fn6CgoKGhoaKioqOjo6SkpKWlpaam
+pqenp6ioqKmpqaqqqqurq6ysrK2tra6urq+vr7CwsLGxsbKysrOzs7S0tLW1tba2tre3t7i4uLm5
+ubq6uru7u7y8vL29vb6+vr+/v8DAwMHBwcLCwsPDw8TExMXFxcbGxsfHx8jIyMnJycrKysvLy8zM
+zM3Nzc7Ozs/Pz9DQ0NHR0dLS0tPT09TU1NXV1dbW1tfX19jY2NnZ2dra2tvb29zc3N3d3d7e3t/f
+3+Dg4OHh4eLi4uPj4+Tk5OXl5ebm5ufn5+jo6Onp6erq6uvr6+zs7O3t7e7u7u/v7/Dw8PHx8fLy
+8vPz8/T09PX19fb29vf39/j4+Pn5+fr6+vv7+/z8/P39/f7+/v///yH5BAEKAP4ALAAAAAAPAA8A
+AAitAP0JHChw36wvRdwoI0gwnZsmh0a5KbKQITwyZFZF3Bfoi0U3ZDpJOZNE2K4iBPHZ4bIoSSd/
+VUwtIkNQkZSWpvytarKqyK6Bo5IsapLJn7AimcjY2SfwZKAqgfxtE6qoyTiB45osGkUGHjwudkz5
+FIgPJD5/8MqSmeXyn8BZRbYN7CNlF1S3Ar8EwttSWZ8zZwci/YdvURFhUtMxXBTzTBPEDAn2KWJH
+buSBAQEAOw==
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: image/x-icon
+Content-Transfer-Encoding: base64
+Content-Location: http://www.gstatic.com/codesite/ph/images/phosting.ico
+
+AAABAAEAICAAAAEAGACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD////////////////p5uCyppCmmYCmmYCmmYCmmYCmmYCmmYCmmYCmmYCmmYCmmYCmmYCm
+mYCmmYCmmYCmmYCmmYCmmYCmmYCmmYCmmYCyppDe2dD///////////////////////////+9s6BN
+MwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBNMwBN
+MwBNMwBNMwBNMwBNMwCmmYD///////////////////////9YPw9NMwChVgCrWgCrWgCrWgCrWgCr
+WgCrWgCrWgCrWgCrWgCrWgCrWgCrWgCrWgCrWgCrWgCrWgCrWgCrWgCTVACTVACMUgBdOgBNMwDp
+5uD////////////////TzcBNMwBsQgCeWACMUgCGUACGUACGUACGUACGUACMUgCTVACTVACTVACT
+VACTVACTVACTVACTVACTVACMUgCMUgCMUgCTVAC7YACTVABNMwDTzcD////////////////TzcBN
+MwBsQgCGUACGUACGUACGUAC2lF/GqX+lfD+GUACGUACGUACGUACGUACCTwCCTwCCTwCCTwC9pn+9
+pn+SZR97TAB7TACCTwCrWgBNMwDTzcD////////////////TzcBNMwBsQgCMUgCMUgCMUgC2lF//
+///////GqX+MUgCMUgCMUgCGUACGUACGUACGUACCTwB7TAD////////p3s97TAB7TAB7TACTVABN
+MwDTzcD////////////////TzcBNMwBsQgCMUgCMUgCMUgDd0r////+RXA+MUgDd0r/////l1L+M
+UgCMUgCMUgCGUACGUACCTwB7TADDsI////+SZR97TAB7TABxRABNMwDTzcD////////////////T
+zcBNMwBsQgCTVACTVACMUgDd0r/l1L+TVACMUgDd0r/////l1L+MUgCMUgCMUgCMUgCMUgCGUACG
+UAC9pn////+lfD+CTwB7TABxRABNMwDTzcD////////////////TzcBNMwBxRACTVACTVACMUgDd
+0r/l1L+TVACMUgDd0r/////l1L+TVACTVACMUgCMUgCMUgCMUgCMUgC9pn////+lfD+CTwCCTwB2
+RwBNMwDTzcD////////////////TzcBNMwBxRACTVACZVgCMUgDd0r/l1L+ZVgCMUgDd0r/////l
+1L+TVACTVACTVACTVACMUgCMUgCMUgC2lF////+lfD+CTwCCTwB2RwBNMwDTzcD/////////////
+///TzcBNMwBxRACZVgCZVgCRXA/18/Ddya+ZVgCTVADd0r/////49O/l1L/l1L/Xto/GqX+tdiyT
+VACMUgClfD////+2lF+GUACCTwB2RwBNMwDTzcD////////////////TzcBNMwBxRACeWAC5gj/p
+3s////+5gj+eWACTVADd0r////////////////////////////+2lF+TVACCTwDp3s/49O+4nG+G
+UAB2RwBNMwDTzcD////////////////TzcBNMwB2RwCeWADGqX/////p3s+mZBGeWACTVADd0r//
+///w6d+9pn/DsI/d0r////////////+gaR+MUgC4nG/////l1L+GUAB2RwBNMwDTzcD/////////
+///////TzcBNMwB2RwCkWQCTVAC4nG/////Xto+kWQCZVgDd0r/////l1L+eWACeWACMUgC9pn//
+//////+6jUygaR/////dya+RXA+MUgB2RwBNMwDTzcD////////////TzcCUhGVNMwB2RwCkWQCk
+WQCTVADp3s/l1L+kWQCZVgDd0r/////l1L+kWQCeWACeWAC2lF/////////En2+silL///+lfD+M
+UgCMUgB7TABNMwCUhGW9s6D////IwLBNMwBNMwBNMwB7TACrWgCrWgCeWADd0r/l1L+rWgCeWADd
+0r/////p3s+5gj+5gj/KoW/49O////////+tdizGqX////+lfD+MUgCMUgB7TABNMwBNMwBNMwCm
+mYCFc1BNMwC6jUyrWgCrWgCrWgCrWgCeWADd0r/l1L+rWgCeWADd0r//////////////////////
+///////l1L+eWADGqX////+lfD+TVACMUgCeWAC7YADCZANdOgB9ZjqUhGVNMwC2lF/KiTirWgCr
+WgCzXgCkWQDd0r/w6d+zXgCkWQDd0r/////////////////////d0r/GqX+mZBGeWADGqX////+l
+fD+TVACTVACMUgCMUgB2RwBNMwCFc1Dp5uBYPw9NMwC2lF/KiTizXgCzXgCrWgDMu5/////Xto+5
+gj+TVACTVACTVACTVACTVACeWACeWACkWQCkWQDGqX/p3s////+ZVgCTVACTVACMUgB2RwBNMwBY
+Pw/e2dD////e2dBvWTBNMwC2lF/VlkezXgCzXgCSZR/w6d/////VrnWzXgCzXgCzXgCzXgCrWgCr
+WgCrWgCkWQCMUgD////////GqX+ZVgCTVACTVAB2RwBNMwBYPw/e2dD////////////18/BvWTBN
+MwC2lF/iqF67YACzXgCZVgCZVgC7YAC7YACzXgCzXgCzXgCzXgCrWgCrWgCkWQCZVgCMUgCTVACe
+WACZVgCTVACCTwBNMwBYPw/e2dD////////////////////18/BvWTBNMwClfD/iqF67YAC7YAC7
+YAC7YAC7YAC7YACzXgCzXgCzXgCzXgCrWgCrWgCkWQCkWQCeWACeWACZVgCZVgBxRABNMwDIwLD/
+///////////////////////////18/CFc1BNMwCNbzjiqF7CZAPCZAO7YAC7YAC7YAC7YACzXgCz
+XgCzXgCrWgCrWgCkWQCkWQCeWACeWACZVgCZVgBxRABNMwDTzcD/////////////////////////
+//////////+UhGVNMwCNbzjlt3XCZAPCZAO7YAC7YAC7YACzXgCzXgCzXgCrWgCrWgCrWgCkWQCk
+WQCeWACeWACZVgBxRABNMwDTzcD///////////////////////////////////////+UhGVNMwBp
+Tx7lt3XCZAPCZAO7YAC7YAC7YACzXgCzXgCzXgCrWgCrWgChVgCmZBGeWACeWACZVgBxRABNMwDT
+zcD///////////////////////////////////////////+mmYBNMwBpTx7lt3XIdRm7YAC7YAC7
+YACzXgCzXgCzXgCrWgCkWQBdOgC6jUytdiyeWACZVgBxRABNMwDTzcD/////////////////////
+//////////////////////////+9s6BNMwBpTx7VrnXIdRm7YAC7YACzXgCzXgCzXgChVgBdOgBN
+MwB9Zjrlt3Xlt3WmZBFdOgBNMwD18/D/////////////////////////////////////////////
+//////+9s6BNMwBYPw/VrnXIdRm7YACzXgCzXgCZVgBNMwBNMwBpTx5NMwBNMwBNMwBNMwBNMwCU
+hGX////////////////////////////////////////////////////////////TzcBYPw9YPw/V
+rnXVlkezXgChVgBNMwBNMwC9s6D///+yppCFc1B9ZjqFc1C9s6D/////////////////////////
+///////////////////////////////////////////e2dBYPw9NMwCsilKlfD9NMwBNMwC9s6D/
+////////////////////////////////////////////////////////////////////////////
+///////////////////////e2dBpTx5NMwBNMwBYPw/TzcD/////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+///////TzcDTzcD18/D////////////////////////////////////////////////////////w
+AAAP4AAAB+AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA8AAAAPAAAADwAAAA4AA
+AAEAAAAAAAAAAAAAAAAAAAAAgAAAAeAAAAPwAAAH+AAAB/wAAAf+AAAH/wAAB/+AAA//wAAP/+AE
+H//wD///+B////5//w==
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-6074A38D:http://www.gstatic.com/codesite/ph/9019872673698702027/css/core.css
+
+/* Effective stylesheet produced by snapshot save */
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); font: 82%=
+ arial,sans-serif; margin: 3px 0px; min-width: 768px; }
+.headbg { margin: 0px 8px; }
+a:link, a:focus { color: rgb(0, 0, 204); }
+a:active { color: red; }
+select, input { font-family: arial,sans-serif; }
+input[type=3D"text"] { border-color: rgb(153, 153, 153) rgb(204, 204, 204)=
+ rgb(204, 204, 204); border-style: solid; border-width: 1px; padding: 2px=
+ 1px; }
+input[type=3D"button"], input[type=3D"submit"], .buttonify { font-size: 100=
+%; background: -moz-linear-gradient(center top , rgb(255, 255, 255), rgb(22=
+1, 221, 221)) repeat scroll 0% 0% transparent; vertical-align: baseline; pa=
+dding: 1px 3px; border-width: 1px; border-style: solid; border-right: 1px=
+ solid rgb(170, 170, 170); border-left: 1px solid rgb(170, 170, 170); -moz-=
+border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom=
+-colors: none; -moz-border-left-colors: none; border-image: none; border-co=
+lor: rgb(204, 204, 204) rgb(170, 170, 170) rgb(136, 136, 136); border-radiu=
+s: 3px 3px 3px 3px; cursor: pointer; text-decoration: none; }
+.buttonify { color: rgb(0, 0, 0) ! important; }
+@-moz-document url-prefix("") {
+  .buttonify { padding: 2px 3px; }
+}
+input[type=3D"button"]:hover, input[type=3D"submit"]:hover, .buttonify:hove=
+r { border-color: rgb(102, 102, 102); text-decoration: none ! important; }
+.capsule_left { border-right: 0px none; border-top-right-radius: 0px; borde=
+r-bottom-right-radius: 0px; }
+.capsule_right { border-top-left-radius: 0px; border-bottom-left-radius: 0p=
+x; }
+.capsule_middle { border-radius: 0px 0px 0px 0px; border-right: 0px none;=
+ }
+.mode_button_active, .buttonify:active, input[type=3D"button"]:active, inpu=
+t[type=3D"submit"]:active { background: -moz-linear-gradient(center top ,=
+ rgb(227, 227, 227), rgb(249, 249, 249)) repeat scroll 0% 0% transparent;=
+ border-color: rgb(170, 170, 170); }
+textarea { border-color: rgb(153, 153, 153) rgb(204, 204, 204) rgb(204, 204=
+, 204); border-style: solid; border-width: 1px; }
+td td, th th, th td, td th { font-size: 100%; }
+pre { font-size: 110%; }
+form { padding: 0px; margin: 0px; }
+.gtb { background: none repeat scroll 0% 0% rgb(235, 239, 249); border-bott=
+om: 1px solid rgb(107, 144, 218); padding: 5px 10px 0px 5px; white-space:=
+ nowrap; }
+.gtb .tab { color: rgb(0, 0, 204); cursor: pointer; float: left; margin: 5p=
+x 15px 6px 10px; }
+.gtb .active { background: none repeat scroll 0% 0% rgb(255, 255, 255); bor=
+der-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(1=
+07, 144, 218) rgb(107, 144, 218) -moz-use-text-color; -moz-border-top-color=
+s: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none;=
+ -moz-border-left-colors: none; border-image: none; color: rgb(0, 0, 0); cu=
+rsor: default; font-weight: bold; margin: 0px 5px -1px 0px; padding: 5px 9p=
+x 6px; text-decoration: none; }
+.gtb .gtbc { clear: left; }
+.subt { background: -moz-linear-gradient(center top , rgb(255, 255, 255),=
+ rgb(241, 241, 241)) repeat scroll 0% 0% transparent; border-bottom: 1px so=
+lid rgb(204, 204, 204); padding: 0px 0px 0px 14px; height: 33px; }
+table { border-collapse: separate; }
+.box-inner { margin: 0px; padding: 0px 13px; }
+.round1 { border-left: 1px solid rgb(255, 255, 255); border-right: 1px soli=
+d rgb(255, 255, 255); }
+.round2 { border-left: 2px solid rgb(255, 255, 255); border-right: 2px soli=
+d rgb(255, 255, 255); }
+.round4 { border-left: 4px solid rgb(255, 255, 255); border-right: 4px soli=
+d rgb(255, 255, 255); }
+.round1, .round2, .round4 { font-size: 0px; margin: 0px; padding: 0px; heig=
+ht: 1px; }
+.bevel-left, .bevel-right { padding: 0px; }
+.bevel-right .round4, .bevel-right .round2, .bevel-right .round1 { border-l=
+eft: medium none; }
+.bevel-left .round4, .bevel-left .round2, .bevel-left .round1 { border-righ=
+t: medium none; }
+.bevel-left .box-inner, .bevel-right .box-inner { padding: 0px; }
+.bubble_bg { background: none repeat scroll 0% 0% rgb(195, 217, 255); margi=
+n-bottom: 0.6em; }
+.bubble { padding: 4px; }
+#bub { padding: 0px 1px; }
+.bub-top { margin: 0px 2px 2px; }
+.bub-bottom { margin: 2px 2px 0px; }
+.drop-down-bub { font-size: 80%; margin-top: -1px; }
+.t5 h4 { background-color: rgb(229, 236, 249); margin: 4px 4px 0px; border-=
+top: 1px solid rgb(51, 102, 204); padding: 2px; }
+.t5 .section { margin: 0px 4px 1.6em; padding: 4px; }
+.t5 .section .submit { margin: 8px; }
+#maincol { padding: 3px; background: none repeat scroll 0% 0% rgb(255, 255,=
+ 255); }
+.isf a, .at a, .isf a:visited, .at a:visited { color: rgb(0, 0, 204); text-=
+decoration: none; }
+.isf a:hover, .at a:hover { color: rgb(0, 0, 204); text-decoration: underli=
+ne; }
+.st1 .inst1 a, .st2 .inst2 a, .st3 .inst3 a, .st4 .inst4 a, .st5 .inst5 a,=
+ .st6 .inst6 a, .st7 .inst7 a, .st8 .inst8 a, .st9 .inst9 a { color: rgb(0,=
+ 0, 0); font-weight: bold; text-decoration: none; height: 20px; }
+.notice, .error { background: none repeat scroll 0% 0% rgb(255, 241, 168);=
+ font-weight: bold; }
+.adminonly { color: rgb(170, 0, 0); font-style: italic; }
+.fieldhelp { color: grey; }
+.fielderror { color: rgb(170, 0, 0); font-weight: bold; padding: 4px; }
+.tip { background: none repeat scroll 0% 0% rgb(229, 236, 249); font-size:=
+ 92%; margin: 5px; width: 14em; }
+.tip .box-inner { padding: 6px; }
+.gbh { border-top: 1px solid rgb(201, 215, 241); font-size: 1px; height: 0p=
+x; position: absolute; top: 24px; width: 100%; }
+#plogo { width: 55px; text-align: center; vertical-align: bottom; }
+#pname { font-size: 300%; margin: 0px; padding: 0px; }
+#pname a, #pname a:visited { text-decoration: none; color: rgb(102, 102, 10=
+2); }
+#project_summary_link { text-decoration: none; color: rgb(68, 68, 68); }
+.vt { vertical-align: top; }
+.indicator { font-size: x-small; color: rgb(0, 0, 204); }
+div.h4, table.h4 { background-color: rgb(229, 236, 249); margin-bottom: 2px=
+; border-top: 1px solid rgb(51, 102, 204); padding: 2px; font-weight: bold;=
+ position: relative; margin-top: 2px; }
+.mainhdr { background-color: rgb(235, 239, 249); border-bottom: 1px solid=
+ rgb(107, 144, 218); font-weight: bold; font-size: 133%; padding: 2px; }
+.secondaryhdr { background-color: rgb(238, 238, 238); padding: 10px; border=
+-bottom: 1px solid rgb(221, 221, 221); border-left: 1px solid rgb(221, 221,=
+ 221); border-right: 1px solid rgb(221, 221, 221); }
+.messagebox { background-color: rgb(238, 238, 238); padding: 10px; border:=
+ 1px solid rgb(221, 221, 221); }
+h1 { font-size: x-large; margin-top: 0px; }
+h2 { font-size: large; }
+h3 { font-size: medium; background: none repeat scroll 0% 0% rgb(229, 236,=
+ 249); border-top: 1px solid rgb(51, 102, 204); padding: 0.5ex 0.5em; margi=
+n-right: 2em; }
+h4 { font-size: small; }
+img { border: 0px none; }
+#gaia { text-align: right; margin-bottom: 10px; }
+#gaia a { color: rgb(0, 0, 204); text-decoration: none; }
+#header { position: relative; height: 55px; padding-top: 6px; margin-bottom=
+: -9px; }
+#logo { padding-right: 18px; position: absolute; top: 0px; left: 0px; }
+#logo img { width: 153px; height: 55px; }
+#title { margin-left: 171px; border-top: 1px solid rgb(51, 102, 204); backg=
+round-color: rgb(229, 236, 249); font-size: large; font-weight: bold; paddi=
+ng-left: 3px; padding-top: 1px; padding-bottom: 1px; }
+#footer { clear: both; text-align: center; margin-top: 3.5em; margin-bottom=
+: 1em; height: 53px; background-repeat: no-repeat; background-position: lef=
+t center; }
+#footer .text { padding-top: 20px; }
+.label { text-decoration: none; color: green ! important; }
+.label:hover { text-decoration: underline; }
+.results { border-left: 1px solid rgb(187, 187, 187); border-right: 1px sol=
+id rgb(187, 187, 187); }
+#colcontrol { padding: 5px; }
+.cuetip { background: none repeat scroll 0% 0% rgb(229, 236, 249); border-b=
+ottom: 1px solid white; }
+.results th { border: 1px solid rgb(204, 204, 204); }
+.results th { border-left: 0px none; }
+.results th:last-child { border-right: 0px none; }
+.results tr td { border-bottom: 1px solid rgb(204, 204, 204); }
+.results tr:last-child { border-bottom: 0px none; }
+.results th, .results_lite th { background: none repeat scroll 0% 0% rgb(23=
+8, 238, 238); text-align: left; padding-right: 1px; border-top: 1px solid=
+ rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); }
+.results th a, .results th a:visited { color: rgb(0, 0, 204); padding-right=
+: 4px; margin-right: 4px; }
+.results td { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.results td { cursor: pointer; }
+.results td { padding: 4px; }
+.results td a { color: rgb(0, 0, 0); text-decoration: none; }
+.results td.id a { color: rgb(0, 0, 204); text-decoration: underline; white=
+-space: nowrap; }
+.results td.id a:visited { color: purple; text-decoration: underline; }
+.results td.id a:hover { color: red; text-decoration: underline; }
+table.results tr.hover td { color: rgb(0, 0, 153); background-color: rgb(24=
+4, 244, 255); }
+table.results tr.hover td a { color: rgb(0, 0, 153); }
+.results .label { font-size: 80%; }
+.results .selected td { background: none repeat scroll 0% 0% rgb(255, 255,=
+ 204); }
+.results td tt { color: rgb(153, 153, 153); font-style: italic; font-weight=
+: bold; }
+.results .displayproperties { font-size: 80%; color: rgb(102, 102, 102); }
+.grid td { border-right: 1px solid rgb(204, 204, 204); }
+.grid td { border-left: 0px none; }
+.grid td:last-child { border-right: 0px none; }
+.flipper { font-family: monospace; font-size: 120%; }
+.flipper ul { list-style-type: none; padding: 0px; margin: 0em 0.3em; }
+.flipper b { margin: 0em 0.3em; }
+.closed .ifOpened { display: none; }
+.closed .opened span.ifOpened { display: inline; }
+.opened .ifClosed { display: none; }
+.opened .closed span.ifClosed { display: inline; }
+.h3 { font-size: 130%; font-weight: bolder; }
+input { padding-left: 1px; padding-right: 1px; }
+textarea { padding-left: 1px; padding-right: 1px; }
+.pagination { font-size: 100%; float: right; white-space: nowrap; }
+.pagination a { margin-left: 0.3em; margin-right: 0.3em; }
+.author { margin-bottom: 1em; }
+#searchtips { padding-left: 2em; }
+#searchtips p { margin-left: 2em; }
+.issueList .inIssueList span, .issueAdvSearch .inIssueAdvSearch a, .issueSu=
+bscriptions .inIssueSubscriptions a, .issueSearchTips .inIssueSearchTips a=
+ { font-weight: bold; text-decoration: none; color: rgb(0, 0, 0); }
+iframe[frameborder=3D"1"] { border: 1px solid rgb(153, 153, 153); }
+.menuDiv { margin-top: 5px; border-color: rgb(201, 215, 241) rgb(51, 102,=
+ 204) rgb(51, 102, 204) rgb(162, 186, 231); border-style: solid; border-wid=
+th: 1px; z-index: 1001; padding: 0px; width: 175px; background: none repeat=
+ scroll 0% 0% rgb(255, 255, 255); overflow: hidden; }
+.menuDiv .menuText { padding: 3px; text-decoration: none; background: none=
+ repeat scroll 0% 0% rgb(255, 255, 255); }
+.menuDiv .menuItem { color: rgb(0, 0, 204); padding: 3px; text-decoration:=
+ none; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.menuDiv .menuItem:hover { color: rgb(255, 255, 255); background: none repe=
+at scroll 0% 0% rgb(51, 102, 204); }
+.menuDiv .categoryTitle { padding-left: 1px; }
+.menuDiv .menuCategory, .menuDiv .categoryTitle { margin-top: 4px; }
+.menuDiv .menuSeparator { margin: 0px 0.5em; border-right: 0px none; border=
+-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(201,=
+ 215, 241) -moz-use-text-color -moz-use-text-color; -moz-border-top-colors:=
+ none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -mo=
+z-border-left-colors: none; border-image: none; }
+.hostedBy { text-align: center; }
+.fullscreen-popup { position: fixed; right: 4%; left: 4%; top: 5%; max-heig=
+ht: 90%; opacity: 0.85; border-radius: 10px 10px 10px 10px; background: non=
+e repeat scroll 0% 0% rgb(0, 0, 0); color: white; text-shadow: 1px 1px 7px=
+ rgb(0, 0, 0); padding: 1em; z-index: 10; overflow: hidden; }
+.fullscreen-popup a { color: rgb(221, 221, 0); }
+div#keys_help th { color: yellow; text-align: left; }
+div#keys_help td { font-weight: normal; color: white; }
+td.shortcut { text-align: right; }
+span.letter { color: rgb(136, 221, 0); font-family: monospace; font-size:=
+ medium; }
+#ac-list { border: 1px solid rgb(187, 187, 187); background: none repeat sc=
+roll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 204); padding: 2px; z-index=
+: 10; max-height: 18em; overflow-x: hidden; overflow-y: auto; }
+#ac-list { font-size: 95%; }
+#ac-list tr { margin: 1px; cursor: pointer; padding: 0px 10px; }
+#ac-list th { color: rgb(51, 51, 51); text-align: left; }
+#ac-list .selected, #ac-list .selected td { background: none repeat scroll=
+ 0% 0% rgb(195, 217, 255); }
+#ac-list td, #ac-list th { white-space: nowrap; padding-right: 22px; }
+.list { background-color: rgb(235, 239, 249); border-top: 1px solid rgb(187=
+, 187, 187); border-left: 1px solid rgb(187, 187, 187); border-right: 1px=
+ solid rgb(187, 187, 187); padding: 5px; }
+.list-foot { background-color: rgb(235, 239, 249); border-bottom: 1px solid=
+ rgb(187, 187, 187); border-left: 1px solid rgb(187, 187, 187); border-righ=
+t: 1px solid rgb(187, 187, 187); padding: 5px; height: 20px; }
+.graytext { color: rgb(102, 102, 102); }
+.vspacer { margin-top: 1em; }
+.hspacer { margin-right: 1em; }
+.emphasis { font-weight: bold; }
+.formrow { vertical-align: top; padding-bottom: 0.569em; white-space: nowra=
+p; overflow: hidden; padding-top: 0.2em; }
+.forminline { display: inline-block; vertical-align: top; }
+.formlabelgutter { margin-top: 0.3em; text-align: right; vertical-align: to=
+p; white-space: normal; width: 13em; }
+.formlabel { font-weight: bold; text-align: right; }
+.forminputgutter { margin-top: 0.3em; text-align: left; vertical-align: top=
+; white-space: normal; width: 36em; }
+.forminputgutter input[type=3D"checkbox"] { float: left; }
+.forminput { width: 100%; }
+.formshortinput { width: 11em; }
+.formselectgutter { margin-top: 0.3em; text-align: left; vertical-align: to=
+p; white-space: normal; width: 18em; }
+.formselect { width: 18em; }
+.formqm { margin-left: 0.25em; margin-right: 0.25em; }
+.formerror { color: rgb(170, 0, 0); display: block; text-align: left; }
+.tablerow { vertical-align: top; padding-bottom: 0.569em; white-space: nowr=
+ap; overflow: hidden; padding-top: 0.2em; }
+.tablelabelgutter { margin-top: 0.3em; text-align: left; vertical-align: to=
+p; white-space: normal; width: 10em; }
+.tablelabel { font-weight: bold; text-align: left; }
+.userlink { white-space: nowrap; }
+.ph-visibility-icon { margin: 10px; vertical-align: bottom; }
+dl.displaychoicelist dd { margin-bottom: 1em; }
+dl.displaychoicelist input { vertical-align: top; }
+html > body .goog-inline-block { display: inline-block; }
+.goog-inline-block { position: relative; display: inline-block; }
+* html .goog-inline-block { display: inline; }
+:first-child + html .goog-inline-block { display: inline; }
+.uploads-disabled { background-color: yellow; color: red; text-align: cente=
+r; font-weight: bold; }
+.SPRITE_close_icon { background: url("urn:not-loaded:http://www.gstatic.com=
+/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -79px -1=
+6px transparent; width: 16px; height: 16px; }
+.SPRITE_comments { background: url("urn:not-loaded:http://www.gstatic.com/c=
+odesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -95px 0px=
+ transparent; width: 14px; height: 12px; }
+.SPRITE_dl_arrow { background: url("urn:not-loaded:http://www.gstatic.com/c=
+odesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -119px 0px=
+ transparent; width: 25px; height: 16px; }
+.SPRITE_downarrow { background: url("urn:not-loaded:http://www.gstatic.com/=
+codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -30px 0px=
+ transparent; width: 10px; height: 12px; }
+.SPRITE_filedownload-g16 { background: url("urn:not-loaded:http://www.gstat=
+ic.com/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -1=
+4px -16px transparent; width: 16px; height: 16px; }
+.SPRITE_lock_grey { background: url("urn:not-loaded:http://www.gstatic.com/=
+codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -15px 0px=
+ transparent; width: 15px; height: 16px; }
+.SPRITE_minus { background: url("urn:not-loaded:http://www.gstatic.com/code=
+site/ph/9019872673698702027/css/sprite.png") no-repeat scroll -30px -12px=
+ transparent; width: 9px; height: 9px; }
+.SPRITE_new-24 { background: url("urn:not-loaded:http://www.gstatic.com/cod=
+esite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -55px 0px tr=
+ansparent; width: 24px; height: 24px; }
+.SPRITE_pagination-first { background: url("urn:not-loaded:http://www.gstat=
+ic.com/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -1=
+11px -16px transparent; width: 16px; height: 16px; }
+.SPRITE_pagination-last { background: url("urn:not-loaded:http://www.gstati=
+c.com/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -12=
+7px -16px transparent; width: 16px; height: 16px; }
+.SPRITE_pagination-next { background: url("urn:not-loaded:http://www.gstati=
+c.com/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -14=
+4px 0px transparent; width: 16px; height: 16px; }
+.SPRITE_pagination-prev { background: url("urn:not-loaded:http://www.gstati=
+c.com/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -16=
+4px -16px transparent; width: 16px; height: 16px; }
+.SPRITE_paper_pencil-y16 { background: url("urn:not-loaded:http://www.gstat=
+ic.com/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -1=
+64px 0px transparent; width: 16px; height: 16px; }
+.SPRITE_paperclip { background: url("urn:not-loaded:http://www.gstatic.com/=
+codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll 0px 0px=
+ transparent; width: 15px; height: 15px; }
+.SPRITE_pencil-y14 { background: url("urn:not-loaded:http://www.gstatic.com=
+/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll 0px -16p=
+x transparent; width: 14px; height: 14px; }
+.SPRITE_people-y16 { background: url("urn:not-loaded:http://www.gstatic.com=
+/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -79px 0p=
+x transparent; width: 16px; height: 16px; }
+.SPRITE_plus { background: url("urn:not-loaded:http://www.gstatic.com/codes=
+ite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -30px -21px tr=
+ansparent; width: 9px; height: 9px; }
+.SPRITE_question-16 { background: url("urn:not-loaded:http://www.gstatic.co=
+m/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -95px=
+ -16px transparent; width: 16px; height: 16px; }
+.SPRITE_show-arrow { background: url("urn:not-loaded:http://www.gstatic.com=
+/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -160px=
+ 0px transparent; width: 4px; height: 12px; }
+.SPRITE_star_off { background: url("urn:not-loaded:http://www.gstatic.com/c=
+odesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -40px -15p=
+x transparent; width: 15px; height: 15px; }
+.SPRITE_star_on { background: url("urn:not-loaded:http://www.gstatic.com/co=
+desite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -40px 0px=
+ transparent; width: 15px; height: 15px; }
+.SPRITE_tearoff_icon { background: url("urn:not-loaded:http://www.gstatic.c=
+om/codesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -144px=
+ -16px transparent; width: 16px; height: 16px; }
+.SPRITE_triangle { background: url("urn:not-loaded:http://www.gstatic.com/c=
+odesite/ph/9019872673698702027/css/sprite.png") no-repeat scroll -109px 0px=
+ transparent; width: 10px; height: 12px; }
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-64880750:http://www.gstatic.com/codesite/ph/9019872673698702027/css/ph_detail.css
+
+/* Effective stylesheet produced by snapshot save */
+.pmeta_bubble_bg { background: none repeat scroll 0% 0% rgb(229, 236, 249);=
+ margin-bottom: 0.6em; }
+.pmeta { text-align: left; }
+.pmeta th, .pmeta td { vertical-align: top; }
+.pmeta ul { padding: 0px; margin: 0px; }
+.pmeta li { padding: 0px 0px 2px; list-style-type: none; }
+#wikipage { background: none repeat scroll 0% 0% rgb(248, 248, 248); paddin=
+g-bottom: 10px; }
+#wikipage #wikimaincol { border: 1px solid rgb(204, 204, 204); }
+#wikimaincol { padding: 5px 25px 10px 10px; background-color: rgb(255, 255,=
+ 255); min-width: 64em; }
+#wikiheader { padding-top: 10px; margin-bottom: 12px; }
+#wikicontent h1, #wikicontent h2, #wikicontent h3, #wikipreview h1, #wikipr=
+eview h2, #wikipreview h3 { background: none repeat scroll 0% 0% transparen=
+t; border: 0px none; padding-left: 0px; max-width: 700px; }
+#wikicontent h3, #wikipreview h3 { margin: 0px; }
+#wikicontent ul, #wikipreview ul, #wikicontent ol, #wikipreview ol { paddin=
+g-left: 25px; max-width: 62em; }
+#wikicontent li, #wikipreview li { margin-bottom: 0.3em; }
+#wikicontent p, #wikipreview p { line-height: 1.25em; max-width: 64em; }
+#wikicontent hr, #wikipreview hr { width: 100%; color: rgb(204, 204, 204);=
+ background-color: rgb(204, 204, 204); }
+#wikicontent img, #wikipreview img { max-width: 100%; }
+#wikiauthor { clear: both; text-align: right; font-size: x-small; }
+.wikitable { border-spacing: 0px; border: 1px solid rgb(204, 204, 204); }
+.gadget-title { margin-bottom: 2px; }
+a.section_anchor:before { content: "=C2=B6"; }
+a.section_anchor { display: none; text-decoration: none; margin-left: 0.7em=
+; font-weight: lighter; font-size: 85%; }
+h1:hover a.section_anchor, h2:hover a.section_anchor, h3:hover a.section_an=
+chor, h4:hover a.section_anchor, h5:hover a.section_anchor, h6:hover a.sect=
+ion_anchor { display: inline; color: rgb(187, 187, 187); }
+h1 a.section_anchor:hover, h2 a.section_anchor:hover, h3 a.section_anchor:h=
+over, h4 a.section_anchor:hover, h5 a.section_anchor:hover, h6 a.section_an=
+chor:hover { color: rgb(51, 51, 204); }
+#wikicontent code, tt, #wikicontent pre, #wikipreview code, tt, #wikiprevie=
+w pre { font-family: Monaco,'DejaVu Sans Mono','Bitstream Vera Sans Mono','=
+Lucida Console',monospace; font-size: 93%; max-width: 66em; }
+pre.prettyprint { padding: 0.5em; overflow: auto; font-family: Monaco,'Deja=
+Vu Sans Mono','Bitstream Vera Sans Mono','Lucida Console',monospace; font-s=
+ize: 93%; }
+#wikicontent pre.prettyprint, #wikipreview pre.prettyprint { background-col=
+or: rgb(238, 238, 238); max-width: 70em; }
+#wikicontent blockquote, #wikipreview blockquote { max-width: 60em; }
+blockquote { margin: 20px; }
+.issuedescription pre, .issuecomment pre { white-space: pre-wrap; }
+.prettyprint .str { color: rgb(0, 136, 0); }
+.prettyprint .kwd { color: rgb(0, 0, 136); }
+.prettyprint .com { color: rgb(136, 0, 0); }
+.prettyprint .typ { color: rgb(102, 0, 102); }
+.prettyprint .lit { color: rgb(0, 102, 102); }
+.prettyprint .pun { color: rgb(102, 102, 0); }
+.prettyprint .pln { color: rgb(0, 0, 0); }
+.prettyprint .tag { color: rgb(0, 0, 136); }
+.prettyprint .atn { color: rgb(102, 0, 102); }
+.prettyprint .atv { color: rgb(0, 136, 0); }
+.prettyprint .dec { color: rgb(102, 0, 102); }
+@media print {
+  .prettyprint .str { color: rgb(0, 102, 0); }
+  .prettyprint .kwd { color: rgb(0, 0, 102); font-weight: bold; }
+  .prettyprint .com { color: rgb(102, 0, 0); font-style: italic; }
+  .prettyprint .typ { color: rgb(68, 0, 68); font-weight: bold; }
+  .prettyprint .lit { color: rgb(0, 68, 68); }
+  .prettyprint .pun { color: rgb(68, 68, 0); }
+  .prettyprint .pln { color: rgb(0, 0, 0); }
+  .prettyprint .tag { color: rgb(0, 0, 102); font-weight: bold; }
+  .prettyprint .atn { color: rgb(68, 0, 68); }
+  .prettyprint .atv { color: rgb(0, 102, 0); }
+}
+.closed_ref { text-decoration: line-through; }
+.notes { background: none repeat scroll 0% 0% rgb(255, 255, 204); border-st=
+yle: solid; border-color: rgb(153, 153, 153); -moz-border-top-colors: none;=
+ -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-bord=
+er-left-colors: none; border-image: none; border-width: 0px 1px 1px 0px; pa=
+dding: 2px; width: 818px; }
+.rowmajor { width: 700px; }
+.rowmajor th { text-align: right; }
+.labelediting input { margin: 0px 3px 4px 0px; }
+.labelediting input { color: rgb(0, 102, 0); }
+.collapse .ifExpand { display: none; }
+.expand .ifCollapse { display: none; }
+.inplace input { width: 100%; }
+.inplace td { border: 0px none; }
+#issueheader { margin: 0.5em 0px 0em; border: 3px solid rgb(229, 236, 249);=
+ background: none repeat scroll 0% 0% rgb(229, 236, 249); }
+#issueheader td { background: none repeat scroll 0% 0% rgb(229, 236, 249); }
+.closed_colors #issueheader { background: none repeat scroll 0% 0% rgb(221,=
+ 221, 221); border-color: rgb(221, 221, 221); }
+.closed_colors #issueheader td { background: none repeat scroll 0% 0% rgb(2=
+21, 221, 221); }
+.issuepage { margin-top: 0px; }
+.issuepage td { padding: 0.5em 0.5em 0.5em 0px; }
+.issuecomment { border-top: 3px solid rgb(229, 236, 249); padding-top: 0.5e=
+m; }
+.closed_colors .issuecomment { border-color: rgb(221, 221, 221); }
+.role_label { background-color: rgb(136, 170, 238); border-radius: 3px 3px=
+ 3px 3px; color: white; display: inline-block; padding: 2px 4px; font-size:=
+ 75%; font-weight: bold; line-height: 14px; }
+.issuedescription pre, .issuecomment pre { max-width: 80em; padding-left:=
+ 0.7em; }
+.issuedescription pre b, .issuecomment pre b { font-size: 110%; font-weight=
+: bolder; padding: 3px 0px; }
+.author { padding-left: 0.7em; }
+#issuemeta { width: 12em; border-right: 3px solid rgb(229, 236, 249); font-=
+size: 95%; vertical-align: top; }
+.closed_colors #issuemeta { border-color: rgb(221, 221, 221); }
+#issuemeta table tr.hover a { text-decoration: underline; }
+#issuemeta table td, #issuemeta table th { margin: 0px; padding: 5px 0px 0p=
+x; }
+.rel_issues a { white-space: nowrap; }
+.issue_restrictions { padding: 2px 4px; background-color: rgb(249, 237, 190=
+); border: 1px solid rgb(204, 204, 204); min-width: 14em; }
+.issue_restrictions .restrictions_header { padding: 0px 0px 2px; text-align=
+: center; font-weight: bold; }
+.issue_restrictions ul { padding: 0px 2px; margin: 0px; list-style-position=
+: inside; }
+.issue_restrictions .other_restriction { white-space: nowrap; }
+.oldvalue { color: rgb(102, 102, 102); font-style: italic; }
+.updates { margin: 1em 0px 0.5em 0.7em; background: none repeat scroll 0%=
+ 0% rgb(229, 236, 249); width: 80%; font-size: 90%; }
+.closed_colors .updates { background: none repeat scroll 0% 0% rgb(200, 200=
+, 200); }
+.fakelink { color: rgb(0, 0, 204); cursor: pointer; white-space: nowrap; te=
+xt-decoration: underline; }
+.undef { color: rgb(102, 102, 102); }
+table.advquery, table.issueimport { border: 3px solid rgb(229, 236, 249);=
+ }
+table.advquery td, table.issueimport td { white-space: nowrap; padding: 2px=
+; }
+.focus td { background: none repeat scroll 0% 0% rgb(229, 236, 249); }
+.eg { color: rgb(102, 102, 102); font-size: 90%; }
+#submit { font-weight: bold; }
+div td .novel { color: rgb(68, 51, 0); }
+div td .blockingsubmit { color: rgb(170, 0, 51); }
+div td .exclconflict { color: rgb(170, 0, 51); }
+div td .questionmark { color: rgb(170, 0, 51); }
+.delcom { background: none repeat scroll 0% 0% rgb(232, 232, 232); }
+.numberentry { text-align: right; }
+.pscolumnl { min-width: 15em; border-right: 2px solid rgb(233, 233, 233);=
+ }
+.pscontent { width: 100%; vertical-align: top; }
+.psicon { padding-left: 5px; padding-top: 5px; }
+.psdescription { padding: 0px 10px ! important; width: 100%; }
+.pslist { list-style-type: none; padding-left: 34px; margin: 0px; }
+.phead { background-color: rgb(229, 237, 249); font-weight: bold; height:=
+ 15px; margin: 5px 5px 4px; padding: 3px 6px; white-space: nowrap; }
+.pfeatured { background-color: rgb(221, 248, 204); }
+.psmeta { margin: 0px 5px 0px 0px; padding: 0px; }
+.psline { height: 1px; border: 0px none; background-color: rgb(233, 233, 23=
+3); margin: 5px 5px 10px 10px; }
+.psgap { height: 1em; }
+.nowrap { white-space: nowrap; }
+#derived_labels_target .label { font-weight: bold; }
+#derived_labels_target .label:hover { text-decoration: none; }
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: application/x-javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-13DE21B9:https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en.tdoMa4o8pXE.O/m=plusone/am=qQ/rt=j/d=1/rs=AItRSTMicd-4tNH9te779tO60Mvx4_VhYg/cb=gapi.loaded_0
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-01DC93F5:https://apis.google.com/js/plusone.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-36B4D836:http://www.google-analytics.com/ga.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-AC9298E1:http://www.gstatic.com/codesite/ph/9019872673698702027/js/dit_scripts.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-BD1E1173:http://www.gstatic.com/codesite/ph/9019872673698702027/js/kibbles.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_1FE73386.00178065
+Content-Type: text/javascript
+Content-Transfer-Encoding: quoted-printable
+Content-Location: urn:snapshot-3760DD32:http://www.gstatic.com/codesite/ph/9019872673698702027/js/ph_core.js
+
+/* Script removed by snapshot save */
+
+------=_NextPart_000_0000_1FE73386.00178065--

@@ -1,0 +1,61 @@
+1. extract_app_util.script
+   - export uid and package associate info from phone system log (*.assoc)
+   - handle multiple files in batch with app_util.py
+
+   app_util.py
+   - extract component log by uid (obtained from package name)
+
+2. batch_util_mapping.script
+   - handle multiple files in batch with app_util_mapping.R
+
+   app_util_mapping.R
+   - map user actions to component utility & energy consumed
+   - aggregate action energy records
+   - save package info in package.Rdata
+
+3. batch_seq_mapping.script
+   app_seq_mapping.R
+
+4. batch_plot.script
+   plot.R
+   - plot action energy
+   - plot sequence energy
+
+5. batch_diagnosis.script
+   app_diagnosis.R
+
+
+## use batch_activity_mapping.script to handle step 2 to 5 at a time
+## step 1 needs to be done manually
+
+Step-by-Step
+1. PowerTutor + extract_user_log.script
+
+batch_activity_mapping.script
+  2. preprocessor.script *_user.log
+    2.1 create *_user.log.ill file to indicate the ill session 
+  3. analyzer.script *_user.log
+    - generate action files 
+    - generate p.dict, p.seq, and loglist.txt
+
+  To map app power consumption
+  4. extract_app_util.script -p <package> log/*_util.log
+  5. batch_util_mapping.script <package> log 2
+    
+To analyze frequent sequence
+6. java spmf/SeqMining p.sec
+  - generate sequences.out
+7. batch_seq_mapping.script
+
+To plot
+8. batch_plot.script 
+
+To analyze energy draining 
+9. batch_diagnosis.script
+
+## To use the Chrono Plot with multiple traces...
+# Run both traces individually and copy TraceEnergy.R file for both
+# Rename on TraceEnergy.R to TraceEnergy2.R
+# Run both trace's data, and replace TraceEnergy.R with the above two.
+# Run again... there ya go
+

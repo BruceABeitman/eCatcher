@@ -1,0 +1,221 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/DBox    ( 3704): 17956707 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 3704): 17956708 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17956709 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17956823 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 3704): 17961987 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17961991 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17962004 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17962005 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17962028 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17962031 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17962059 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17962060 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17962062 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17962064 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17962209 + Lcom/fsck/k9/activity/MessageList; onItemClick android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17962246 - Lcom/fsck/k9/activity/MessageList; onItemClick
+V/DBox    ( 3704): 17962246 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 3704): 17962251 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 3704): 17962252 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 3704): 17962253 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 3704): 17962265 + Lcom/fsck/k9/activity/MessageView; onCreate
+V/DBox    ( 3704): 17962265 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 3704): 17962268 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 3704): 17962380 - Lcom/fsck/k9/activity/MessageView; onCreate
+V/DBox    ( 3704): 17962380 + Lcom/fsck/k9/activity/MessageView; onResume
+V/DBox    ( 3704): 17962381 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17962388 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17962389 - Lcom/fsck/k9/activity/MessageView; onResume
+V/DBox    ( 3704): 17969823 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 3704): 17969823 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17969835 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17970026 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 3704): 17974555 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    ( 3704): 17974555 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    ( 3704): Ljava/net/Socket;->closeV
+V/DBox    ( 3704): 17974675 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    ( 3704): 17974675 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    ( 3704): Ljava/net/Socket;->connectV
+V/DBox    ( 3704): 17975262 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975265 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975277 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975279 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975318 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975319 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975331 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975331 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975358 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975358 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975421 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975424 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975443 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975443 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975554 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975554 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975568 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975569 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975591 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975592 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975619 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975619 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975649 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975649 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975674 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975675 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975703 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975704 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975731 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975732 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975759 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975760 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975801 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975808 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975842 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975853 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975854 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975856 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975880 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975880 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975908 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975909 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975935 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975936 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975963 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975964 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17975992 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17975993 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976019 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976020 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976049 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976050 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976076 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976077 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976104 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976106 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976132 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976133 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976160 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976161 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976188 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976188 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976215 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976216 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976243 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976244 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976272 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976273 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976323 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976323 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976332 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976333 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976356 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976357 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976383 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976383 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976412 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976412 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976439 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976440 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976467 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976468 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976495 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976496 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976525 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976526 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976552 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976555 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976579 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976580 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976608 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976609 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976635 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976636 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976664 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976665 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976692 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976693 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976722 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976723 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976748 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976749 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976777 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976797 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976830 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976832 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976838 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976838 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976860 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976860 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976888 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976889 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976915 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976915 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976944 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976944 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17976972 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17976973 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17977000 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17977001 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17977029 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17977030 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17977045 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17977046 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983582 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983583 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983629 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983629 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983638 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983638 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983666 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983667 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983696 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983697 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983744 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983745 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983763 + Lcom/fsck/k9/activity/MessageList$1; onTouch android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983763 - Lcom/fsck/k9/activity/MessageList$1; onTouch
+V/DBox    ( 3704): 17983897 + Lcom/fsck/k9/activity/MessageList; onItemClick android.widget.ListView@440e82e0
+V/DBox    ( 3704): 17983950 - Lcom/fsck/k9/activity/MessageList; onItemClick
+V/DBox    ( 3704): 17983951 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 3704): 17983955 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 3704): 17983955 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 3704): 17983956 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 3704): 17983965 + Lcom/fsck/k9/activity/MessageView; onCreate
+V/DBox    ( 3704): 17983965 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 3704): 17983967 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 3704): 17984023 - Lcom/fsck/k9/activity/MessageView; onCreate
+V/DBox    ( 3704): 17984023 + Lcom/fsck/k9/activity/MessageView; onResume
+V/DBox    ( 3704): 17984024 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17984026 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 17984027 - Lcom/fsck/k9/activity/MessageView; onResume
+V/DBox    ( 3704): Ljava/net/Socket;->connectV
+V/DBox    ( 3704): 17990093 + Lcom/fsck/k9/activity/MessageView; onClick android.widget.Button@43fc1fc0
+V/DBox    ( 3704): 17990106 - Lcom/fsck/k9/activity/MessageView; onClick
+V/DBox    ( 3704): 17997750 + Lcom/fsck/k9/activity/MessageView; onClick android.widget.Button@440b89b0
+V/DBox    ( 3704): 17997757 - Lcom/fsck/k9/activity/MessageView; onClick
+V/DBox    ( 3704): 18005039 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 3704): 18005039 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 18005042 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 3704): 18005107 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 3704): 18011479 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44030018
+V/DBox    ( 3704): 18011508 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+V/DBox    ( 3704): 18024756 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Accounts
+V/DBox    ( 3704): 18024773 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 3704): 18024821 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 3704): 18024821 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 3704): 18024838 + Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    ( 3704): 18024839 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    ( 3704): 18024844 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    ( 3704): 18024887 - Lcom/fsck/k9/activity/Accounts; onCreate
+V/DBox    ( 3704): 18024887 + Lcom/fsck/k9/activity/Accounts; onResume
+V/DBox    ( 3704): 18024888 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    ( 3704): 18024890 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    ( 3704): 18024910 - Lcom/fsck/k9/activity/Accounts; onResume
+V/DBox    ( 3704): 18035432 + Lcom/fsck/k9/activity/Accounts; onPause
+V/DBox    ( 3704): 18035435 - Lcom/fsck/k9/activity/Accounts; onPause
+V/DBox    ( 3704): 18035471 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    ( 3704): 18035472 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    ( 3704): 18035475 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    ( 3704): 18035489 - Lcom/fsck/k9/activity/FolderList; onResume

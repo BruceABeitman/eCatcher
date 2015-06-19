@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+  echo "Usage: ./batch_plot.script <options> <data_folder>"
+  echo "options: 0:non-interaction, 1:actions, 2:sequences, 3:all"
+  exit
+fi
+
+echo "Batch ploting energy diagrams"
+R --vanilla --args $1 $2 < plot.R
+
+echo "Done!"
+
+

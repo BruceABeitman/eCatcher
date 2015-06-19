@@ -1,0 +1,25 @@
+{
+"name": "cwac-wakeful",
+"description": "CWAC WakefulIntentService, an IntentService that stays awake while work is being done",
+"version": "0.2.0",
+"maintainers": [
+		{
+			"name": "Mark Murphy",
+			"web": "http://commonsware.com"
+		}
+	],
+"licenses": [
+		{
+			"type": "Apache License, 2.0",
+			"url": "http://www.apache.org/licenses/LICENSE-2.0"
+		}
+	],
+"homepage": "http://github.com/commonsguy/cwac-wakeful",
+"repositories": [
+       {
+            "type": "git", 
+            "url": "https://commonsguy@github.com/commonsguy/cwac-wakeful.git"
+       }
+]
+
+}

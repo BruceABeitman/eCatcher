@@ -1,0 +1,174 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/DBox    ( 5047): 29711252 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 5047): 29711253 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29711263 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29711418 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 5047): 29714640 + Lcom/fsck/k9/activity/MessageList; onItemClick android.widget.ListView@441a6d58
+V/DBox    ( 5047): 29714693 - Lcom/fsck/k9/activity/MessageList; onItemClick
+V/DBox    ( 5047): 29714693 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 5047): 29714695 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 5047): 29714695 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 5047): 29714696 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 5047): 29714706 + Lcom/fsck/k9/activity/MessageView; onCreate
+V/DBox    ( 5047): 29714706 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 5047): 29714710 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 5047): 29714766 - Lcom/fsck/k9/activity/MessageView; onCreate
+V/DBox    ( 5047): 29714766 + Lcom/fsck/k9/activity/MessageView; onResume
+V/DBox    ( 5047): 29714782 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29714790 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29714796 - Lcom/fsck/k9/activity/MessageView; onResume
+V/DBox    ( 5047): 29718504 + Lcom/fsck/k9/activity/MessageView; onClick android.widget.Button@44276d40
+V/DBox    ( 5047): 29718510 - Lcom/fsck/k9/activity/MessageView; onClick
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29722600 + Lcom/fsck/k9/activity/MessageView; onClick android.widget.Button@4422d5a8
+V/DBox    ( 5047): 29722608 - Lcom/fsck/k9/activity/MessageView; onClick
+V/DBox    ( 5047): 29725991 + Lcom/fsck/k9/activity/MessageView; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@44359a00
+V/DBox    ( 5047): 29726010 - Lcom/fsck/k9/activity/MessageView; onCreateOptionsMenu
+V/DBox    ( 5047): 29729847 + Lcom/fsck/k9/activity/MessageView; onOptionsItemSelected Mark as unread
+V/DBox    ( 5047): 29729909 - Lcom/fsck/k9/activity/MessageView; onOptionsItemSelected
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29733817 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 5047): 29733818 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29733821 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29733939 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 5047): 29737479 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@441941b0
+V/DBox    ( 5047): 29737505 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29741355 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Sort by...
+V/DBox    ( 5047): 29741355 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): 29744952 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Date
+V/DBox    ( 5047): 29744958 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): 29745554 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    ( 5047): 29745556 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    ( 5047): 29745621 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    ( 5047): 29745622 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29752524 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Check mail
+V/DBox    ( 5047): 29752525 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29759899 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Batch Ops
+V/DBox    ( 5047): 29759899 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): 29764247 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Select all
+V/DBox    ( 5047): 29764251 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): 29767605 + Lcom/fsck/k9/activity/MessageList; onClick android.widget.Button@44284740
+V/DBox    ( 5047): 29767609 - Lcom/fsck/k9/activity/MessageList; onClick
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29774880 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Folder list
+V/DBox    ( 5047): 29774928 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): 29774962 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 5047): 29774963 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 5047): 29774976 + Lcom/fsck/k9/activity/FolderList; onCreate
+V/DBox    ( 5047): 29774980 + Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    ( 5047): 29774988 - Lcom/fsck/k9/K9ListActivity; onCreate
+V/DBox    ( 5047): 29775023 - Lcom/fsck/k9/activity/FolderList; onCreate
+V/DBox    ( 5047): 29775023 + Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    ( 5047): 29775024 + Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    ( 5047): 29775026 - Lcom/fsck/k9/K9ListActivity; onResume
+V/DBox    ( 5047): 29775053 - Lcom/fsck/k9/activity/FolderList; onResume
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29778245 + Lcom/fsck/k9/activity/FolderList$2; onItemClick android.widget.ListView@440a55b8
+V/DBox    ( 5047): 29778282 - Lcom/fsck/k9/activity/FolderList$2; onItemClick
+V/DBox    ( 5047): 29778282 + Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    ( 5047): 29778283 - Lcom/fsck/k9/activity/FolderList; onSaveInstanceState
+V/DBox    ( 5047): 29778289 + Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    ( 5047): 29778290 - Lcom/fsck/k9/activity/FolderList; onPause
+V/DBox    ( 5047): 29778302 + Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    ( 5047): 29778308 + Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 5047): 29778310 - Lcom/fsck/k9/K9Activity; onCreate
+V/DBox    ( 5047): 29778386 - Lcom/fsck/k9/activity/MessageList; onCreate
+V/DBox    ( 5047): 29778386 + Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 5047): 29778387 + Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29778388 - Lcom/fsck/k9/K9Activity; onResume
+V/DBox    ( 5047): 29778453 - Lcom/fsck/k9/activity/MessageList; onResume
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): 29781555 + Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu com.android.internal.view.menu.MenuBuilder@443b0db8
+V/DBox    ( 5047): 29781571 - Lcom/fsck/k9/activity/MessageList; onCreateOptionsMenu
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): 29788454 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Mark all messages as read
+V/DBox    ( 5047): 29788488 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): 29792343 + Lcom/fsck/k9/activity/MessageList$3; onClick android.app.AlertDialog@442f99b0
+V/DBox    ( 5047): 29792356 - Lcom/fsck/k9/activity/MessageList$3; onClick
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): 29799743 + Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    ( 5047): 29799744 - Lcom/fsck/k9/service/MailService; onCreate
+V/DBox    ( 5047): 29799813 + Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    ( 5047): 29799814 - Lcom/fsck/k9/service/MailService; onDestroy
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): Ljava/net/Socket;->closeV
+V/DBox    ( 5047): Ljava/net/Socket;->connectV
+V/DBox    ( 5047): 29804608 + Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected Account settings
+V/DBox    ( 5047): 29804641 - Lcom/fsck/k9/activity/MessageList; onOptionsItemSelected
+V/DBox    ( 5047): 29804643 + Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 5047): 29804644 - Lcom/fsck/k9/activity/MessageList; onSaveInstanceState
+V/DBox    ( 5047): 29804646 + Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 5047): 29804646 - Lcom/fsck/k9/activity/MessageList; onPause
+V/DBox    ( 5047): 29804661 + Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    ( 5047): 29804661 + Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    ( 5047): 29804668 - Lcom/fsck/k9/K9PreferenceActivity; onCreate
+V/DBox    ( 5047): 29804836 - Lcom/fsck/k9/activity/setup/AccountSettings; onCreate
+V/DBox    ( 5047): 29804837 + Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    ( 5047): 29804840 - Lcom/fsck/k9/activity/setup/AccountSettings; onResume
+V/DBox    ( 5047): Ljava/net/Socket;->closeV

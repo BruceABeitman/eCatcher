@@ -1,0 +1,5 @@
+1. extract_log.script: extract android app log
+2. preprocess.script: pre-process log for analyzer
+3. analyzer.script: batch process logs with log_analyzer.py
+
+

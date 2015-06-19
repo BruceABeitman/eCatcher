@@ -1,0 +1,259 @@
+.class  Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;
+.super Ljava/lang/Object;
+.source "NearbyTransferAnyShare.java"
+.implements Lcom/lenovo/channel/base/IShareSendListener;
+.field final synthetic this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+.method constructor <init>(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)V
+.registers 2
+iput-object p1, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
+.end method
+.method public onProgress(Lcom/lenovo/channel/base/ShareRecord;JJ)V
+.registers 14
+invoke-virtual {p1}, Lcom/lenovo/channel/base/ShareRecord;->getDeviceId()Ljava/lang/String;
+move-result-object v1
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v2
+invoke-interface {v2, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+move-result v2
+if-nez v2, :cond_2a
+sget-object v2, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->TAG:Ljava/lang/String;
+new-instance v3, Ljava/lang/StringBuilder;
+const-string/jumbo v4, "onProgress can not find user in mSendUserTransferInfoMap, SharedRecord = "
+invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+move-result-object v4
+invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object v3
+invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object v3
+invoke-static {v2, v3}, Lcom/pinguo/lib/log/GLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
+:cond_29
+return-void
+:cond_2a
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v2
+invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+move-result-object v6
+check-cast v6, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;
+invoke-virtual {v6, p4, p5}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->setProgressForOne(J)V
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendListeners:Ljava/util/List;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$1(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/List;
+move-result-object v2
+if-eqz v2, :cond_29
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendListeners:Ljava/util/List;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$1(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/List;
+move-result-object v2
+invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+move-result-object v7
+:goto_4b
+invoke-interface {v7}, Ljava/util/Iterator;->hasNext()Z
+move-result v2
+if-eqz v2, :cond_29
+invoke-interface {v7}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+move-result-object v0
+check-cast v0, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;
+invoke-virtual {v6}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getProgressForOne()J
+move-result-wide v2
+invoke-virtual {v6}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getCompleted()J
+move-result-wide v4
+add-long/2addr v2, v4
+invoke-virtual {v6}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getTotal()J
+move-result-wide v4
+invoke-interface/range {v0 .. v5}, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;->onProgress(Ljava/lang/String;JJ)V
+goto :goto_4b
+.end method
+.method public onResult(Lcom/lenovo/channel/base/ShareRecord;ZLcom/lenovo/channel/exception/TransmitException;)V
+.registers 14
+invoke-virtual {p1}, Lcom/lenovo/channel/base/ShareRecord;->getDeviceId()Ljava/lang/String;
+move-result-object v1
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v2
+invoke-interface {v2, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+move-result v2
+if-nez v2, :cond_2a
+sget-object v2, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->TAG:Ljava/lang/String;
+new-instance v3, Ljava/lang/StringBuilder;
+const-string/jumbo v4, "onResult can not find user in mSendUserTransferInfoMap, SharedRecord = "
+invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+move-result-object v4
+invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+move-result-object v3
+invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+move-result-object v3
+invoke-static {v2, v3}, Lcom/pinguo/lib/log/GLogger;->e(Ljava/lang/String;Ljava/lang/String;)V
+:cond_29
+return-void
+:cond_2a
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v2
+invoke-interface {v2, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+move-result-object v8
+check-cast v8, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;
+invoke-virtual {p1}, Lcom/lenovo/channel/base/ShareRecord;->getItem()Lcom/lenovo/content/base/ContentItem;
+move-result-object v2
+invoke-virtual {v2}, Lcom/lenovo/content/base/ContentItem;->getFilePath()Ljava/lang/String;
+move-result-object v7
+if-eqz p2, :cond_8f
+invoke-virtual {v8, v7}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->addSuccessFile(Ljava/lang/String;)V
+invoke-virtual {p1}, Lcom/lenovo/channel/base/ShareRecord;->getSize()J
+move-result-wide v2
+invoke-virtual {v8, v2, v3}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->incCompleted(J)V
+:goto_4a
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendListeners:Ljava/util/List;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$1(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/List;
+move-result-object v2
+if-eqz v2, :cond_29
+iget-object v2, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendListeners:Ljava/util/List;
+invoke-static {v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$1(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/List;
+move-result-object v2
+invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+move-result-object v9
+:goto_5c
+:cond_5c
+invoke-interface {v9}, Ljava/util/Iterator;->hasNext()Z
+move-result v2
+if-eqz v2, :cond_29
+invoke-interface {v9}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+move-result-object v0
+check-cast v0, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getCompleted()J
+move-result-wide v2
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getTotal()J
+move-result-wide v4
+invoke-interface/range {v0 .. v5}, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;->onProgress(Ljava/lang/String;JJ)V
+const/4 v2, 0x0
+:try_start_74
+invoke-interface {v0, v1, v7, p2, v2}, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;->onOneResult(Ljava/lang/String;Ljava/lang/String;ZLcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfException;)V
+:try_end_77
+.catch Ljava/lang/Exception; {:try_start_74 .. :try_end_77} :catch_93
+:goto_77
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getCompleted()J
+move-result-wide v2
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getTotal()J
+move-result-wide v4
+cmp-long v2, v2, v4
+if-ltz v2, :cond_5c
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getSuccessFiles()Ljava/util/List;
+move-result-object v2
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getFailFiles()Ljava/util/List;
+move-result-object v3
+invoke-interface {v0, v1, v2, v3}, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;->onResult(Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
+goto :goto_5c
+:cond_8f
+invoke-virtual {v8, v7}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->addFailFile(Ljava/lang/String;)V
+goto :goto_4a
+:catch_93
+move-exception v6
+invoke-virtual {v6}, Ljava/lang/Exception;->printStackTrace()V
+goto :goto_77
+.end method
+.method public onSent(Ljava/util/Collection;)V
+.registers 13
+invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+move-result-object v1
+if-nez v1, :cond_37
+:cond_6
+return-void
+:cond_7
+invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+move-result-object v3
+check-cast v3, Lcom/lenovo/channel/base/ShareRecord;
+invoke-virtual {v3}, Lcom/lenovo/channel/base/ShareRecord;->getDeviceId()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v3}, Lcom/lenovo/channel/base/ShareRecord;->getSize()J
+move-result-wide v5
+iget-object v9, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v9}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v9
+invoke-interface {v9, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+move-result v9
+if-nez v9, :cond_89
+new-instance v7, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;
+iget-object v9, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+invoke-direct {v7, v9}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;-><init>(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)V
+invoke-virtual {v7, v0}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->setDeviceId(Ljava/lang/String;)V
+invoke-virtual {v7, v5, v6}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->incTotal(J)V
+iget-object v9, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v9}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v9
+invoke-interface {v9, v0, v7}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+:goto_37
+:cond_37
+invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
+move-result v9
+if-nez v9, :cond_7
+iget-object v9, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v9}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v9
+invoke-interface {v9}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+move-result-object v9
+invoke-interface {v9}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+move-result-object v4
+if-eqz v4, :cond_6
+iget-object v9, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendListeners:Ljava/util/List;
+invoke-static {v9}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$1(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/List;
+move-result-object v9
+if-eqz v9, :cond_6
+:cond_55
+invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+move-result v9
+if-eqz v9, :cond_6
+invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+move-result-object v9
+check-cast v9, Ljava/util/Map$Entry;
+invoke-interface {v9}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+move-result-object v8
+check-cast v8, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getDeviceId()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v8}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->getTotal()J
+move-result-wide v5
+iget-object v9, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendListeners:Ljava/util/List;
+invoke-static {v9}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$1(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/List;
+move-result-object v9
+invoke-interface {v9}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+move-result-object v9
+:goto_79
+invoke-interface {v9}, Ljava/util/Iterator;->hasNext()Z
+move-result v10
+if-eqz v10, :cond_55
+invoke-interface {v9}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+move-result-object v2
+check-cast v2, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;
+invoke-interface {v2, v0, v5, v6}, Lcom/pinguo/camera360/nearbytransfer/wrapper/INearbyTransferWrapper$NbtfSendListener;->onStart(Ljava/lang/String;J)V
+goto :goto_79
+:cond_89
+iget-object v9, p0, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$1;->this$0:Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;
+#getter for: Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->mSendUserTransferInfoMap:Ljava/util/Map;
+invoke-static {v9}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;->access$0(Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare;)Ljava/util/Map;
+move-result-object v9
+invoke-interface {v9, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+move-result-object v7
+check-cast v7, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;
+invoke-virtual {v7, v5, v6}, Lcom/pinguo/camera360/nearbytransfer/wrapper/anyshare/NearbyTransferAnyShare$UserTransferInfo;->incTotal(J)V
+goto :goto_37
+.end method
+.method public onStarted(Lcom/lenovo/channel/base/ShareRecord;J)V
+.registers 4
+return-void
+.end method

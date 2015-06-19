@@ -1,0 +1,1560 @@
+.class public Lcom/google/android/youtube/player/internal/y;
+.super Landroid/app/Activity;
+.field private a:Landroid/app/Activity;
+.method public constructor <init>(Landroid/app/Activity;)V
+.registers 2
+invoke-direct {p0}, Landroid/app/Activity;-><init>()V
+iput-object p1, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+return-void
+.end method
+.method public addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->addContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+return-void
+.end method
+.method public bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->bindService(Landroid/content/Intent;Landroid/content/ServiceConnection;I)Z
+move-result v0
+return v0
+.end method
+.method public checkCallingOrSelfPermission(Ljava/lang/String;)I
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->checkCallingOrSelfPermission(Ljava/lang/String;)I
+move-result v0
+return v0
+.end method
+.method public checkCallingOrSelfUriPermission(Landroid/net/Uri;I)I
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->checkCallingOrSelfUriPermission(Landroid/net/Uri;I)I
+move-result v0
+return v0
+.end method
+.method public checkCallingPermission(Ljava/lang/String;)I
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->checkCallingPermission(Ljava/lang/String;)I
+move-result v0
+return v0
+.end method
+.method public checkCallingUriPermission(Landroid/net/Uri;I)I
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->checkCallingUriPermission(Landroid/net/Uri;I)I
+move-result v0
+return v0
+.end method
+.method public checkPermission(Ljava/lang/String;II)I
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->checkPermission(Ljava/lang/String;II)I
+move-result v0
+return v0
+.end method
+.method public checkUriPermission(Landroid/net/Uri;III)I
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->checkUriPermission(Landroid/net/Uri;III)I
+move-result v0
+return v0
+.end method
+.method public checkUriPermission(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;III)I
+.registers 14
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move-object v3, p3
+move v4, p4
+move v5, p5
+move v6, p6
+invoke-virtual/range {v0 .. v6}, Landroid/app/Activity;->checkUriPermission(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;III)I
+move-result v0
+return v0
+.end method
+.method public clearWallpaper()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->clearWallpaper()V
+return-void
+.end method
+.method public closeContextMenu()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->closeContextMenu()V
+return-void
+.end method
+.method public closeOptionsMenu()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->closeOptionsMenu()V
+return-void
+.end method
+.method public createPackageContext(Ljava/lang/String;I)Landroid/content/Context;
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->createPackageContext(Ljava/lang/String;I)Landroid/content/Context;
+move-result-object v0
+return-object v0
+.end method
+.method public createPendingResult(ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->createPendingResult(ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+move-result-object v0
+return-object v0
+.end method
+.method public databaseList()[Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->databaseList()[Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public deleteDatabase(Ljava/lang/String;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->deleteDatabase(Ljava/lang/String;)Z
+move-result v0
+return v0
+.end method
+.method public deleteFile(Ljava/lang/String;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->deleteFile(Ljava/lang/String;)Z
+move-result v0
+return v0
+.end method
+.method public dispatchGenericMotionEvent(Landroid/view/MotionEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->dispatchGenericMotionEvent(Landroid/view/MotionEvent;)Z
+move-result v0
+return v0
+.end method
+.method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->dispatchKeyEvent(Landroid/view/KeyEvent;)Z
+move-result v0
+return v0
+.end method
+.method public dispatchKeyShortcutEvent(Landroid/view/KeyEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->dispatchKeyShortcutEvent(Landroid/view/KeyEvent;)Z
+move-result v0
+return v0
+.end method
+.method public dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->dispatchPopulateAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)Z
+move-result v0
+return v0
+.end method
+.method public dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->dispatchTouchEvent(Landroid/view/MotionEvent;)Z
+move-result v0
+return v0
+.end method
+.method public dispatchTrackballEvent(Landroid/view/MotionEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->dispatchTrackballEvent(Landroid/view/MotionEvent;)Z
+move-result v0
+return v0
+.end method
+.method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+return-void
+.end method
+.method public enforceCallingOrSelfPermission(Ljava/lang/String;Ljava/lang/String;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->enforceCallingOrSelfPermission(Ljava/lang/String;Ljava/lang/String;)V
+return-void
+.end method
+.method public enforceCallingOrSelfUriPermission(Landroid/net/Uri;ILjava/lang/String;)V
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->enforceCallingOrSelfUriPermission(Landroid/net/Uri;ILjava/lang/String;)V
+return-void
+.end method
+.method public enforceCallingPermission(Ljava/lang/String;Ljava/lang/String;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->enforceCallingPermission(Ljava/lang/String;Ljava/lang/String;)V
+return-void
+.end method
+.method public enforceCallingUriPermission(Landroid/net/Uri;ILjava/lang/String;)V
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->enforceCallingUriPermission(Landroid/net/Uri;ILjava/lang/String;)V
+return-void
+.end method
+.method public enforcePermission(Ljava/lang/String;IILjava/lang/String;)V
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->enforcePermission(Ljava/lang/String;IILjava/lang/String;)V
+return-void
+.end method
+.method public enforceUriPermission(Landroid/net/Uri;IIILjava/lang/String;)V
+.registers 12
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move v2, p2
+move v3, p3
+move v4, p4
+move-object v5, p5
+invoke-virtual/range {v0 .. v5}, Landroid/app/Activity;->enforceUriPermission(Landroid/net/Uri;IIILjava/lang/String;)V
+return-void
+.end method
+.method public enforceUriPermission(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)V
+.registers 16
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move-object v3, p3
+move v4, p4
+move v5, p5
+move v6, p6
+move-object v7, p7
+invoke-virtual/range {v0 .. v7}, Landroid/app/Activity;->enforceUriPermission(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;IIILjava/lang/String;)V
+return-void
+.end method
+.method public equals(Ljava/lang/Object;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+move-result v0
+return v0
+.end method
+.method public fileList()[Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->fileList()[Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public findViewById(I)Landroid/view/View;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+move-result-object v0
+return-object v0
+.end method
+.method public finish()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->finish()V
+return-void
+.end method
+.method public finishActivity(I)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->finishActivity(I)V
+return-void
+.end method
+.method public finishActivityFromChild(Landroid/app/Activity;I)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->finishActivityFromChild(Landroid/app/Activity;I)V
+return-void
+.end method
+.method public finishAffinity()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->finishAffinity()V
+return-void
+.end method
+.method public finishFromChild(Landroid/app/Activity;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->finishFromChild(Landroid/app/Activity;)V
+return-void
+.end method
+.method public getActionBar()Landroid/app/ActionBar;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getActionBar()Landroid/app/ActionBar;
+move-result-object v0
+return-object v0
+.end method
+.method public getApplicationContext()Landroid/content/Context;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+move-result-object v0
+return-object v0
+.end method
+.method public getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+move-result-object v0
+return-object v0
+.end method
+.method public getAssets()Landroid/content/res/AssetManager;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getAssets()Landroid/content/res/AssetManager;
+move-result-object v0
+return-object v0
+.end method
+.method public getBaseContext()Landroid/content/Context;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getBaseContext()Landroid/content/Context;
+move-result-object v0
+return-object v0
+.end method
+.method public getCacheDir()Ljava/io/File;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getCacheDir()Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getCallingActivity()Landroid/content/ComponentName;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getCallingActivity()Landroid/content/ComponentName;
+move-result-object v0
+return-object v0
+.end method
+.method public getCallingPackage()Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getCallingPackage()Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public getChangingConfigurations()I
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getChangingConfigurations()I
+move-result v0
+return v0
+.end method
+.method public getClassLoader()Ljava/lang/ClassLoader;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getClassLoader()Ljava/lang/ClassLoader;
+move-result-object v0
+return-object v0
+.end method
+.method public getComponentName()Landroid/content/ComponentName;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getComponentName()Landroid/content/ComponentName;
+move-result-object v0
+return-object v0
+.end method
+.method public getContentResolver()Landroid/content/ContentResolver;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getContentResolver()Landroid/content/ContentResolver;
+move-result-object v0
+return-object v0
+.end method
+.method public getCurrentFocus()Landroid/view/View;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getCurrentFocus()Landroid/view/View;
+move-result-object v0
+return-object v0
+.end method
+.method public getDatabasePath(Ljava/lang/String;)Ljava/io/File;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->getDatabasePath(Ljava/lang/String;)Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getDir(Ljava/lang/String;I)Ljava/io/File;
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->getDir(Ljava/lang/String;I)Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getExternalCacheDir()Ljava/io/File;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getExternalCacheDir()Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getExternalFilesDir(Ljava/lang/String;)Ljava/io/File;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->getExternalFilesDir(Ljava/lang/String;)Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getFileStreamPath(Ljava/lang/String;)Ljava/io/File;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->getFileStreamPath(Ljava/lang/String;)Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getFilesDir()Ljava/io/File;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getFilesDir()Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getFragmentManager()Landroid/app/FragmentManager;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getFragmentManager()Landroid/app/FragmentManager;
+move-result-object v0
+return-object v0
+.end method
+.method public getIntent()Landroid/content/Intent;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+move-result-object v0
+return-object v0
+.end method
+.method public getLastNonConfigurationInstance()Ljava/lang/Object;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getLastNonConfigurationInstance()Ljava/lang/Object;
+move-result-object v0
+return-object v0
+.end method
+.method public getLayoutInflater()Landroid/view/LayoutInflater;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getLayoutInflater()Landroid/view/LayoutInflater;
+move-result-object v0
+return-object v0
+.end method
+.method public getLoaderManager()Landroid/app/LoaderManager;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getLoaderManager()Landroid/app/LoaderManager;
+move-result-object v0
+return-object v0
+.end method
+.method public getLocalClassName()Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getLocalClassName()Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public getMainLooper()Landroid/os/Looper;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getMainLooper()Landroid/os/Looper;
+move-result-object v0
+return-object v0
+.end method
+.method public getMenuInflater()Landroid/view/MenuInflater;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getMenuInflater()Landroid/view/MenuInflater;
+move-result-object v0
+return-object v0
+.end method
+.method public getObbDir()Ljava/io/File;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getObbDir()Ljava/io/File;
+move-result-object v0
+return-object v0
+.end method
+.method public getPackageCodePath()Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getPackageCodePath()Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public getPackageManager()Landroid/content/pm/PackageManager;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getPackageManager()Landroid/content/pm/PackageManager;
+move-result-object v0
+return-object v0
+.end method
+.method public getPackageName()Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getPackageName()Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public getPackageResourcePath()Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getPackageResourcePath()Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public getParentActivityIntent()Landroid/content/Intent;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getParentActivityIntent()Landroid/content/Intent;
+move-result-object v0
+return-object v0
+.end method
+.method public getPreferences(I)Landroid/content/SharedPreferences;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->getPreferences(I)Landroid/content/SharedPreferences;
+move-result-object v0
+return-object v0
+.end method
+.method public getRequestedOrientation()I
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getRequestedOrientation()I
+move-result v0
+return v0
+.end method
+.method public getResources()Landroid/content/res/Resources;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+move-result-object v0
+return-object v0
+.end method
+.method public getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+move-result-object v0
+return-object v0
+.end method
+.method public getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+move-result-object v0
+return-object v0
+.end method
+.method public getTaskId()I
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getTaskId()I
+move-result v0
+return v0
+.end method
+.method public getTheme()Landroid/content/res/Resources$Theme;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getTheme()Landroid/content/res/Resources$Theme;
+move-result-object v0
+return-object v0
+.end method
+.method public getWallpaper()Landroid/graphics/drawable/Drawable;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getWallpaper()Landroid/graphics/drawable/Drawable;
+move-result-object v0
+return-object v0
+.end method
+.method public getWallpaperDesiredMinimumHeight()I
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getWallpaperDesiredMinimumHeight()I
+move-result v0
+return v0
+.end method
+.method public getWallpaperDesiredMinimumWidth()I
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getWallpaperDesiredMinimumWidth()I
+move-result v0
+return v0
+.end method
+.method public getWindow()Landroid/view/Window;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
+move-result-object v0
+return-object v0
+.end method
+.method public getWindowManager()Landroid/view/WindowManager;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+move-result-object v0
+return-object v0
+.end method
+.method public grantUriPermission(Ljava/lang/String;Landroid/net/Uri;I)V
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->grantUriPermission(Ljava/lang/String;Landroid/net/Uri;I)V
+return-void
+.end method
+.method public hasWindowFocus()Z
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->hasWindowFocus()Z
+move-result v0
+return v0
+.end method
+.method public hashCode()I
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+move-result v0
+return v0
+.end method
+.method public invalidateOptionsMenu()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->invalidateOptionsMenu()V
+return-void
+.end method
+.method public isChangingConfigurations()Z
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->isChangingConfigurations()Z
+move-result v0
+return v0
+.end method
+.method public isFinishing()Z
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->isFinishing()Z
+move-result v0
+return v0
+.end method
+.method public isRestricted()Z
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->isRestricted()Z
+move-result v0
+return v0
+.end method
+.method public isTaskRoot()Z
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->isTaskRoot()Z
+move-result v0
+return v0
+.end method
+.method public moveTaskToBack(Z)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->moveTaskToBack(Z)Z
+move-result v0
+return v0
+.end method
+.method public navigateUpTo(Landroid/content/Intent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->navigateUpTo(Landroid/content/Intent;)Z
+move-result v0
+return v0
+.end method
+.method public navigateUpToFromChild(Landroid/app/Activity;Landroid/content/Intent;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->navigateUpToFromChild(Landroid/app/Activity;Landroid/content/Intent;)Z
+move-result v0
+return v0
+.end method
+.method public onActionModeFinished(Landroid/view/ActionMode;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onActionModeFinished(Landroid/view/ActionMode;)V
+return-void
+.end method
+.method public onActionModeStarted(Landroid/view/ActionMode;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onActionModeStarted(Landroid/view/ActionMode;)V
+return-void
+.end method
+.method public onAttachFragment(Landroid/app/Fragment;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onAttachFragment(Landroid/app/Fragment;)V
+return-void
+.end method
+.method public onAttachedToWindow()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onAttachedToWindow()V
+return-void
+.end method
+.method public onBackPressed()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onBackPressed()V
+return-void
+.end method
+.method public onConfigurationChanged(Landroid/content/res/Configuration;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+return-void
+.end method
+.method public onContentChanged()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onContentChanged()V
+return-void
+.end method
+.method public onContextItemSelected(Landroid/view/MenuItem;)Z
+.registers 5
+move-object/from16 v1, p1
+invoke-static {v1}, Ldroidbox/apimonitor/Helper;->toString(Ljava/lang/Object;)Ljava/lang/String;
+move-result-object v1
+const-string v0, " + Lcom/google/android/youtube/player/internal/y; onContextItemSelected "
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v1
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onContextItemSelected(Landroid/view/MenuItem;)Z
+move-result v0
+move v2, v0
+const-string v1, " - Lcom/google/android/youtube/player/internal/y; onContextItemSelected"
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+move v0, v2
+return v0
+.end method
+.method public onContextMenuClosed(Landroid/view/Menu;)V
+.registers 4
+move-object/from16 v1, p1
+invoke-static {v1}, Ldroidbox/apimonitor/Helper;->toString(Ljava/lang/Object;)Ljava/lang/String;
+move-result-object v1
+const-string v0, " + Lcom/google/android/youtube/player/internal/y; onContextMenuClosed "
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v1
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onContextMenuClosed(Landroid/view/Menu;)V
+const-string v1, " - Lcom/google/android/youtube/player/internal/y; onContextMenuClosed"
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+return-void
+.end method
+.method public onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V
+.registers 6
+move-object/from16 v1, p1
+invoke-static {v1}, Ldroidbox/apimonitor/Helper;->toString(Ljava/lang/Object;)Ljava/lang/String;
+move-result-object v1
+const-string v0, " + Lcom/google/android/youtube/player/internal/y; onCreateContextMenu "
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v1
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V
+const-string v1, " - Lcom/google/android/youtube/player/internal/y; onCreateContextMenu"
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+return-void
+.end method
+.method public onCreateDescription()Ljava/lang/CharSequence;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onCreateDescription()Ljava/lang/CharSequence;
+move-result-object v0
+return-object v0
+.end method
+.method public onCreateNavigateUpTaskStack(Landroid/app/TaskStackBuilder;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onCreateNavigateUpTaskStack(Landroid/app/TaskStackBuilder;)V
+return-void
+.end method
+.method public onCreateOptionsMenu(Landroid/view/Menu;)Z
+.registers 5
+move-object/from16 v1, p1
+invoke-static {v1}, Ldroidbox/apimonitor/Helper;->toString(Ljava/lang/Object;)Ljava/lang/String;
+move-result-object v1
+const-string v0, " + Lcom/google/android/youtube/player/internal/y; onCreateOptionsMenu "
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v1
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onCreateOptionsMenu(Landroid/view/Menu;)Z
+move-result v0
+move v2, v0
+const-string v1, " - Lcom/google/android/youtube/player/internal/y; onCreateOptionsMenu"
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+move v0, v2
+return v0
+.end method
+.method public onCreatePanelMenu(ILandroid/view/Menu;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onCreatePanelMenu(ILandroid/view/Menu;)Z
+move-result v0
+return v0
+.end method
+.method public onCreatePanelView(I)Landroid/view/View;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onCreatePanelView(I)Landroid/view/View;
+move-result-object v0
+return-object v0
+.end method
+.method public onCreateThumbnail(Landroid/graphics/Bitmap;Landroid/graphics/Canvas;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onCreateThumbnail(Landroid/graphics/Bitmap;Landroid/graphics/Canvas;)Z
+move-result v0
+return v0
+.end method
+.method public onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+move-result-object v0
+return-object v0
+.end method
+.method public onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->onCreateView(Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+move-result-object v0
+return-object v0
+.end method
+.method public onDetachedFromWindow()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onDetachedFromWindow()V
+return-void
+.end method
+.method public onGenericMotionEvent(Landroid/view/MotionEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onGenericMotionEvent(Landroid/view/MotionEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onKeyDown(ILandroid/view/KeyEvent;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onKeyDown(ILandroid/view/KeyEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onKeyLongPress(ILandroid/view/KeyEvent;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onKeyLongPress(ILandroid/view/KeyEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onKeyMultiple(IILandroid/view/KeyEvent;)Z
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->onKeyMultiple(IILandroid/view/KeyEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onKeyShortcut(ILandroid/view/KeyEvent;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onKeyShortcut(ILandroid/view/KeyEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onKeyUp(ILandroid/view/KeyEvent;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onKeyUp(ILandroid/view/KeyEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onLowMemory()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onLowMemory()V
+return-void
+.end method
+.method public onMenuItemSelected(ILandroid/view/MenuItem;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onMenuItemSelected(ILandroid/view/MenuItem;)Z
+move-result v0
+return v0
+.end method
+.method public onMenuOpened(ILandroid/view/Menu;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onMenuOpened(ILandroid/view/Menu;)Z
+move-result v0
+return v0
+.end method
+.method public onNavigateUp()Z
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onNavigateUp()Z
+move-result v0
+return v0
+.end method
+.method public onNavigateUpFromChild(Landroid/app/Activity;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onNavigateUpFromChild(Landroid/app/Activity;)Z
+move-result v0
+return v0
+.end method
+.method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
+.registers 5
+move-object/from16 v1, p1
+invoke-static {v1}, Ldroidbox/apimonitor/Helper;->toString(Ljava/lang/Object;)Ljava/lang/String;
+move-result-object v1
+const-string v0, " + Lcom/google/android/youtube/player/internal/y; onOptionsItemSelected "
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v1
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+move-result v0
+move v2, v0
+const-string v1, " - Lcom/google/android/youtube/player/internal/y; onOptionsItemSelected"
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+move v0, v2
+return v0
+.end method
+.method public onOptionsMenuClosed(Landroid/view/Menu;)V
+.registers 4
+move-object/from16 v1, p1
+invoke-static {v1}, Ldroidbox/apimonitor/Helper;->toString(Ljava/lang/Object;)Ljava/lang/String;
+move-result-object v1
+const-string v0, " + Lcom/google/android/youtube/player/internal/y; onOptionsMenuClosed "
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v1
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onOptionsMenuClosed(Landroid/view/Menu;)V
+const-string v1, " - Lcom/google/android/youtube/player/internal/y; onOptionsMenuClosed"
+invoke-static {}, Ldroidbox/apimonitor/Helper;->elapsedRealtime()Ljava/lang/String;
+move-result-object v0
+invoke-virtual {v0, v1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+move-result-object v0
+invoke-static {v0}, Ldroidbox/apimonitor/Helper;->log(Ljava/lang/String;)V
+return-void
+.end method
+.method public onPanelClosed(ILandroid/view/Menu;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->onPanelClosed(ILandroid/view/Menu;)V
+return-void
+.end method
+.method public onPrepareNavigateUpTaskStack(Landroid/app/TaskStackBuilder;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onPrepareNavigateUpTaskStack(Landroid/app/TaskStackBuilder;)V
+return-void
+.end method
+.method public onPrepareOptionsMenu(Landroid/view/Menu;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onPrepareOptionsMenu(Landroid/view/Menu;)Z
+move-result v0
+return v0
+.end method
+.method public onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->onPreparePanel(ILandroid/view/View;Landroid/view/Menu;)Z
+move-result v0
+return v0
+.end method
+.method public onRetainNonConfigurationInstance()Ljava/lang/Object;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onRetainNonConfigurationInstance()Ljava/lang/Object;
+move-result-object v0
+return-object v0
+.end method
+.method public onSearchRequested()Z
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onSearchRequested()Z
+move-result v0
+return v0
+.end method
+.method public onTouchEvent(Landroid/view/MotionEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onTouchEvent(Landroid/view/MotionEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onTrackballEvent(Landroid/view/MotionEvent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onTrackballEvent(Landroid/view/MotionEvent;)Z
+move-result v0
+return v0
+.end method
+.method public onTrimMemory(I)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onTrimMemory(I)V
+return-void
+.end method
+.method public onUserInteraction()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->onUserInteraction()V
+return-void
+.end method
+.method public onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onWindowAttributesChanged(Landroid/view/WindowManager$LayoutParams;)V
+return-void
+.end method
+.method public onWindowFocusChanged(Z)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onWindowFocusChanged(Z)V
+return-void
+.end method
+.method public onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode;
+move-result-object v0
+return-object v0
+.end method
+.method public openContextMenu(Landroid/view/View;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->openContextMenu(Landroid/view/View;)V
+return-void
+.end method
+.method public openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+move-result-object v0
+return-object v0
+.end method
+.method public openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+move-result-object v0
+return-object v0
+.end method
+.method public openOptionsMenu()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->openOptionsMenu()V
+return-void
+.end method
+.method public openOrCreateDatabase(Ljava/lang/String;ILandroid/database/sqlite/SQLiteDatabase$CursorFactory;)Landroid/database/sqlite/SQLiteDatabase;
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->openOrCreateDatabase(Ljava/lang/String;ILandroid/database/sqlite/SQLiteDatabase$CursorFactory;)Landroid/database/sqlite/SQLiteDatabase;
+move-result-object v0
+return-object v0
+.end method
+.method public openOrCreateDatabase(Ljava/lang/String;ILandroid/database/sqlite/SQLiteDatabase$CursorFactory;Landroid/database/DatabaseErrorHandler;)Landroid/database/sqlite/SQLiteDatabase;
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->openOrCreateDatabase(Ljava/lang/String;ILandroid/database/sqlite/SQLiteDatabase$CursorFactory;Landroid/database/DatabaseErrorHandler;)Landroid/database/sqlite/SQLiteDatabase;
+move-result-object v0
+return-object v0
+.end method
+.method public overridePendingTransition(II)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
+return-void
+.end method
+.method public peekWallpaper()Landroid/graphics/drawable/Drawable;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->peekWallpaper()Landroid/graphics/drawable/Drawable;
+move-result-object v0
+return-object v0
+.end method
+.method public recreate()V
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Landroid/app/Activity;->recreate()V
+return-void
+.end method
+.method public registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
+return-void
+.end method
+.method public registerForContextMenu(Landroid/view/View;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->registerForContextMenu(Landroid/view/View;)V
+return-void
+.end method
+.method public registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+move-result-object v0
+return-object v0
+.end method
+.method public registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;)Landroid/content/Intent;
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;Ljava/lang/String;Landroid/os/Handler;)Landroid/content/Intent;
+move-result-object v0
+return-object v0
+.end method
+.method public removeStickyBroadcast(Landroid/content/Intent;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->removeStickyBroadcast(Landroid/content/Intent;)V
+return-void
+.end method
+.method public revokeUriPermission(Landroid/net/Uri;I)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->revokeUriPermission(Landroid/net/Uri;I)V
+return-void
+.end method
+.method public sendBroadcast(Landroid/content/Intent;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->sendBroadcast(Landroid/content/Intent;)V
+return-void
+.end method
+.method public sendBroadcast(Landroid/content/Intent;Ljava/lang/String;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->sendBroadcast(Landroid/content/Intent;Ljava/lang/String;)V
+return-void
+.end method
+.method public sendOrderedBroadcast(Landroid/content/Intent;Ljava/lang/String;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->sendOrderedBroadcast(Landroid/content/Intent;Ljava/lang/String;)V
+return-void
+.end method
+.method public sendOrderedBroadcast(Landroid/content/Intent;Ljava/lang/String;Landroid/content/BroadcastReceiver;Landroid/os/Handler;ILjava/lang/String;Landroid/os/Bundle;)V
+.registers 16
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move-object v3, p3
+move-object v4, p4
+move v5, p5
+move-object v6, p6
+move-object v7, p7
+invoke-virtual/range {v0 .. v7}, Landroid/app/Activity;->sendOrderedBroadcast(Landroid/content/Intent;Ljava/lang/String;Landroid/content/BroadcastReceiver;Landroid/os/Handler;ILjava/lang/String;Landroid/os/Bundle;)V
+return-void
+.end method
+.method public sendStickyBroadcast(Landroid/content/Intent;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->sendStickyBroadcast(Landroid/content/Intent;)V
+return-void
+.end method
+.method public sendStickyOrderedBroadcast(Landroid/content/Intent;Landroid/content/BroadcastReceiver;Landroid/os/Handler;ILjava/lang/String;Landroid/os/Bundle;)V
+.registers 14
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move-object v3, p3
+move v4, p4
+move-object v5, p5
+move-object v6, p6
+invoke-virtual/range {v0 .. v6}, Landroid/app/Activity;->sendStickyOrderedBroadcast(Landroid/content/Intent;Landroid/content/BroadcastReceiver;Landroid/os/Handler;ILjava/lang/String;Landroid/os/Bundle;)V
+return-void
+.end method
+.method public setContentView(I)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setContentView(I)V
+return-void
+.end method
+.method public setContentView(Landroid/view/View;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setContentView(Landroid/view/View;)V
+return-void
+.end method
+.method public setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+return-void
+.end method
+.method public setFinishOnTouchOutside(Z)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setFinishOnTouchOutside(Z)V
+return-void
+.end method
+.method public setIntent(Landroid/content/Intent;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setIntent(Landroid/content/Intent;)V
+return-void
+.end method
+.method public setRequestedOrientation(I)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setRequestedOrientation(I)V
+return-void
+.end method
+.method public setTheme(I)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setTheme(I)V
+return-void
+.end method
+.method public setTitle(I)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setTitle(I)V
+return-void
+.end method
+.method public setTitle(Ljava/lang/CharSequence;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setTitle(Ljava/lang/CharSequence;)V
+return-void
+.end method
+.method public setTitleColor(I)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setTitleColor(I)V
+return-void
+.end method
+.method public setVisible(Z)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setVisible(Z)V
+return-void
+.end method
+.method public setWallpaper(Landroid/graphics/Bitmap;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setWallpaper(Landroid/graphics/Bitmap;)V
+return-void
+.end method
+.method public setWallpaper(Ljava/io/InputStream;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->setWallpaper(Ljava/io/InputStream;)V
+return-void
+.end method
+.method public shouldUpRecreateTask(Landroid/content/Intent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->shouldUpRecreateTask(Landroid/content/Intent;)Z
+move-result v0
+return v0
+.end method
+.method public startActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->startActionMode(Landroid/view/ActionMode$Callback;)Landroid/view/ActionMode;
+move-result-object v0
+return-object v0
+.end method
+.method public startActivities([Landroid/content/Intent;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->startActivities([Landroid/content/Intent;)V
+return-void
+.end method
+.method public startActivities([Landroid/content/Intent;Landroid/os/Bundle;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->startActivities([Landroid/content/Intent;Landroid/os/Bundle;)V
+return-void
+.end method
+.method public startActivity(Landroid/content/Intent;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+return-void
+.end method
+.method public startActivity(Landroid/content/Intent;Landroid/os/Bundle;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;Landroid/os/Bundle;)V
+return-void
+.end method
+.method public startActivityForResult(Landroid/content/Intent;I)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
+return-void
+.end method
+.method public startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
+return-void
+.end method
+.method public startActivityFromChild(Landroid/app/Activity;Landroid/content/Intent;I)V
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->startActivityFromChild(Landroid/app/Activity;Landroid/content/Intent;I)V
+return-void
+.end method
+.method public startActivityFromChild(Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)V
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->startActivityFromChild(Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)V
+return-void
+.end method
+.method public startActivityFromFragment(Landroid/app/Fragment;Landroid/content/Intent;I)V
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->startActivityFromFragment(Landroid/app/Fragment;Landroid/content/Intent;I)V
+return-void
+.end method
+.method public startActivityFromFragment(Landroid/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->startActivityFromFragment(Landroid/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
+return-void
+.end method
+.method public startActivityIfNeeded(Landroid/content/Intent;I)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->startActivityIfNeeded(Landroid/content/Intent;I)Z
+move-result v0
+return v0
+.end method
+.method public startActivityIfNeeded(Landroid/content/Intent;ILandroid/os/Bundle;)Z
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->startActivityIfNeeded(Landroid/content/Intent;ILandroid/os/Bundle;)Z
+move-result v0
+return v0
+.end method
+.method public startInstrumentation(Landroid/content/ComponentName;Ljava/lang/String;Landroid/os/Bundle;)Z
+.registers 5
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3}, Landroid/app/Activity;->startInstrumentation(Landroid/content/ComponentName;Ljava/lang/String;Landroid/os/Bundle;)Z
+move-result v0
+return v0
+.end method
+.method public startIntentSender(Landroid/content/IntentSender;Landroid/content/Intent;III)V
+.registers 12
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move v3, p3
+move v4, p4
+move v5, p5
+invoke-virtual/range {v0 .. v5}, Landroid/app/Activity;->startIntentSender(Landroid/content/IntentSender;Landroid/content/Intent;III)V
+return-void
+.end method
+.method public startIntentSender(Landroid/content/IntentSender;Landroid/content/Intent;IIILandroid/os/Bundle;)V
+.registers 14
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move v3, p3
+move v4, p4
+move v5, p5
+move-object v6, p6
+invoke-virtual/range {v0 .. v6}, Landroid/app/Activity;->startIntentSender(Landroid/content/IntentSender;Landroid/content/Intent;IIILandroid/os/Bundle;)V
+return-void
+.end method
+.method public startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
+.registers 14
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move v2, p2
+move-object v3, p3
+move v4, p4
+move v5, p5
+move v6, p6
+invoke-virtual/range {v0 .. v6}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
+return-void
+.end method
+.method public startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+.registers 16
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move v2, p2
+move-object v3, p3
+move v4, p4
+move v5, p5
+move v6, p6
+move-object v7, p7
+invoke-virtual/range {v0 .. v7}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+return-void
+.end method
+.method public startIntentSenderFromChild(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;III)V
+.registers 16
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move v3, p3
+move-object v4, p4
+move v5, p5
+move v6, p6
+move v7, p7
+invoke-virtual/range {v0 .. v7}, Landroid/app/Activity;->startIntentSenderFromChild(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;III)V
+return-void
+.end method
+.method public startIntentSenderFromChild(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+.registers 18
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+move-object v1, p1
+move-object v2, p2
+move v3, p3
+move-object v4, p4
+move v5, p5
+move v6, p6
+move/from16 v7, p7
+move-object/from16 v8, p8
+invoke-virtual/range {v0 .. v8}, Landroid/app/Activity;->startIntentSenderFromChild(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+return-void
+.end method
+.method public startManagingCursor(Landroid/database/Cursor;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->startManagingCursor(Landroid/database/Cursor;)V
+return-void
+.end method
+.method public startNextMatchingActivity(Landroid/content/Intent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->startNextMatchingActivity(Landroid/content/Intent;)Z
+move-result v0
+return v0
+.end method
+.method public startNextMatchingActivity(Landroid/content/Intent;Landroid/os/Bundle;)Z
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->startNextMatchingActivity(Landroid/content/Intent;Landroid/os/Bundle;)Z
+move-result v0
+return v0
+.end method
+.method public startSearch(Ljava/lang/String;ZLandroid/os/Bundle;Z)V
+.registers 6
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2, p3, p4}, Landroid/app/Activity;->startSearch(Ljava/lang/String;ZLandroid/os/Bundle;Z)V
+return-void
+.end method
+.method public startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+move-result-object v0
+return-object v0
+.end method
+.method public stopManagingCursor(Landroid/database/Cursor;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->stopManagingCursor(Landroid/database/Cursor;)V
+return-void
+.end method
+.method public stopService(Landroid/content/Intent;)Z
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->stopService(Landroid/content/Intent;)Z
+move-result v0
+return v0
+.end method
+.method public takeKeyEvents(Z)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->takeKeyEvents(Z)V
+return-void
+.end method
+.method public toString()Ljava/lang/String;
+.registers 2
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+move-result-object v0
+return-object v0
+.end method
+.method public triggerSearch(Ljava/lang/String;Landroid/os/Bundle;)V
+.registers 4
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1, p2}, Landroid/app/Activity;->triggerSearch(Ljava/lang/String;Landroid/os/Bundle;)V
+return-void
+.end method
+.method public unbindService(Landroid/content/ServiceConnection;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->unbindService(Landroid/content/ServiceConnection;)V
+return-void
+.end method
+.method public unregisterComponentCallbacks(Landroid/content/ComponentCallbacks;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->unregisterComponentCallbacks(Landroid/content/ComponentCallbacks;)V
+return-void
+.end method
+.method public unregisterForContextMenu(Landroid/view/View;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->unregisterForContextMenu(Landroid/view/View;)V
+return-void
+.end method
+.method public unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+.registers 3
+iget-object v0, p0, Lcom/google/android/youtube/player/internal/y;->a:Landroid/app/Activity;
+invoke-virtual {v0, p1}, Landroid/app/Activity;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+return-void
+.end method

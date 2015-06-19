@@ -1,0 +1,12 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/DBox    (  551): 49000 < Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  551): 49292 > Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  551): 49314 + Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork Intent { cmp=com.commonsware.cwac.wakeful.demo/.AppService }
+V/DBox    (  552): 49580 - Lcom/commonsware/cwac/wakeful/demo/AppService; doWakefulWork
+V/DBox    (  551): 49980 < Lcom/commonsware/cwac/wakeful/demo/AppService; releaseWakeLock
+V/DBox    (  551): 67606 > Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  551): 87600 > Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  551): 107600 > Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  551): 127594 > Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock
+V/DBox    (  551): 147626 > Lcom/commonsware/cwac/wakeful/demo/AppService; acquireWakeLock

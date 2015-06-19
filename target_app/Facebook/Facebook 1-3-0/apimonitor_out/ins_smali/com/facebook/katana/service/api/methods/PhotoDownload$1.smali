@@ -1,0 +1,37 @@
+.class  Lcom/facebook/katana/service/api/methods/PhotoDownload$1;
+.super Ljava/lang/Object;
+.source "PhotoDownload.java"
+.implements Ljava/lang/Runnable;
+.field final synthetic this$0:Lcom/facebook/katana/service/api/methods/PhotoDownload;
+.field private final synthetic val$fErrorCode:I
+.field private final synthetic val$fReasonPhrase:Ljava/lang/String;
+.field private final synthetic val$fex:Ljava/lang/Exception;
+.method constructor <init>(Lcom/facebook/katana/service/api/methods/PhotoDownload;ILjava/lang/String;Ljava/lang/Exception;)V
+.registers 5
+iput-object p1, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->this$0:Lcom/facebook/katana/service/api/methods/PhotoDownload;
+iput p2, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->val$fErrorCode:I
+iput-object p3, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->val$fReasonPhrase:Ljava/lang/String;
+iput-object p4, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->val$fex:Ljava/lang/Exception;
+invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
+.end method
+.method public run()V
+.registers 6
+iget-object v0, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->this$0:Lcom/facebook/katana/service/api/methods/PhotoDownload;
+iget-object v0, v0, Lcom/facebook/katana/service/api/methods/PhotoDownload;->mHttpOp:Lcom/facebook/katana/service/api/methods/HttpOperation;
+if-nez v0, :cond_7
+:goto_6
+return-void
+:cond_7
+iget-object v0, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->this$0:Lcom/facebook/katana/service/api/methods/PhotoDownload;
+const/4 v1, 0x0
+iput-object v1, v0, Lcom/facebook/katana/service/api/methods/PhotoDownload;->mHttpOp:Lcom/facebook/katana/service/api/methods/HttpOperation;
+iget-object v0, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->this$0:Lcom/facebook/katana/service/api/methods/PhotoDownload;
+iget-object v0, v0, Lcom/facebook/katana/service/api/methods/PhotoDownload;->mListener:Lcom/facebook/katana/service/api/methods/ApiMethodListener;
+iget-object v1, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->this$0:Lcom/facebook/katana/service/api/methods/PhotoDownload;
+iget v2, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->val$fErrorCode:I
+iget-object v3, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->val$fReasonPhrase:Ljava/lang/String;
+iget-object v4, p0, Lcom/facebook/katana/service/api/methods/PhotoDownload$1;->val$fex:Ljava/lang/Exception;
+invoke-interface {v0, v1, v2, v3, v4}, Lcom/facebook/katana/service/api/methods/ApiMethodListener;->onOperationComplete(Lcom/facebook/katana/service/api/methods/ApiMethod;ILjava/lang/String;Ljava/lang/Exception;)V
+goto :goto_6
+.end method

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+dict="out.dict"
+seq="out.seq"
+loglist="loglist.txt"
+
+while getopts ":hd:o:" optname
+  do
+    case "$optname" in
+      "h")
+        echo "Usage: ./analyzer.script -d dict_file -o output file-1 [file-2 file3 ...]"
+        exit 
+        ;;
+      "d")
+        dict=$OPTARG
+        ;;
+      "o")
+        seq=$OPTARG
+        ;;
+      "?")
+        echo "Unknown option $OPTARG"
+        ;;
+      ":")
+        echo "No argument value for option $OPTARG"
+        ;;
+      *)  # Should not occur
+        echo "Unknown error while processing options"
+        ;;
+    esac    
+  done
+
+#rm -f $seq
+for p in "${@:$OPTIND}"
+  do
+    d=$(dirname $p)
+    ./log_analyzer.py $p $d/$dict
+    cat "$p.hash" >> $d/$seq
+    p=${p##*/}
+    echo "${p%_user.log}" >> $d/$loglist
+  done
+
+echo "Aggregated dict: $d/$dict"
+echo "Aggregated sequence records: $d/$seq"
+echo "Sequence source files: $d/$loglist"
+echo "Done!"
+

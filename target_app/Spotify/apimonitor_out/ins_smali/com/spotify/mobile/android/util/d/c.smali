@@ -1,0 +1,5 @@
+.class public interface abstract Lcom/spotify/mobile/android/util/d/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+.method public abstract a()Z
+.end method

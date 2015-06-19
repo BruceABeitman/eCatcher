@@ -1,0 +1,1086 @@
+.class public abstract Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;
+.super Landroid/os/Binder;
+
+# interfaces
+.implements Lcom/google/android/gms/maps/internal/IGoogleMapDelegate;
+
+
+# direct methods
+.method public static V(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/IGoogleMapDelegate;
+    .registers 3
+
+    if-nez p0, :cond_4
+
+    const/4 v0, 0x0
+
+    :goto_3
+    return-object v0
+
+    :cond_4
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_13
+
+    instance-of v1, v0, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate;
+
+    if-eqz v1, :cond_13
+
+    check-cast v0, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate;
+
+    goto :goto_3
+
+    :cond_13
+    new-instance v0, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a$a;
+
+    invoke-direct {v0, p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a$a;-><init>(Landroid/os/IBinder;)V
+
+    goto :goto_3
+.end method
+
+
+# virtual methods
+.method public onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    .registers 10
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    sparse-switch p1, :sswitch_data_3f4
+
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+
+    move-result v2
+
+    :goto_a
+    return v2
+
+    :sswitch_b
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    goto :goto_a
+
+    :sswitch_11
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getCameraPosition()Lcom/google/android/gms/maps/model/CameraPosition;
+
+    move-result-object v1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v1, :cond_26
+
+    invoke-virtual {p3, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {v1, p3, v2}, Lcom/google/android/gms/maps/model/CameraPosition;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto :goto_a
+
+    :cond_26
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto :goto_a
+
+    :sswitch_2a
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getMaxZoomLevel()F
+
+    move-result v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeFloat(F)V
+
+    goto :goto_a
+
+    :sswitch_3a
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getMinZoomLevel()F
+
+    move-result v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeFloat(F)V
+
+    goto :goto_a
+
+    :sswitch_4a
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/dynamic/b$a;->G(Landroid/os/IBinder;)Lcom/google/android/gms/dynamic/b;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->moveCamera(Lcom/google/android/gms/dynamic/b;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto :goto_a
+
+    :sswitch_5e
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/dynamic/b$a;->G(Landroid/os/IBinder;)Lcom/google/android/gms/dynamic/b;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->animateCamera(Lcom/google/android/gms/dynamic/b;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto :goto_a
+
+    :sswitch_72
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/dynamic/b$a;->G(Landroid/os/IBinder;)Lcom/google/android/gms/dynamic/b;
+
+    move-result-object v0
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/google/android/gms/maps/internal/b$a;->T(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/b;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->animateCameraWithCallback(Lcom/google/android/gms/dynamic/b;Lcom/google/android/gms/maps/internal/b;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_8f
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/dynamic/b$a;->G(Landroid/os/IBinder;)Lcom/google/android/gms/dynamic/b;
+
+    move-result-object v0
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v1
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v3
+
+    invoke-static {v3}, Lcom/google/android/gms/maps/internal/b$a;->T(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/b;
+
+    move-result-object v3
+
+    invoke-virtual {p0, v0, v1, v3}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->animateCameraWithDurationAndCallback(Lcom/google/android/gms/dynamic/b;ILcom/google/android/gms/maps/internal/b;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_b0
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->stopAnimation()V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_bd
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    if-eqz v0, :cond_e0
+
+    sget-object v0, Lcom/google/android/gms/maps/model/PolylineOptions;->CREATOR:Lcom/google/android/gms/maps/model/PolylineOptionsCreator;
+
+    invoke-virtual {v0, p2}, Lcom/google/android/gms/maps/model/PolylineOptionsCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/maps/model/PolylineOptions;
+
+    move-result-object v0
+
+    :goto_ce
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->addPolyline(Lcom/google/android/gms/maps/model/PolylineOptions;)Lcom/google/android/gms/maps/model/internal/IPolylineDelegate;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_db
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/model/internal/IPolylineDelegate;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_db
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :cond_e0
+    move-object v0, v1
+
+    goto :goto_ce
+
+    :sswitch_e2
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    if-eqz v0, :cond_105
+
+    sget-object v0, Lcom/google/android/gms/maps/model/PolygonOptions;->CREATOR:Lcom/google/android/gms/maps/model/PolygonOptionsCreator;
+
+    invoke-virtual {v0, p2}, Lcom/google/android/gms/maps/model/PolygonOptionsCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/maps/model/PolygonOptions;
+
+    move-result-object v0
+
+    :goto_f3
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->addPolygon(Lcom/google/android/gms/maps/model/PolygonOptions;)Lcom/google/android/gms/maps/model/internal/e;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_100
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/model/internal/e;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_100
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :cond_105
+    move-object v0, v1
+
+    goto :goto_f3
+
+    :sswitch_107
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    if-eqz v0, :cond_12a
+
+    sget-object v0, Lcom/google/android/gms/maps/model/MarkerOptions;->CREATOR:Lcom/google/android/gms/maps/model/MarkerOptionsCreator;
+
+    invoke-virtual {v0, p2}, Lcom/google/android/gms/maps/model/MarkerOptionsCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/maps/model/MarkerOptions;
+
+    move-result-object v0
+
+    :goto_118
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->addMarker(Lcom/google/android/gms/maps/model/MarkerOptions;)Lcom/google/android/gms/maps/model/internal/d;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_125
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/model/internal/d;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_125
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :cond_12a
+    move-object v0, v1
+
+    goto :goto_118
+
+    :sswitch_12c
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    if-eqz v0, :cond_14f
+
+    sget-object v0, Lcom/google/android/gms/maps/model/GroundOverlayOptions;->CREATOR:Lcom/google/android/gms/maps/model/GroundOverlayOptionsCreator;
+
+    invoke-virtual {v0, p2}, Lcom/google/android/gms/maps/model/GroundOverlayOptionsCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/maps/model/GroundOverlayOptions;
+
+    move-result-object v0
+
+    :goto_13d
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->addGroundOverlay(Lcom/google/android/gms/maps/model/GroundOverlayOptions;)Lcom/google/android/gms/maps/model/internal/c;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_14a
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/model/internal/c;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_14a
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :cond_14f
+    move-object v0, v1
+
+    goto :goto_13d
+
+    :sswitch_151
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    if-eqz v0, :cond_174
+
+    sget-object v0, Lcom/google/android/gms/maps/model/TileOverlayOptions;->CREATOR:Lcom/google/android/gms/maps/model/TileOverlayOptionsCreator;
+
+    invoke-virtual {v0, p2}, Lcom/google/android/gms/maps/model/TileOverlayOptionsCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/maps/model/TileOverlayOptions;
+
+    move-result-object v0
+
+    :goto_162
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->addTileOverlay(Lcom/google/android/gms/maps/model/TileOverlayOptions;)Lcom/google/android/gms/maps/model/internal/f;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_16f
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/model/internal/f;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_16f
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :cond_174
+    move-object v0, v1
+
+    goto :goto_162
+
+    :sswitch_176
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->clear()V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_183
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getMapType()I
+
+    move-result v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto/16 :goto_a
+
+    :sswitch_194
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setMapType(I)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_1a5
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->isTrafficEnabled()Z
+
+    move-result v1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v1, :cond_1b4
+
+    move v0, v2
+
+    :cond_1b4
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto/16 :goto_a
+
+    :sswitch_1b9
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v1
+
+    if-eqz v1, :cond_1c5
+
+    move v0, v2
+
+    :cond_1c5
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setTrafficEnabled(Z)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_1cd
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->isIndoorEnabled()Z
+
+    move-result v1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v1, :cond_1dc
+
+    move v0, v2
+
+    :cond_1dc
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto/16 :goto_a
+
+    :sswitch_1e1
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v1
+
+    if-eqz v1, :cond_1fc
+
+    move v1, v2
+
+    :goto_1ed
+    invoke-virtual {p0, v1}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setIndoorEnabled(Z)Z
+
+    move-result v1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v1, :cond_1f7
+
+    move v0, v2
+
+    :cond_1f7
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto/16 :goto_a
+
+    :cond_1fc
+    move v1, v0
+
+    goto :goto_1ed
+
+    :sswitch_1fe
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->isMyLocationEnabled()Z
+
+    move-result v1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v1, :cond_20d
+
+    move v0, v2
+
+    :cond_20d
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto/16 :goto_a
+
+    :sswitch_212
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v1
+
+    if-eqz v1, :cond_21e
+
+    move v0, v2
+
+    :cond_21e
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setMyLocationEnabled(Z)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_226
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getMyLocation()Landroid/location/Location;
+
+    move-result-object v1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v1, :cond_23c
+
+    invoke-virtual {p3, v2}, Landroid/os/Parcel;->writeInt(I)V
+
+    invoke-virtual {v1, p3, v2}, Landroid/location/Location;->writeToParcel(Landroid/os/Parcel;I)V
+
+    goto/16 :goto_a
+
+    :cond_23c
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto/16 :goto_a
+
+    :sswitch_241
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/ILocationSourceDelegate$a;->X(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/ILocationSourceDelegate;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setLocationSource(Lcom/google/android/gms/maps/internal/ILocationSourceDelegate;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_256
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getUiSettings()Lcom/google/android/gms/maps/internal/IUiSettingsDelegate;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_268
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/internal/IUiSettingsDelegate;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_268
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :sswitch_26d
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getProjection()Lcom/google/android/gms/maps/internal/IProjectionDelegate;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_27f
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/internal/IProjectionDelegate;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_27f
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :sswitch_284
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/e$a;->aa(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/e;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnCameraChangeListener(Lcom/google/android/gms/maps/internal/e;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_299
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/h$a;->ad(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/h;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnMapClickListener(Lcom/google/android/gms/maps/internal/h;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_2ae
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/j$a;->af(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/j;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnMapLongClickListener(Lcom/google/android/gms/maps/internal/j;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_2c3
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/k$a;->ag(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/k;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnMarkerClickListener(Lcom/google/android/gms/maps/internal/k;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_2d8
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/l$a;->ah(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/l;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnMarkerDragListener(Lcom/google/android/gms/maps/internal/l;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_2ed
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/f$a;->ab(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/f;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnInfoWindowClickListener(Lcom/google/android/gms/maps/internal/f;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_302
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/d$a;->W(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/d;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setInfoWindowAdapter(Lcom/google/android/gms/maps/internal/d;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_317
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->getTestingHelper()Lcom/google/android/gms/dynamic/b;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_329
+
+    invoke-interface {v0}, Lcom/google/android/gms/dynamic/b;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_329
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :sswitch_32e
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    if-eqz v0, :cond_351
+
+    sget-object v0, Lcom/google/android/gms/maps/model/CircleOptions;->CREATOR:Lcom/google/android/gms/maps/model/CircleOptionsCreator;
+
+    invoke-virtual {v0, p2}, Lcom/google/android/gms/maps/model/CircleOptionsCreator;->createFromParcel(Landroid/os/Parcel;)Lcom/google/android/gms/maps/model/CircleOptions;
+
+    move-result-object v0
+
+    :goto_33f
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->addCircle(Lcom/google/android/gms/maps/model/CircleOptions;)Lcom/google/android/gms/maps/model/internal/b;
+
+    move-result-object v0
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v0, :cond_34c
+
+    invoke-interface {v0}, Lcom/google/android/gms/maps/model/internal/b;->asBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    :cond_34c
+    invoke-virtual {p3, v1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+
+    goto/16 :goto_a
+
+    :cond_351
+    move-object v0, v1
+
+    goto :goto_33f
+
+    :sswitch_353
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/n$a;->aj(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/n;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnMyLocationChangeListener(Lcom/google/android/gms/maps/internal/n;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_368
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/m$a;->ai(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/m;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnMyLocationButtonClickListener(Lcom/google/android/gms/maps/internal/m;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_37d
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/o$a;->al(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/o;
+
+    move-result-object v0
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/google/android/gms/dynamic/b$a;->G(Landroid/os/IBinder;)Lcom/google/android/gms/dynamic/b;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v0, v1}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->snapshot(Lcom/google/android/gms/maps/internal/o;Lcom/google/android/gms/dynamic/b;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_39a
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v0
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v1
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v3
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v4
+
+    invoke-virtual {p0, v0, v1, v3, v4}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setPadding(IIII)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_3b7
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->isBuildingsEnabled()Z
+
+    move-result v1
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    if-eqz v1, :cond_3c6
+
+    move v0, v2
+
+    :cond_3c6
+    invoke-virtual {p3, v0}, Landroid/os/Parcel;->writeInt(I)V
+
+    goto/16 :goto_a
+
+    :sswitch_3cb
+    const-string v1, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v1}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
+
+    move-result v1
+
+    if-eqz v1, :cond_3d7
+
+    move v0, v2
+
+    :cond_3d7
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setBuildingsEnabled(Z)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_3df
+    const-string v0, "com.google.android.gms.maps.internal.IGoogleMapDelegate"
+
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
+
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/google/android/gms/maps/internal/i$a;->ae(Landroid/os/IBinder;)Lcom/google/android/gms/maps/internal/i;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/maps/internal/IGoogleMapDelegate$a;->setOnMapLoadedCallback(Lcom/google/android/gms/maps/internal/i;)V
+
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
+
+    goto/16 :goto_a
+
+    :sswitch_data_3f4
+    .sparse-switch
+        0x1 -> :sswitch_11
+        0x2 -> :sswitch_2a
+        0x3 -> :sswitch_3a
+        0x4 -> :sswitch_4a
+        0x5 -> :sswitch_5e
+        0x6 -> :sswitch_72
+        0x7 -> :sswitch_8f
+        0x8 -> :sswitch_b0
+        0x9 -> :sswitch_bd
+        0xa -> :sswitch_e2
+        0xb -> :sswitch_107
+        0xc -> :sswitch_12c
+        0xd -> :sswitch_151
+        0xe -> :sswitch_176
+        0xf -> :sswitch_183
+        0x10 -> :sswitch_194
+        0x11 -> :sswitch_1a5
+        0x12 -> :sswitch_1b9
+        0x13 -> :sswitch_1cd
+        0x14 -> :sswitch_1e1
+        0x15 -> :sswitch_1fe
+        0x16 -> :sswitch_212
+        0x17 -> :sswitch_226
+        0x18 -> :sswitch_241
+        0x19 -> :sswitch_256
+        0x1a -> :sswitch_26d
+        0x1b -> :sswitch_284
+        0x1c -> :sswitch_299
+        0x1d -> :sswitch_2ae
+        0x1e -> :sswitch_2c3
+        0x1f -> :sswitch_2d8
+        0x20 -> :sswitch_2ed
+        0x21 -> :sswitch_302
+        0x22 -> :sswitch_317
+        0x23 -> :sswitch_32e
+        0x24 -> :sswitch_353
+        0x25 -> :sswitch_368
+        0x26 -> :sswitch_37d
+        0x27 -> :sswitch_39a
+        0x28 -> :sswitch_3b7
+        0x29 -> :sswitch_3cb
+        0x2a -> :sswitch_3df
+        0x5f4e5446 -> :sswitch_b
+    .end sparse-switch
+.end method

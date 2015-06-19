@@ -1,0 +1,164 @@
+--------- beginning of /dev/log/system
+--------- beginning of /dev/log/main
+V/DBox    (  539): 164667 + Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  539): 164672 + Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  539): 164696 + Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  539): 164696 - Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  539): 164705 - Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  539): 164913 - Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  539): 164914 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  539): 164920 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  539): 164921 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  539): 164922 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  539): 164966 + Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu android.support.v7.internal.view.menu.MenuBuilder@460716c0
+V/DBox    (  539): 164975 - Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu
+V/DBox    (  539): 168960 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4605db40
+V/DBox    (  539): 169041 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  539): 170971 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4605e440
+V/DBox    (  539): 171101 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  539): 172439 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4605ed00
+V/DBox    (  539): 172452 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  539): 174290 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4605db40
+V/DBox    (  539): 174325 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  539): 176677 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4605ed00
+V/DBox    (  539): 176690 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  539): 181222 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  539): 181224 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  539): 181689 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  539): 181691 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  539): 181693 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  539): 181694 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  539): 181698 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  539): 181702 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  539): 181703 + Landroid/support/v4/app/FragmentActivity; onDestroy
+V/DBox    (  539): 181706 - Landroid/support/v4/app/FragmentActivity; onDestroy
+V/DBox    (  539): 184156 + Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  539): 184157 + Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  539): 184158 + Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  539): 184159 - Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  539): 184161 - Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  539): 184230 - Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  539): 184231 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  539): 184233 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  539): 184234 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  539): 184235 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  539): 184265 + Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu android.support.v7.internal.view.menu.MenuBuilder@46014e48
+V/DBox    (  539): 184267 - Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu
+V/DBox    (  539): 185763 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4604e540
+V/DBox    (  539): 185780 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  539): 190619 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  539): 190620 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  539): 190621 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  539): 190624 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  539): 190625 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  539): 190626 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  539): 191055 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  539): 191070 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  539): 191080 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  539): 191100 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  539): 191101 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  539): 191102 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 240000 + BootSequence
+V/DBox    (  535): 240001 - BootSequence
+V/DBox    (  535): 242972 + Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  535): 242973 + Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  535): 242991 + Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  535): 242992 - Landroid/support/v4/app/FragmentActivity; onCreate
+V/DBox    (  535): 242999 - Landroid/support/v7/app/ActionBarActivity; onCreate
+V/DBox    (  535): 243176 - Lcom/example/cwac_test/MainActivity; onCreate
+V/DBox    (  535): 243177 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 243185 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 243186 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 243186 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 243270 + Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu android.support.v7.internal.view.menu.MenuBuilder@46082110
+V/DBox    (  535): 243290 - Lcom/example/cwac_test/MainActivity; onCreateOptionsMenu
+V/DBox    (  535): 246884 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460bbba0
+V/DBox    (  535): 246920 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 249253 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 249313 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 252463 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 252479 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 256084 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 256115 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 258757 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 258777 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 261651 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 261654 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 261666 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 261669 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 261673 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 261677 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 262143 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 262145 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 262148 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 262153 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 262155 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 262158 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 265349 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 265350 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 265350 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 265350 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 266905 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460bbba0
+V/DBox    (  535): 266928 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 268779 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 268793 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 271163 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 271210 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 273618 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 273646 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 276797 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 276805 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 281005 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@4601af38
+V/DBox    (  535): 281037 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 283626 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 283628 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 283640 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 283643 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 283645 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 283648 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 284123 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 284124 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 284128 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 284134 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 284136 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 284137 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 288052 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 288053 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 288053 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 288054 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 293685 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 293686 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 293690 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 293703 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 293704 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 293705 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 294155 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 294156 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 294159 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 294160 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 294167 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 294168 - Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 297360 + Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 297360 - Landroid/support/v4/app/FragmentActivity; onStart
+V/DBox    (  535): 297360 + Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 297361 - Landroid/support/v4/app/FragmentActivity; onResume
+V/DBox    (  535): 299530 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460bbba0
+V/DBox    (  535): 299562 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 305643 + Landroid/support/v7/internal/view/menu/ListMenuPresenter; onItemClick android.support.v7.internal.view.menu.ExpandedMenuView@460d0680
+V/DBox    (  535): 305645 + Lcom/example/cwac_test/MainActivity; onOptionsItemSelected Settings
+V/DBox    (  535): 305646 - Lcom/example/cwac_test/MainActivity; onOptionsItemSelected
+V/DBox    (  535): 305650 - Landroid/support/v7/internal/view/menu/ListMenuPresenter; onItemClick
+V/DBox    (  535): 307368 + Lcom/example/cwac_test/MainActivity$1; onClick android.widget.Button@460b5ab8
+V/DBox    (  535): 307372 - Lcom/example/cwac_test/MainActivity$1; onClick
+V/DBox    (  535): 311789 + Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 311790 + Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 311790 - Landroid/support/v7/internal/widget/ActionBarView; onSaveInstanceState
+V/DBox    (  535): 311790 - Landroid/support/v4/app/FragmentActivity; onSaveInstanceState
+V/DBox    (  535): 311791 + Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 311791 - Landroid/support/v4/app/FragmentActivity; onPause
+V/DBox    (  535): 312255 + Landroid/support/v7/app/ActionBarActivity; onStop
+V/DBox    (  535): 312303 + Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 312309 - Landroid/support/v4/app/FragmentActivity; onStop
+V/DBox    (  535): 312323 + Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 312339 - Landroid/support/v7/app/ActionBarActivityDelegateBase; onStop
+V/DBox    (  535): 312343 - Landroid/support/v7/app/ActionBarActivity; onStop

@@ -1,0 +1,21 @@
+## Telephony
+
+Landroid/telephony/CellLocation;
+Landroid/telephony/NeighboringCellInfo;
+Landroid/telephony/PhoneNumberFormattingTextWatcher;
+Landroid/telephony/PhoneNumberUtils;
+Landroid/telephony/PhoneStateListener;
+Landroid/telephony/ServiceState;
+Landroid/telephony/SignalStrength;
+Landroid/telephony/SmsManager;
+Landroid/telephony/SmsMessage;
+Landroid/telephony/SmsMessage$SubmitPdu;
+Landroid/telephony/TelephonyManager;
+
+Landroid/telephony/cdma/CdmaCellLocation;
+
+Landroid/telephony/gsm/GsmCellLocation;
+Landroid/telephony/gsm/SmsManager;
+Landroid/telephony/gsm/SmsMessage;
+Landroid/telephony/gsm/SmsMessage$SubmitPdu;
+

@@ -1,0 +1,50 @@
+#!/bin/bash
+
+## usage: ./extract_app_util.script -p <target_package_name> <log_file> [log_file_2 ...]
+
+package_name=""
+
+while getopts ":hp:" optname
+  do
+    case "$optname" in
+      "h")
+        echo "./extract_app_util.script -p target_package_name log_file-1 [log_file-2 ...]"
+        exit 
+        ;;
+      "p")
+        package_name=$OPTARG
+        ;;
+      "?")
+        echo "Unknown option $OPTARG"
+        ;;
+      ":")
+        echo "No argument value for option $OPTARG"
+        ;;
+      *)  # Should not occur
+        echo "Unknown error while processing options"
+        ;;
+    esac    
+  done
+
+if [ "$package_name" = "" ]; then
+  echo "Error: targeted package name is not specified"
+  echo "Usage: ./extract_app_util.script -p targeted_package_name log_file-1 [log_file-2 ...]"
+  exit
+fi
+
+for p in "${@:$OPTIND}"
+  do
+    echo "Process $p"
+    
+    echo "Export associate file: $p.assoc"
+    ## associate file format: <uid> <package_name>
+    grep 'associate' $p | cut -d' ' -f 2- | awk -F'@' '{print $1}' > "$p.assoc"
+    
+    echo "Export util file: $p.util"
+    ./app_util.py $p $package_name
+    
+    echo""
+  done
+
+echo "Done!"
+

@@ -1,0 +1,33 @@
+.class public Ljavax/mail/FolderNotFoundException;
+.super Ljavax/mail/MessagingException;
+.source "SourceFile"
+.field private static final serialVersionUID:J = 0x68f0e358302dafbL
+.field private transient folder:Ljavax/mail/Folder;
+.method public constructor <init>()V
+.registers 1
+invoke-direct {p0}, Ljavax/mail/MessagingException;-><init>()V
+return-void
+.end method
+.method public constructor <init>(Ljava/lang/String;Ljavax/mail/Folder;)V
+.registers 3
+invoke-direct {p0, p1}, Ljavax/mail/MessagingException;-><init>(Ljava/lang/String;)V
+iput-object p2, p0, Ljavax/mail/FolderNotFoundException;->folder:Ljavax/mail/Folder;
+return-void
+.end method
+.method public constructor <init>(Ljavax/mail/Folder;)V
+.registers 2
+invoke-direct {p0}, Ljavax/mail/MessagingException;-><init>()V
+iput-object p1, p0, Ljavax/mail/FolderNotFoundException;->folder:Ljavax/mail/Folder;
+return-void
+.end method
+.method public constructor <init>(Ljavax/mail/Folder;Ljava/lang/String;)V
+.registers 3
+invoke-direct {p0, p2}, Ljavax/mail/MessagingException;-><init>(Ljava/lang/String;)V
+iput-object p1, p0, Ljavax/mail/FolderNotFoundException;->folder:Ljavax/mail/Folder;
+return-void
+.end method
+.method public getFolder()Ljavax/mail/Folder;
+.registers 2
+iget-object v0, p0, Ljavax/mail/FolderNotFoundException;->folder:Ljavax/mail/Folder;
+return-object v0
+.end method

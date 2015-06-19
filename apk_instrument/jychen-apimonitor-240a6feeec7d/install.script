@@ -1,0 +1,14 @@
+#!/bin/bash
+
+APK=$1
+# aapt location: /home/jychen/android/android-sdks/platform-tools/aapt
+PACKAGE=`aapt dump permissions $APK | grep 'package:' | awk '{print $2}'`
+
+echo "adb uninstall $PACKAGE"
+adb uninstall $PACKAGE
+
+sleep 3
+
+echo "adb install $APK"
+adb install $APK
+
